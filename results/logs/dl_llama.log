@@ -1,0 +1,5 @@
+./.venv/lib/python3.13/site-packages/huggingface_hub/cli/download.py:160: UserWarning: Ignoring `--exclude` since filenames have been explicitly set.
+  warnings.warn("Ignoring `--exclude` since filenames have been explicitly set.")
+Error: File not found in model 'NousResearch/Meta-Llama-3.1-8B-Instruct'.
+URL: https://huggingface.co/NousResearch/Meta-Llama-3.1-8B-Instruct/resolve/main/%2A.gguf
+Hint: set HF_DEBUG=1 as environment variable for full traceback.

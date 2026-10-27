@@ -1,0 +1,18 @@
+880 messages x 2 models x 3 policies = 5280 requests
+batch msgbatch_01LwY2y5qDtEjgLDAX1eiNUa: 5106 requests submitted
+  in_progress: 5106 processing
+  in_progress: 5106 processing
+  in_progress: 5106 processing
+  in_progress: 5106 processing
+  in_progress: 5106 processing
+  in_progress: 5106 processing
+  ended: 0 processing
+stop_reason               end_turn
+system            policy          
+claude-haiku-5-5  P0           880
+                  P1           880
+                  P2           880
+claude-sonnet-5-5 P0           880
+                  P1           880
+                  P2           880
+saved 5280 replies -> responses_claude.csv

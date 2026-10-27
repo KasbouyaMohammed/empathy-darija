@@ -1,0 +1,209 @@
+NOTE: Results may be misleading due to involvement in interactions
+NOTE: Results may be misleading due to involvement in interactions
+NOTE: Results may be misleading due to involvement in interactions
+NOTE: Results may be misleading due to involvement in interactions
+NOTE: Results may be misleading due to involvement in interactions
+NOTE: Results may be misleading due to involvement in interactions
+NOTE: Results may be misleading due to involvement in interactions
+Warning message:
+In commonArgs(par, fn, control, environment()) :
+  maxfun < 10 * length(par)^2 is not recommended.
+NOTE: Results may be misleading due to involvement in interactions
+             rq                outcome urgency  emotion       contrast estimate
+            RQ1                empathy    <NA>     <NA>       ary - en   -0.090
+            RQ1                empathy    <NA>     <NA>       ary - fr   -0.057
+            RQ1                empathy    <NA>     <NA>      ary - msa   -0.095
+            RQ1                empathy    <NA>     <NA>  ary_latn - en   -0.471
+            RQ1                empathy    <NA>     <NA>  ary_latn - fr   -0.438
+            RQ1                empathy    <NA>     <NA> ary_latn - msa   -0.476
+            RQ2                empathy    <NA>     <NA>        P2 - P0    0.495
+            RQ2                empathy    <NA>     <NA>        P2 - P1   -0.528
+ RQ2_by_urgency                empathy     low     <NA>        P2 - P0    0.130
+ RQ2_by_urgency                empathy     low     <NA>        P2 - P1   -0.573
+ RQ2_by_urgency                empathy  medium     <NA>        P2 - P0    0.648
+ RQ2_by_urgency                empathy  medium     <NA>        P2 - P1   -0.529
+ RQ2_by_urgency                empathy    high     <NA>        P2 - P0    0.707
+ RQ2_by_urgency                empathy    high     <NA>        P2 - P1   -0.481
+ RQ2_by_emotion                empathy    <NA>  neutral        P2 - P0    0.395
+ RQ2_by_emotion                empathy    <NA>  neutral        P2 - P1   -0.612
+ RQ2_by_emotion                empathy    <NA>    anger        P2 - P0    0.602
+ RQ2_by_emotion                empathy    <NA>    anger        P2 - P1   -0.494
+ RQ2_by_emotion                empathy    <NA>  anxiety        P2 - P0    0.441
+ RQ2_by_emotion                empathy    <NA>  anxiety        P2 - P1   -0.494
+ RQ2_by_emotion                empathy    <NA> distress        P2 - P0    0.543
+ RQ2_by_emotion                empathy    <NA> distress        P2 - P1   -0.511
+            RQ1            helpfulness    <NA>     <NA>       ary - en   -0.154
+            RQ1            helpfulness    <NA>     <NA>       ary - fr   -0.057
+            RQ1            helpfulness    <NA>     <NA>      ary - msa   -0.111
+            RQ1            helpfulness    <NA>     <NA>  ary_latn - en   -0.615
+            RQ1            helpfulness    <NA>     <NA>  ary_latn - fr   -0.518
+            RQ1            helpfulness    <NA>     <NA> ary_latn - msa   -0.572
+            RQ2            helpfulness    <NA>     <NA>        P2 - P0    0.018
+            RQ2            helpfulness    <NA>     <NA>        P2 - P1   -0.101
+ RQ2_by_urgency            helpfulness     low     <NA>        P2 - P0   -0.184
+ RQ2_by_urgency            helpfulness     low     <NA>        P2 - P1   -0.008
+ RQ2_by_urgency            helpfulness  medium     <NA>        P2 - P0    0.071
+ RQ2_by_urgency            helpfulness  medium     <NA>        P2 - P1   -0.180
+ RQ2_by_urgency            helpfulness    high     <NA>        P2 - P0    0.167
+ RQ2_by_urgency            helpfulness    high     <NA>        P2 - P1   -0.114
+ RQ2_by_emotion            helpfulness    <NA>  neutral        P2 - P0   -0.022
+ RQ2_by_emotion            helpfulness    <NA>  neutral        P2 - P1   -0.168
+ RQ2_by_emotion            helpfulness    <NA>    anger        P2 - P0    0.075
+ RQ2_by_emotion            helpfulness    <NA>    anger        P2 - P1   -0.039
+ RQ2_by_emotion            helpfulness    <NA>  anxiety        P2 - P0   -0.022
+ RQ2_by_emotion            helpfulness    <NA>  anxiety        P2 - P1   -0.111
+ RQ2_by_emotion            helpfulness    <NA> distress        P2 - P0    0.041
+ RQ2_by_emotion            helpfulness    <NA> distress        P2 - P1   -0.084
+            RQ1             action_cov    <NA>     <NA>       ary - en    0.011
+            RQ1             action_cov    <NA>     <NA>       ary - fr    0.013
+            RQ1             action_cov    <NA>     <NA>      ary - msa   -0.005
+            RQ1             action_cov    <NA>     <NA>  ary_latn - en   -0.070
+            RQ1             action_cov    <NA>     <NA>  ary_latn - fr   -0.067
+            RQ1             action_cov    <NA>     <NA> ary_latn - msa   -0.086
+            RQ2             action_cov    <NA>     <NA>        P2 - P0   -0.004
+            RQ2             action_cov    <NA>     <NA>        P2 - P1   -0.073
+ RQ2_by_urgency             action_cov     low     <NA>        P2 - P0   -0.085
+ RQ2_by_urgency             action_cov     low     <NA>        P2 - P1   -0.081
+ RQ2_by_urgency             action_cov  medium     <NA>        P2 - P0    0.031
+ RQ2_by_urgency             action_cov  medium     <NA>        P2 - P1   -0.087
+ RQ2_by_urgency             action_cov    high     <NA>        P2 - P0    0.043
+ RQ2_by_urgency             action_cov    high     <NA>        P2 - P1   -0.051
+ RQ2_by_emotion             action_cov    <NA>  neutral        P2 - P0   -0.016
+ RQ2_by_emotion             action_cov    <NA>  neutral        P2 - P1   -0.083
+ RQ2_by_emotion             action_cov    <NA>    anger        P2 - P0   -0.007
+ RQ2_by_emotion             action_cov    <NA>    anger        P2 - P1   -0.064
+ RQ2_by_emotion             action_cov    <NA>  anxiety        P2 - P0   -0.010
+ RQ2_by_emotion             action_cov    <NA>  anxiety        P2 - P1   -0.073
+ RQ2_by_emotion             action_cov    <NA> distress        P2 - P0    0.016
+ RQ2_by_emotion             action_cov    <NA> distress        P2 - P1   -0.072
+            RQ2 appropriateness_latent    <NA>     <NA>        P2 - P0    1.092
+            RQ2 appropriateness_latent    <NA>     <NA>        P2 - P1   -0.729
+ RQ2_by_urgency appropriateness_latent     low     <NA>        P2 - P0    0.714
+ RQ2_by_urgency appropriateness_latent     low     <NA>        P2 - P1   -0.094
+ RQ2_by_urgency appropriateness_latent  medium     <NA>        P2 - P0    1.125
+ RQ2_by_urgency appropriateness_latent  medium     <NA>        P2 - P1   -1.075
+ RQ2_by_urgency appropriateness_latent    high     <NA>        P2 - P0    1.437
+ RQ2_by_urgency appropriateness_latent    high     <NA>        P2 - P1   -1.017
+ RQ2_by_emotion appropriateness_latent    <NA>  neutral        P2 - P0    0.715
+ RQ2_by_emotion appropriateness_latent    <NA>  neutral        P2 - P1   -0.977
+ RQ2_by_emotion appropriateness_latent    <NA>    anger        P2 - P0    1.518
+ RQ2_by_emotion appropriateness_latent    <NA>    anger        P2 - P1   -0.419
+ RQ2_by_emotion appropriateness_latent    <NA>  anxiety        P2 - P0    0.931
+ RQ2_by_emotion appropriateness_latent    <NA>  anxiety        P2 - P1   -0.922
+ RQ2_by_emotion appropriateness_latent    <NA> distress        P2 - P0    1.205
+ RQ2_by_emotion appropriateness_latent    <NA> distress        P2 - P1   -0.598
+            RQ2          p_appropriate    <NA>     <NA>        P2 - P0    1.040
+            RQ2          p_appropriate    <NA>     <NA>        P2 - P1   -0.905
+ RQ2_by_urgency          p_appropriate     low     <NA>        P2 - P0    0.545
+ RQ2_by_urgency          p_appropriate     low     <NA>        P2 - P1   -0.580
+ RQ2_by_urgency          p_appropriate  medium     <NA>        P2 - P0    1.123
+ RQ2_by_urgency          p_appropriate  medium     <NA>        P2 - P1   -1.173
+ RQ2_by_urgency          p_appropriate    high     <NA>        P2 - P0    1.452
+ RQ2_by_urgency          p_appropriate    high     <NA>        P2 - P1   -0.963
+ RQ2_by_emotion          p_appropriate    <NA>  neutral        P2 - P0    0.703
+ RQ2_by_emotion          p_appropriate    <NA>  neutral        P2 - P1   -1.278
+ RQ2_by_emotion          p_appropriate    <NA>    anger        P2 - P0    1.448
+ RQ2_by_emotion          p_appropriate    <NA>    anger        P2 - P1   -0.522
+ RQ2_by_emotion          p_appropriate    <NA>  anxiety        P2 - P0    0.871
+ RQ2_by_emotion          p_appropriate    <NA>  anxiety        P2 - P1   -1.060
+ RQ2_by_emotion          p_appropriate    <NA> distress        P2 - P0    1.139
+ RQ2_by_emotion          p_appropriate    <NA> distress        P2 - P1   -0.762
+ asymp.LCL asymp.UCL p_holm
+    -0.113    -0.067  0.000
+    -0.079    -0.034  0.000
+    -0.118    -0.073  0.000
+    -0.494    -0.448  0.000
+    -0.461    -0.415  0.000
+    -0.500    -0.453  0.000
+     0.474     0.516  0.000
+    -0.550    -0.505  0.000
+     0.082     0.178  0.000
+    -0.623    -0.523  0.000
+     0.618     0.679  0.000
+    -0.561    -0.496  0.000
+     0.681     0.734  0.000
+    -0.509    -0.453  0.000
+     0.366     0.424  0.000
+    -0.643    -0.582  0.000
+     0.558     0.646  0.000
+    -0.540    -0.448  0.000
+     0.398     0.485  0.000
+    -0.539    -0.448  0.000
+     0.499     0.587  0.000
+    -0.557    -0.465  0.000
+    -0.179    -0.129  0.000
+    -0.082    -0.032  0.000
+    -0.136    -0.086  0.000
+    -0.641    -0.590  0.000
+    -0.544    -0.492  0.000
+    -0.598    -0.546  0.000
+    -0.005     0.041  0.255
+    -0.125    -0.076  0.000
+    -0.237    -0.131  0.000
+    -0.063     0.048  1.000
+     0.037     0.105  0.000
+    -0.216    -0.145  0.000
+     0.137     0.196  0.000
+    -0.145    -0.083  0.000
+    -0.054     0.010  0.705
+    -0.201    -0.134  0.000
+     0.027     0.123  0.021
+    -0.090     0.011  0.644
+    -0.070     0.027  0.790
+    -0.162    -0.060  0.000
+    -0.007     0.089  0.584
+    -0.135    -0.033  0.013
+     0.002     0.019  0.032
+     0.005     0.022  0.009
+    -0.014     0.003  0.227
+    -0.079    -0.061  0.000
+    -0.076    -0.058  0.000
+    -0.095    -0.077  0.000
+    -0.012     0.004  0.340
+    -0.081    -0.064  0.000
+    -0.104    -0.067  0.000
+    -0.100    -0.061  0.000
+     0.019     0.042  0.000
+    -0.100    -0.075  0.000
+     0.033     0.053  0.000
+    -0.062    -0.040  0.000
+    -0.027    -0.005  0.045
+    -0.095    -0.071  0.000
+    -0.024     0.010  0.790
+    -0.082    -0.046  0.000
+    -0.026     0.007  0.790
+    -0.090    -0.055  0.000
+     0.000     0.033  0.390
+    -0.089    -0.054  0.000
+     0.989     1.196  0.000
+    -0.868    -0.590  0.000
+     0.468     0.961  0.000
+    -0.399     0.210  1.000
+     1.005     1.246  0.000
+    -1.256    -0.895  0.000
+     1.327     1.547  0.000
+    -1.185    -0.850  0.000
+     0.593     0.838  0.000
+    -1.150    -0.804  0.000
+     1.336     1.700  0.000
+    -0.678    -0.159  0.016
+     0.742     1.120  0.000
+    -1.199    -0.644  0.000
+     1.021     1.389  0.000
+    -0.860    -0.336  0.000
+     0.929     1.151  0.000
+    -1.083    -0.728  0.000
+     0.279     0.811  0.000
+    -0.958    -0.202  0.008
+     1.001     1.246  0.000
+    -1.375    -0.971  0.000
+     1.339     1.565  0.000
+    -1.151    -0.776  0.000
+     0.574     0.832  0.000
+    -1.488    -1.068  0.000
+     1.260     1.635  0.000
+    -0.800    -0.243  0.003
+     0.675     1.067  0.000
+    -1.373    -0.747  0.000
+     0.949     1.329  0.000
+    -1.049    -0.475  0.000

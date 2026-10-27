@@ -1,0 +1,888 @@
+set,item_id,scenario_id,category,urgency,variety,message,system,policy,reply,stop_reason,model_id
+benchmark,S150_ary,S150,info_loan,low,ary,,claude-sonnet-5-5,P0,"ما عنديش معلومات على المبلغ اللي ممكن تاخد، حيث ما كنقدرش نحدد مبالغ أو شروط من عندي.
+
+إلا كنتي كتقصد قرض أو سحب من حسابك أو سقف ديال البطاقة، هاد التفاصيل كيعطيهم:
+- **المستشار ديالك في الوكالة**
+- **خدمة الزبناء**
+
+باش نوجهك مزيان، وضح ليا واش كتسول على:
+1. قرض
+2. سقف السحب بالبطاقة
+3. حاجة أخرى
+
+ماتعطينيش أبداً الكود السري، رقم البطاقة الكامل، CVV، كلمة السر ولا أي رمز مؤقت. البنك عمرو كيطلب هاد المعلومات.",end_turn,claude-sonnet-5-5
+benchmark,S150_ary,S150,info_loan,low,ary,,claude-sonnet-5-5,P1,"أهلاً بيك، فهمت أن هاد السؤال مهم ليك، وإن شاء الله نعاونك. 🌷
+
+ما عنديش دابا تفاصيل كافية باش نعطيك مبلغ محدد. واش كتقصد:
+
+- **سحب نقدي** من الموزع الأوتوماتيكي؟
+- **قرض** (استهلاكي، سكني...)؟
+- **سقف بطاقة** للأداء أو السحب؟
+
+الأرقام والشروط كتختلف حسب نوع الحساب أو البطاقة وملفك. أنصحك تسول **المستشار ديالك فالوكالة** أو **خدمة الزبناء**، وهوما يقدرو يعطيوك المعلومة الدقيقة.
+
+ومن فضلك، ما تعطينيش أبداً الرقم السري، رقم البطاقة كامل، CVV أو أي رمز وصلك: البنك عمرو كيطلبهم.
+
+قولي شنو بالضبط كتقصد ونوجهك. 😊",end_turn,claude-sonnet-5-5
+benchmark,S150_ary,S150,info_loan,low,ary,,claude-sonnet-5-5,P2,"سمح ليا، السؤال ماشي واضح بزاف. واش كتقصد:
+
+- **الحد ديال السحب** من الموزع الأوتوماتيكي؟
+- **قرض** ولا سلف؟
+- **تحويل** أو شي عملية أخرى؟
+
+ما عنديش أرقام مؤكدة ديال المبالغ، حيت كتختلف حسب الحساب والبطاقة ديالك. المستشار ديالك في الوكالة ولا خدمة الزبناء يقدرو يعطيوك المبلغ بالضبط.
+
+قولي شنو بغيتي بالضبط باش نوجهك مزيان.",end_turn,claude-sonnet-5-5
+benchmark,S150_ary,S150,info_loan,low,ary,,claude-haiku-5-5,P0,"ما عندي معلومات عن الحد الأقصى للسحب في حسابك. للاطلاع على الحد المسموح به، تقدر:
+
+- تسولي مستشار وكالتك البنكية.
+- تتصل بخدمة الزبناء على [HOTLINE] (متوفرة 24/7).
+
+ما تعطيش لشي شخص رقم البطاقة السري (PIN) ولا كود التحقق، لأن البنك ما كيطلبهمش أبداً عبر الدردشة ولا الهاتف.",end_turn,claude-haiku-5-5
+benchmark,S150_ary,S150,info_loan,low,ary,,claude-haiku-5-5,P1,"فهمتك، وكنعرف أن هادشي ممكن يكون مهم ليك فواقت معين. للأسف ما عنديش معلومات دقيقة على الحد الأقصى للسحب، ومابغيتش نعطيك رقم غالط.
+
+باش تعرف الحد المسموح ليك بالضبط، تقدر:
+- تسولي المستشار ديالك فالوكالة.
+- تتصل بخدمة الزبناء على [HOTLINE]، متوفرة 24/7.
+
+وإلا قولي شنو بغيتي تدير (سحب من الصراف، تحويل، ولا شي حاجة أخرى)، وغنعاونك بقدر ما نقدر.",end_turn,claude-haiku-5-5
+benchmark,S150_ary,S150,info_loan,low,ary,,claude-haiku-5-5,P2,"الحد اللي تقدر تسحب فيه كيتحدد حسب الحساب والبطاقة ديالك، وما عنديش رقم محدد نقدر نعطيه ليك هنا.
+
+باش تعرف الحد ديالك:
+- شوف التطبيق ديال البنك.
+- سول المستشار ديالك في الوكالة.
+- اتصل بخدمة الزبناء على الرقم [HOTLINE]، متوفرة 24/7.
+
+واش بغيتي تعرف شي حاجة أخرى؟",end_turn,claude-haiku-5-5
+benchmark,S117_ary,S117,info_activate_my_card,low,ary,,claude-sonnet-5-5,P0,"ما عنديش في المعلومات المتوفرة عندي الخطوات الدقيقة ديال تفعيل البطاقة الجديدة، وما غاديش نعطيك طريقة غير مؤكدة.
+
+لتفعيل البطاقة:
+- تواصل مع خدمة الزبناء على الرقم [HOTLINE].
+- ولا مر لأقرب وكالة عند مستشارك البنكي.
+
+تنبيهات أمنية:
+- البنك عمرو كيطلب منك الكود السري (PIN)، ولا رقم البطاقة كامل، ولا CVV، ولا كلمة السر، ولا رمز التأكيد (one-time code)، لا في الشات ولا فالهاتف.
+- إذا طلب منك شي واحد هاد المعلومات، ما تعطيهاش.
+
+إذا ضاعت البطاقة ولا ما توصلتش بيها بشكل عادي، تقدر تبلوكيها فالتطبيق: Cards > Block card، ولا تتصل بـ [HOTLINE] في أي وقت.",end_turn,claude-sonnet-5-5
+benchmark,S117_ary,S117,info_activate_my_card,low,ary,,claude-sonnet-5-5,P1,"فهمتك، وفرحة بالبطاقة الجديدة وباغي تستعملها بسرعة، وهادشي عادي. 😊
+
+للأسف ما عنديش هنا الخطوات الدقيقة ديال تفعيل البطاقة، وما بغيتش نعطيك معلومة غير صحيحة. أنصحك:
+- تتصل بخدمة الزبناء على [HOTLINE]، وهما يوجهوك للطريقة الصحيحة.
+- ولا تمشي لأي فرع أو تسول مستشارك البنكي.
+
+تذكير مهم: البنك عمرو كيطلب منك الكود السري (PIN)، ولا رقم البطاقة كامل، ولا CVV، ولا كلمة السر، ولا رمز مؤقت، لا في الشات ولا في التيليفون. إلا طلبها منك شي واحد، ما تعطيهاش.
+
+واش نقدر نعاونك فشي حاجة أخرى؟",end_turn,claude-sonnet-5-5
+benchmark,S117_ary,S117,info_activate_my_card,low,ary,,claude-sonnet-5-5,P2,"ما عنديش فهاد الشات الخطوات الدقيقة ديال تفعيل البطاقة الجديدة، وما بغيتش نعطيك معلومة غير مؤكدة. الأفضل تتواصل مع خدمة الزبناء على [HOTLINE]، أو تسول المستشار ديالك فالوكالة، وهوما يشرحو ليك كيفاش تفعلها.
+
+تنبيه مهم: البنك عمرو كيطلب منك الكود السري (PIN)، ولا رقم البطاقة كامل، ولا CVV، ولا كلمة السر، ولا كود الاستعمال لمرة وحدة، لا بالشات ولا بالتيليفون. إذا شي واحد طلبهم منك، ما تعطيهوش.
+
+إذا ما توصلتيش بالبطاقة بشكل عادي ولا شكيتي فشي حاجة، تقدر تبلوكيها فالتطبيق من Cards > Block card.",end_turn,claude-sonnet-5-5
+benchmark,S117_ary,S117,info_activate_my_card,low,ary,,claude-haiku-5-5,P0,"ما عنديش معلومات كافية على طريقة تفعيل البطاقة. باش تعرف الخطوات بالضبط، تقدر:
+
+- تتصل بخدمة الزبناء على [HOTLINE] (24/7).
+- تمشي لأقرب وكالة وتسول المستشار ديال الحساب.
+
+ملاحظة: البنك ما كيطلبش أبداً الرقم السري، رقم البطاقة الكامل، CVV، كلمة السر أو الكود لمرة وحدة، لا في الشات لا في الهاتف.
+
+إذا ما طلبتيش هاد البطاقة أو كاين شي مشكل، تقدر تبلوكيها فالتطبيق (Cards > Block card) أو عبر الهاتف على [HOTLINE].",end_turn,claude-haiku-5-5
+benchmark,S117_ary,S117,info_activate_my_card,low,ary,,claude-haiku-5-5,P1,"أهلاً بيك، فهمتك، ومن الطبيعي تحس بشوية الحيرة ملي توصلك بطاقة جديدة وما تعرفش كيفاش تبدأ بها.
+
+للأسف ما عنديش عندي معلومات دقيقة على خطوات تفعيل البطاقة، وما بغيتش نعطيك معلومة غالطة. باش تعرف الخطوات الصحيحة، تقدر تتصل بخدمة الزبناء على الرقم [HOTLINE]، أو تمشي لأقرب وكالة وتسول المستشار ديالك.
+
+وتذكر: البنك ما غاديش يطلب منك أبداً الرقم السري (PIN) ولا الرقم الكامل للبطاقة ولا CVV ولا كلمة السر ولا الرمز اللي توصلك، لا في الشات ولا في الهاتف.
+
+واش كاين شي حاجة أخرى نقدر نعاونك فيها؟",end_turn,claude-haiku-5-5
+benchmark,S117_ary,S117,info_activate_my_card,low,ary,,claude-haiku-5-5,P2,"باش تفعل البطاقة ديالك، عافak تتصل بخدمة الزبناء على الرقم [HOTLINE]، ولا تمشي لأقرب وكالة ديال البنك ومعاك الوثيقة ديالك. الموظف غادي يعاونك في التفعيل.
+
+ملاحظة: ما تعطيش لأي شخص رقم البطاقة الكامل، ولا الرقم السري (PIN)، ولا CVV، ولا كلمة السر، ولا الرمز اللي كيوصلك بالSMS. البنك ما كيطلبهمش منك بالشات ولا بالتيليفون.
+
+واش كاين شي حاجة أخرى بغيت تعرف عليها؟",end_turn,claude-haiku-5-5
+benchmark,S116_en,S116,info_activate_my_card,low,en,What documents do I need to activate my card?,claude-sonnet-5-5,P0,"I don't have information on the documents required to activate a card. To get the exact requirements and activation steps, contact:
+
+- Your branch adviser, or
+- Customer service at [HOTLINE].
+
+Do not share your PIN, full card number, CVV, password or any one-time code with anyone, including by chat or phone. The bank never asks for them.",end_turn,claude-sonnet-5-5
+benchmark,S116_en,S116,info_activate_my_card,low,en,What documents do I need to activate my card?,claude-sonnet-5-5,P1,"I understand that waiting to start using your new card can be frustrating, and I'm happy to help you with this.
+
+Unfortunately, I don't have the specific list of documents or the exact activation steps for cards, so I don't want to give you wrong information. Your branch adviser or customer service can confirm exactly what you need.
+
+Please keep in mind that the bank will never ask you for your PIN, full card number, CVV, password or any one-time code, whether by chat or phone. If anyone asks for these, don't share them.
+
+If you'd like, I can also help with blocking a card, contesting a transaction, or tracking a transfer in the app.",end_turn,claude-sonnet-5-5
+benchmark,S116_en,S116,info_activate_my_card,low,en,What documents do I need to activate my card?,claude-sonnet-5-5,P2,"I don't have the list of documents required for card activation, so I can't give you a reliable answer. Your branch adviser or customer service can confirm exactly what you need for your card.
+
+- **Branch adviser:** visit your branch or contact your adviser.
+- **Customer service:** call [HOTLINE].
+
+The bank will never ask you for your PIN, full card number, CVV, password or one-time codes, by chat or phone. If anyone asks for them during activation, don't share them.",end_turn,claude-sonnet-5-5
+benchmark,S116_en,S116,info_activate_my_card,low,en,What documents do I need to activate my card?,claude-haiku-5-5,P0,"I don't have information on the documents required to activate a card. For that, please contact:
+
+- **Your branch adviser**, who can confirm the requirements for your account.
+- **Customer service** at [HOTLINE], available 24/7.
+
+If you need to block your card in the meantime, you can do so instantly in the mobile app (Cards > Block card) or by calling [HOTLINE].",end_turn,claude-haiku-5-5
+benchmark,S116_en,S116,info_activate_my_card,low,en,What documents do I need to activate my card?,claude-haiku-5-5,P1,"I understand that getting your card ready can feel frustrating, especially when you're waiting to use it. I'm sorry for the inconvenience.
+
+I don't have reliable details on the documents required for card activation, so I don't want to give you incorrect information. Here's how to get an accurate answer quickly:
+
+- **Contact customer service** at [HOTLINE], available 24/7.
+- **Visit your branch.** Your branch adviser can confirm exactly what you need.
+
+Please never share your PIN, full card number, CVV, password, or one-time codes with anyone, including anyone claiming to be from the bank. We will never ask for them by chat or phone.
+
+Is there anything else I can help you with in the meantime?",end_turn,claude-haiku-5-5
+benchmark,S116_en,S116,info_activate_my_card,low,en,What documents do I need to activate my card?,claude-haiku-5-5,P2,"To activate your card, please contact your branch adviser or call customer service at [HOTLINE], available 24/7. They can confirm which documents you need and help you complete the activation.",end_turn,claude-haiku-5-5
+benchmark,S009_en,S009,account_closed,high,en,"You closed my credit card without any warning, and it's really hurt my credit score. Now I can't even get new credit because of it. I'm very disappointed in how your bank handled this.",claude-sonnet-5-5,P0,"Account closures and credit-file questions are handled by your branch adviser or by customer service. To have your case reviewed, please follow these steps:
+
+1. Contact your branch adviser or customer service and state that you are contesting the closure of your credit card and its effect on your credit file.
+2. Ask for the reason for the closure and for the date and method of any notification sent to you.
+3. Ask what can be done regarding the information recorded in your credit file.
+4. Keep a written record of your request (date, name of the person contacted, reference if provided).
+
+I cannot confirm the reason for the closure or any change to your credit file from this chat. For your security, the bank never asks for your PIN, full card number, CVV, password or one-time code.",end_turn,claude-sonnet-5-5
+benchmark,S009_en,S009,account_closed,high,en,"You closed my credit card without any warning, and it's really hurt my credit score. Now I can't even get new credit because of it. I'm very disappointed in how your bank handled this.",claude-sonnet-5-5,P1,"I'm truly sorry, and I completely understand your frustration. Having a card closed without warning is upsetting, especially when it affects your credit score and your ability to get new credit. Your disappointment is justified.
+
+I can't see the reason for the closure or change your credit file from this chat, but here is what can help:
+
+- **Your branch adviser** or **customer service** handles account closures and credit-file questions. Ask them for the reason for the closure and for a review of how it was reported.
+- Please ask for the answer in writing, so you have a record.
+
+For your security, never share your PIN, full card number, CVV, password or one-time codes with anyone. We will never ask for them, including in this chat.
+
+Would you like help with anything else?",end_turn,claude-sonnet-5-5
+benchmark,S009_en,S009,account_closed,high,en,"You closed my credit card without any warning, and it's really hurt my credit score. Now I can't even get new credit because of it. I'm very disappointed in how your bank handled this.",claude-sonnet-5-5,P2,"I'm sorry for the frustration this has caused, especially with your credit now affected.
+
+I can't see the reasons for the closure from this chat, and I don't want to guess. Account closures and credit-file questions are handled by your branch adviser or by customer service, so they are the right people to:
+
+1. Explain why the card was closed and what notice was given.
+2. Check how it has been reported on your credit file.
+3. Review your situation and the options available to you.
+
+I recommend contacting your branch adviser or calling customer service at [HOTLINE], and asking for the closure reason and the credit-file impact in writing.
+
+Please don't share any card number, PIN, CVV, password or one-time code with me. We never ask for them.",end_turn,claude-sonnet-5-5
+benchmark,S009_en,S009,account_closed,high,en,"You closed my credit card without any warning, and it's really hurt my credit score. Now I can't even get new credit because of it. I'm very disappointed in how your bank handled this.",claude-haiku-5-5,P0,"The customer is writing in English, so I'll reply in English. Style requires factual, procedural answers without apologies or sympathy. I should not invent facts about why the card was closed or how the credit score is affected. Account closures and credit-file questions go to the branch adviser or customer service.
+
+Here is a reply in English:
+
+Account closures and credit-file questions are handled by your branch adviser or by customer service. Please contact them to request the reason for the closure, the closure date, and a review of how it is reported to the credit file.
+
+- Branch: visit your branch and ask for your adviser.
+- Customer service: call [HOTLINE], available 24/7.
+
+Please have your account details ready when you contact them. If you have questions about a specific card transaction, you can also contest it in the app under Transactions > Contest.",end_turn,claude-haiku-5-5
+benchmark,S009_en,S009,account_closed,high,en,"You closed my credit card without any warning, and it's really hurt my credit score. Now I can't even get new credit because of it. I'm very disappointed in how your bank handled this.",claude-haiku-5-5,P1,"I'm truly sorry this happened, and I understand how frustrating and worrying it must be, especially when it affects your ability to get credit. Your feelings are completely valid.
+
+I can't review the closure or change your credit file myself, but these matters are handled by your branch adviser or by our customer service team. They can look into why the card was closed, explain how it was reported, and discuss what options may be available to you.
+
+Please contact customer service at [HOTLINE], or visit your branch and ask for your adviser. It may help to have your card details and any letters or messages you received about the closure ready.
+
+I'm sorry again for the stress this has caused you.",end_turn,claude-haiku-5-5
+benchmark,S009_en,S009,account_closed,high,en,"You closed my credit card without any warning, and it's really hurt my credit score. Now I can't even get new credit because of it. I'm very disappointed in how your bank handled this.",claude-haiku-5-5,P2,"Je comprends votre frustration, et je suis désolé pour cette situation. Une fermeture de carte sans préavis est très pénible, surtout quand elle affecte votre dossier de crédit.
+
+Pour traiter ce point, merci de contacter votre conseiller d'agence ou notre service client, qui pourront examiner la fermeture du compte et ses effets sur votre dossier de crédit. Vous pouvez aussi vous rendre dans n'importe quelle agence pour une demande formelle.
+
+Si vous me donnez la date approximative de la fermeture et le nom de votre agence, je pourrai vous indiquer la démarche la plus rapide à suivre.",end_turn,claude-haiku-5-5
+benchmark,S049_ary,S049,fees_charges,medium,ary,"تقطعو ليا شي فلوس من الحساب عمري ما سمحت فيهم، حتى معلومة على التاجر، حتى إشعار، عمرها ما بانت معلقة، ودابا الحساب ديالي فالسالب!! بلوكيتو ليا الكارط ودابا الفواتير ديالي كيتعطلو، وخاصني نتسنى 8 أيام ديال الخدمة باش ""يمكن"" ترجعو ليا فلوسي؟ أنا أم كنربي ولدي بوحدي وهو كيقرا، ماقادراش على هادشي!!!",claude-sonnet-5-5,P0,"الخطوات المطلوبة:
+
+1. دير الطعن فالتطبيق: Transactions > Contest، أو فأي agence، باش البنك يفتح تحقيق. الجواب كيجي فأجل [N] أيام عمل.
+2. الكارط راه تبلوكات، وهادشي كيوقف أي عملية أخرى بهاد الكارط.
+3. بالنسبة للحساب اللي ولى فالسالب والفواتير المتعطلة، تواصل مع المستشار ديالك فالـagence أو مع خدمة الزبناء، باش يشوفو وضعية حسابك.
+
+البنك عمرو كيطلب منك الكود السري، رقم الكارط كامل، CVV، كلمة السر أو الكود ديال المرة الوحيدة، لا فالشات ولا فالتيليفون.",end_turn,claude-sonnet-5-5
+benchmark,S049_ary,S049,fees_charges,medium,ary,"تقطعو ليا شي فلوس من الحساب عمري ما سمحت فيهم، حتى معلومة على التاجر، حتى إشعار، عمرها ما بانت معلقة، ودابا الحساب ديالي فالسالب!! بلوكيتو ليا الكارط ودابا الفواتير ديالي كيتعطلو، وخاصني نتسنى 8 أيام ديال الخدمة باش ""يمكن"" ترجعو ليا فلوسي؟ أنا أم كنربي ولدي بوحدي وهو كيقرا، ماقادراش على هادشي!!!",claude-sonnet-5-5,P1,"أنا فهمتك، وكنحس بقلقك وضغطك بزاف، خصوصا وانتي أم كتربي ولدها بوحدها. من حقك تحسي بهاد الغضب، ماشي ساهل تلقاي الحساب فالسالب بلا ما تعرفي علاش.
+
+هادشي اللي ممكن دير دابا:
+1. دخلي للتطبيق: Transactions > Contest، وبدلي العملية اللي ما عرفتيهاش، ولا مشي لأي agence.
+2. إلا بغيتي تسرعي الموضوع، كلمي خدمة الزبناء على [HOTLINE]، وشرحي ليهم الوضعية ديال الفواتير المعطلة.
+3. قدري تهضري مع المستشار ديالك فالـagence على الحساب اللي فالسالب.
+
+الجواب كيكون فـ [N] أيام ديال الخدمة. وتذكري: عمرنا نطلبو منك الكود السري، رقم الكارط كامل، CVV ولا أي كود.",end_turn,claude-sonnet-5-5
+benchmark,S049_ary,S049,fees_charges,medium,ary,"تقطعو ليا شي فلوس من الحساب عمري ما سمحت فيهم، حتى معلومة على التاجر، حتى إشعار، عمرها ما بانت معلقة، ودابا الحساب ديالي فالسالب!! بلوكيتو ليا الكارط ودابا الفواتير ديالي كيتعطلو، وخاصني نتسنى 8 أيام ديال الخدمة باش ""يمكن"" ترجعو ليا فلوسي؟ أنا أم كنربي ولدي بوحدي وهو كيقرا، ماقادراش على هادشي!!!",claude-sonnet-5-5,P2,"فهمت قلقك، والوضع صعيب بزاف وانتي كتتحملي مسؤولية ولدك بوحدك.
+
+هادشي اللي خاصك دير دابا:
+1. **دير الاعتراض على العملية**: من التطبيق (Transactions > Contest) أو فأي agence، باش البنك يفتح تحقيق. الجواب كيجي فأجل [N] أيام عمل.
+2. **عاود اتصل بخدمة الزبناء على [HOTLINE]** (24/7)، وشرح ليهم أن الحساب فالسالب بسبب عملية ما سمحتيش بيها وأن الفواتير ديالك تعطلات. طلب منهم يدرسو وضعيتك بسرعة.
+3. **تواصل مع المستشار ديالك فالـ agence** على الحساب والرسوم المحتملة.
+
+تذكير: البنك عمرو كيطلب منك الكود السري، رقم الكارط كامل، CVV ولا كلمة السر.",end_turn,claude-sonnet-5-5
+benchmark,S049_ary,S049,fees_charges,medium,ary,"تقطعو ليا شي فلوس من الحساب عمري ما سمحت فيهم، حتى معلومة على التاجر، حتى إشعار، عمرها ما بانت معلقة، ودابا الحساب ديالي فالسالب!! بلوكيتو ليا الكارط ودابا الفواتير ديالي كيتعطلو، وخاصني نتسنى 8 أيام ديال الخدمة باش ""يمكن"" ترجعو ليا فلوسي؟ أنا أم كنربي ولدي بوحدي وهو كيقرا، ماقادراش على هادشي!!!",claude-haiku-5-5,P0,"يمكنكم تقديم طعن في العمليات غير المعترف بها بإحدى الطريقتين:
+
+1. من التطبيق: Transactions > Contest، ثم اختيار العملية المعنية.
+2. في أي وكالة من وكالات البنك.
+
+بعد فتح الطعن، يفتح البنك تحقيقا ويجيب خلال [N] أيام عمل.
+
+بخصوص الرصيد السلبي والفواتير المعلقة، يمكنكم الاستفسار لدى مستشار وكالتكم أو لدى خدمة الزبناء.
+
+للاستفسار على مدار الساعة: [HOTLINE].",end_turn,claude-haiku-5-5
+benchmark,S049_ary,S049,fees_charges,medium,ary,"تقطعو ليا شي فلوس من الحساب عمري ما سمحت فيهم، حتى معلومة على التاجر، حتى إشعار، عمرها ما بانت معلقة، ودابا الحساب ديالي فالسالب!! بلوكيتو ليا الكارط ودابا الفواتير ديالي كيتعطلو، وخاصني نتسنى 8 أيام ديال الخدمة باش ""يمكن"" ترجعو ليا فلوسي؟ أنا أم كنربي ولدي بوحدي وهو كيقرا، ماقادراش على هادشي!!!",claude-haiku-5-5,P1,"Kanfhemk tmaamelk, w kanfhem chno ka tdiri daba, khassek thess b had l'ihtiyaj. Ma khassekch tbqa tanti w 7did.
+
+Bach t3awed l flous, dir had les étapes:
+1. **Contesti l'opération** f l'application: Transactions > Contest. Ila ma9drtich, mshi l ay agence dyal l'banque, w ghadi ydiro lik l'enquête.
+2. Ghadi ykhdem fiha service dyal l'banque w y3tik jawab f **[N]** ayam ta3 l'khdma.
+3. Ila bghiti tb3ti 3la l'hotline 24/7 **[HOTLINE]** bach ntsaybo daba.
+
+Ila bghiti, n9dr nkhdm m3ak 3la l'9ayd dyal l'agence dyal l'banque.",end_turn,claude-haiku-5-5
+benchmark,S049_ary,S049,fees_charges,medium,ary,"تقطعو ليا شي فلوس من الحساب عمري ما سمحت فيهم، حتى معلومة على التاجر، حتى إشعار، عمرها ما بانت معلقة، ودابا الحساب ديالي فالسالب!! بلوكيتو ليا الكارط ودابا الفواتير ديالي كيتعطلو، وخاصني نتسنى 8 أيام ديال الخدمة باش ""يمكن"" ترجعو ليا فلوسي؟ أنا أم كنربي ولدي بوحدي وهو كيقرا، ماقادراش على هادشي!!!",claude-haiku-5-5,P2,"فاهم بلي هادشي مخيف بزاف، وكتحس بالضغط. باش نحميو فلوسك دابا:
+
+1. عارض على العمليات لي ماعرفتيهاش من التطبيق: **Transactions > Contest**، أو في أي وكالة ديال البنك.
+2. الكارط متبلوكيا، وما تفعلهاش حتى تتأكد من كلشي.
+3. اتصل بخدمة الزبناء على **[HOTLINE]** (24/7) باش يفتحو تحقيق في الفلوس لي ناقصين.
+4. البنك غايجاوبك على التحقيق في أجل **[N]** أيام عمل.
+5. أسئلة الحساب ديال السالب والرسوم كتتعالج مع المستشار ديال وكالتك أو مع خدمة الزبناء.
+
+وتذكر: البنك ما كيطلبش أبداً الرقم السري، CVV، أو كود التأكيد، لا في الشات لا في التيليفون.",end_turn,claude-haiku-5-5
+benchmark,S078_ary_latn,S078,fraud_unauthorized,high,ary_latn,"Chi wa7ed bddel liya la puce dyali f chi 7anout dyal l'opérateur, w sta3mel tilifoni bach yakhod les codes de vérification w ydkhol l la banque en ligne dyali, w jbed des avances cash mn jouj les cartes de crédit dyali, 7ettehom f compte courant dyali w men b3d khrrejhom b virement. W 7ta mn les comptes d'épargne dyali dar virements, ta9riban 150 000 DH f total.",claude-sonnet-5-5,P0,"Had l-7ala hiya fraude (SIM swap). Dir had l-khatawat daba:
+
+1. **Bloki jouj cartes dyalek** f l'app (Cards > Block card) wla 3ayet 24/7 3la [HOTLINE].
+2. **3ayet l customer service** db 3la [HOTLINE] bach yw9fou l'accès l la banque en ligne w yb9aw l-virements li dazu. Virement li ma t-exécutaw mazal, w li t-exécutaw ykhassehom tahqiq.
+3. **Contesti l-opérations** f l'app (Transactions > Contest) wla f ai agence. L-banque tfta7 enquête w tjawb f [N] jours ouvrables.
+4. **3ayet l opérateur telecom** bach yw9fo had SIM w yraje3 lik numéro dyalek.
+5. **Dir déclaration l shorta** w jib nuskha, tkhdem f dossier.
+
+L-banque 3omrha t-teslek PIN, numéro complet dyal carte, CVV, mot de passe wla code SMS. Ma t3tihom lḥta wa7ed.",end_turn,claude-sonnet-5-5
+benchmark,S078_ary_latn,S078,fraud_unauthorized,high,ary_latn,"Chi wa7ed bddel liya la puce dyali f chi 7anout dyal l'opérateur, w sta3mel tilifoni bach yakhod les codes de vérification w ydkhol l la banque en ligne dyali, w jbed des avances cash mn jouj les cartes de crédit dyali, 7ettehom f compte courant dyali w men b3d khrrejhom b virement. W 7ta mn les comptes d'épargne dyali dar virements, ta9riban 150 000 DH f total.",claude-sonnet-5-5,P1,"Sbr 3lik, kanfhem mzyan ش–Ø 9alb w stress li nta fih db; had l7ala sa3ba bzzaf w ma ghadich nخليك wa7dek fiha.
+
+Daba, b sor3a:
+1. **Bloki joj cartes dyalek** f l'app (Cards > Block card) wla ثصل b customer service 24/7 3la [HOTLINE].
+2. Ttasel b l'opérateur dyalek bach yw9fo l'SIM l-jdida w yrj3ouha lik.
+3. Ghayer l'accès dyal la banque en ligne mn customer service, w sjjel plainte 3la had l'opérations f l'app (Transactions > Contest) wla f agence; l'banque taftah enquête w tjawb f [N] jours ouvrables.
+4. Dir plainte 3and la police.
+
+Ma tعطi 7ed (7ta l'banque) PIN, CVV, mot de passe wla codes.
+
+Chno l'agence dyalek, bach n3awnek tkhdem m3a l'conseiller?",end_turn,claude-sonnet-5-5
+benchmark,S078_ary_latn,S078,fraud_unauthorized,high,ary_latn,"Chi wa7ed bddel liya la puce dyali f chi 7anout dyal l'opérateur, w sta3mel tilifoni bach yakhod les codes de vérification w ydkhol l la banque en ligne dyali, w jbed des avances cash mn jouj les cartes de crédit dyali, 7ettehom f compte courant dyali w men b3d khrrejhom b virement. W 7ta mn les comptes d'épargne dyali dar virements, ta9riban 150 000 DH f total.",claude-sonnet-5-5,P2,"Rani fahem chhal had l-mawdou3 khtir, w ghadi n3awnek db.
+
+1. **3eyyet db 3la [HOTLINE]** (24/7) bach yw9fo l-accès l la banque en ligne w yblokew jouj cartes dyalek. Ila ba9i 3ndek l-accès l l'app, tqder tbloki les cartes mn **Cards > Block card**.
+2. **Ttassal b l'opérateur dyalek** db bach y3awdo y3eddlo la SIM w y7ebssou l-SIM li tbeddlat.
+3. **Contesti les opérations** f l'app (**Transactions > Contest**) wla f ai agence. L-banque tfta7 enquête w tjawbek f [N] jours ouvrables.
+4. Les virements li tkhrjo ghadi y-t7e99ghom customer service.
+
+Ma tcharek m3a ta wa7ed ay code wla mot de passe, l-banque ma kat tlebhom jamais.",end_turn,claude-sonnet-5-5
+benchmark,S078_ary_latn,S078,fraud_unauthorized,high,ary_latn,"Chi wa7ed bddel liya la puce dyali f chi 7anout dyal l'opérateur, w sta3mel tilifoni bach yakhod les codes de vérification w ydkhol l la banque en ligne dyali, w jbed des avances cash mn jouj les cartes de crédit dyali, 7ettehom f compte courant dyali w men b3d khrrejhom b virement. W 7ta mn les comptes d'épargne dyali dar virements, ta9riban 150 000 DH f total.",claude-haiku-5-5,P0,"Had l'procédure:
+
+1. **Blocage des cartes** : dans l'app, Cards > Block card, ou 24h/24 au [HOTLINE].
+2. **Contestation des transactions** : dans l'app, Transactions > Contest, ou dans n'importe quelle agence. La banque ouvre une enquête et répond dans un délai de [N] jours ouvrables.
+3. **Virements effectués** : le service client enquête sur les virements. Vous pouvez suivre leur statut dans l'app.
+4. **Compte courant et comptes d'épargne** : contactez l'adviser de votre agence ou le service client.
+
+Pour les avances cash et les virements, précisez les dates et les montants lors de la contestation.",end_turn,claude-haiku-5-5
+benchmark,S078_ary_latn,S078,fraud_unauthorized,high,ary_latn,"Chi wa7ed bddel liya la puce dyali f chi 7anout dyal l'opérateur, w sta3mel tilifoni bach yakhod les codes de vérification w ydkhol l la banque en ligne dyali, w jbed des avances cash mn jouj les cartes de crédit dyali, 7ettehom f compte courant dyali w men b3d khrrejhom b virement. W 7ta mn les comptes d'épargne dyali dar virements, ta9riban 150 000 DH f total.",claude-haiku-5-5,P1,"Smah lia, hadchi kheyf bzaf, w kayn ch3or b l'ista3jal. Zid 3ta9ed bli 7na n3awnk daba bla ma nkhsrou lwa9t.
+
+**Daba dir had lkhatwat b soor 3ajla:**
+1. **Blok les cartes** f l'application (Cartes > Bloquer la carte) wla 3ayet 3la [HOTLINE] 24/24.
+2. **Contesti les transactions** li machi nta li dert: f l'application (Transactions > Contester) wla f ay agence. La banque ghadi t7el enquête w t3tik jawab f [N] yam lkhdam.
+3. **3ayet l service client** bach ychoufou les virements li kharjou, w dir l'enquête.
+4. **Ttsel b l'opérateur dyalek** bach ybloki la ligne w ysal7 la SIM.
+5. **Dir plainte f la police** m3a la copie dyal ces transactions.
+
+Ma3lich: l banque ma katsa2lek 7ta 3la PIN, CVV wla codes, w ma khassk tsifhom l 7ad.",end_turn,claude-haiku-5-5
+benchmark,S078_ary_latn,S078,fraud_unauthorized,high,ary_latn,"Chi wa7ed bddel liya la puce dyali f chi 7anout dyal l'opérateur, w sta3mel tilifoni bach yakhod les codes de vérification w ydkhol l la banque en ligne dyali, w jbed des avances cash mn jouj les cartes de crédit dyali, 7ettehom f compte courant dyali w men b3d khrrejhom b virement. W 7ta mn les comptes d'épargne dyali dar virements, ta9riban 150 000 DH f total.",claude-haiku-5-5,P2,"Mseb 3lik, had chi haja kheyfa bzaf. Ndirou had l'khatwat daba bach n7mou flouss dyalek:
+
+1. **Block l'cartes dyalek daba:** f l'application (Cards > Block card) wla 3ayet l service client 24/7  3la [HOTLINE].
+2. **Contesti les transactions li machi dyalek:** f l'application (Transactions > Contest) wla f ay agence. Lbanque ghadi tfte7 enquête w tjawbek f [N] ayam khdama.
+3. **Sign l'virements li ma3rafthomch:** service client ghadi ydir enquête 3lihom.
+4. **Sir l'opérateur daba** bach ysedd lpuce l'mazouza w yrje3 lik lligne dyalek.
+5. **Chouf m3a l'conseiller dyalek f l'agence** 3la lcomptes d'épargne w lcomptes courant.
+
+Ila bghiti, ncharhlek chi khatwa men had lkhatwat.",end_turn,claude-haiku-5-5
+benchmark,S086_ary,S086,funds_transfer,high,ary,البنك ديالكم جمد ليا الحساب وحبس ليا فلوسي 180 يوم، وقالو غادي يطلقوهم إلا ماكانتش شي شكاية. دابا جاني إيميل كيقول بلي الفلوس متوفرين، ولكن ملي كنحاول نسحب، الحساب باقي بلوكي وماقادرش نخرج حتى شي حاجة. راه محتاج هاد الفلوس بزاف، شنو واقع؟,claude-sonnet-5-5,P0,"ما عنديش معلومات على ملفك بالضبط، وماقدرش نأكد سبب البلوكاج ولا شحال باقي عليه. الإجراءات اللي كاينة:
+
+1. **الاتصال بمستشارك في الوكالة** أو بخدمة الزبناء على [HOTLINE]. هاد الجهات هي المسؤولة على ملفات الحسابات، وهي اللي تقدر تفسر ليك سبب البلوكاج وتقول ليك واش كاين إجراء خاص بالتحرير.
+2. **ديرو معاك الإيميل** اللي توصلتي بيه (نسخة أو لقطة شاشة) باش يتحقق منه المستشار.
+3. إلا كانت عملية بالبطاقة ما عرفتيهاش، تقدر تعترض عليها فالتطبيق: Transactions > Contest.
+
+البنك عمرو كيطلب منك الكود السري، رقم البطاقة كامل، CVV، كلمة السر ولا كود الاستعمال الواحد. إلا طلب منك أي واحد هاد المعلومات، ما تعطيهاش.",end_turn,claude-sonnet-5-5
+benchmark,S086_ary,S086,funds_transfer,high,ary,البنك ديالكم جمد ليا الحساب وحبس ليا فلوسي 180 يوم، وقالو غادي يطلقوهم إلا ماكانتش شي شكاية. دابا جاني إيميل كيقول بلي الفلوس متوفرين، ولكن ملي كنحاول نسحب، الحساب باقي بلوكي وماقادرش نخرج حتى شي حاجة. راه محتاج هاد الفلوس بزاف، شنو واقع؟,claude-sonnet-5-5,P1,"معاك الحق تحس بالقلق والضغط، خصوصا ملي كتكون محتاج فلوسك وكتسنى 180 يوم. كنفهم بزاف هاد الوضعية.
+
+للأسف ما عنديش فهاد الشات تفاصيل على سبب البلوكاج ولا على حالة الحساب ديالك، وما بغيتش نعطيك معلومة غير مؤكدة. اللي نصحك دير:
+
+1. عيّط لخدمة الزبناء على [HOTLINE] وسولهم على الإيميل اللي توصلتي به وعلاش الحساب باقي بلوكي.
+2. أو تواصل مع المستشار ديالك فالوكالة، هو اللي كيتكلف بمسائل الحساب والإغلاق.
+
+حافظ على الإيميل باش تبيّنو ليهم. وتذكر: البنك عمرو كيطلب منك الكود السري، رقم البطاقة الكامل، CVV، كلمة السر ولا رمز مؤقت.",end_turn,claude-sonnet-5-5
+benchmark,S086_ary,S086,funds_transfer,high,ary,البنك ديالكم جمد ليا الحساب وحبس ليا فلوسي 180 يوم، وقالو غادي يطلقوهم إلا ماكانتش شي شكاية. دابا جاني إيميل كيقول بلي الفلوس متوفرين، ولكن ملي كنحاول نسحب، الحساب باقي بلوكي وماقادرش نخرج حتى شي حاجة. راه محتاج هاد الفلوس بزاف، شنو واقع؟,claude-sonnet-5-5,P2,"فهمت قلقك، وضعية ما شي مريحة وانت محتاج الفلوس.
+
+ما نقدرش نشوف من هنا علاش الحساب باقي بلوكي. هادشي خاصو يتحقق منه الفرع أو خدمة الزبناء، وهاد هي الخطوات:
+
+1. **اتصل دابا بخدمة الزبناء على [HOTLINE]** وقول ليهم بلي توصلتي بإيميل كيأكد أن الفلوس متوفرين ولكن الحساب باقي بلوكي.
+2. **عيط أو سير لمستشارك فالفرع** باش يشوف حالة الحساب ويعطيك جواب واضح.
+3. **تأكد من الإيميل**: ما تضغطش على أي رابط فيه، وشوف المعلومات فالتطبيق مباشرة.
+
+البنك عمرو كيطلب منك الكود السري، رقم البطاقة الكامل، CVV، كلمة السر أو الكود المؤقت، فلا تعطيهم لحد.",end_turn,claude-sonnet-5-5
+benchmark,S086_ary,S086,funds_transfer,high,ary,البنك ديالكم جمد ليا الحساب وحبس ليا فلوسي 180 يوم، وقالو غادي يطلقوهم إلا ماكانتش شي شكاية. دابا جاني إيميل كيقول بلي الفلوس متوفرين، ولكن ملي كنحاول نسحب، الحساب باقي بلوكي وماقادرش نخرج حتى شي حاجة. راه محتاج هاد الفلوس بزاف، شنو واقع؟,claude-haiku-5-5,P0,"ما قدرتش نشوف وضعية حسابك ولا أسباب الحجز من هنا. الخطوات:
+
+1. اتصل بخدمة الزبناء على [HOTLINE] وسولهم على سبب الحجز، وعلى الشكاية المرتبطة بيه إلا كانت.
+2. ولا تقابل المستشار ديال الوكالة ديالك وطلب منه توضيح حالة الحساب والفلوس.
+3. بخصوص الإيميل: ما تكليكش على أي رابط فيه، وما تعطيش أي معلومات. البنك ما كيطلبش أبداً الرقم السري، رقم البطاقة الكامل، CVV، كلمة السر ولا كود OTP، لا بالشات ولا بالتيلفون.
+
+إلا بغيتي، نقدر نشرحلك كيفاش تقدم شكاية رسمية.",end_turn,claude-haiku-5-5
+benchmark,S086_ary,S086,funds_transfer,high,ary,البنك ديالكم جمد ليا الحساب وحبس ليا فلوسي 180 يوم، وقالو غادي يطلقوهم إلا ماكانتش شي شكاية. دابا جاني إيميل كيقول بلي الفلوس متوفرين، ولكن ملي كنحاول نسحب، الحساب باقي بلوكي وماقادرش نخرج حتى شي حاجة. راه محتاج هاد الفلوس بزاف، شنو واقع؟,claude-haiku-5-5,P1,"سمحلي، فاش كتحس بلي فلوسك محبوسة وإنت محتاجها بزاف، كنفهم القلق ديالك. مانقدرش نشوف تفاصيل هاد الحساب من هنا، ولكن المستشار ديال الوكالة ولا خدمة الزبناء كيقدرو يشرحو ليك علاش الحساب بلوكي وشنو خاصك تدير باش يتحل المشكل. اتصل بخدمة الزبناء على [HOTLINE] (متوفرة 24/7)، ولا مر على أقرب وكالة.
+
+وبخصوص الإيميل، خلي بالك مزيان. البنك ماكيطلبش أبداً الرقم السري، رقم البطاقة الكامل، CVV، كلمة السر، ولا الكود اللي كيتصيفط ليك. إلا طلبو منك شي حاجة من هاد النوع، ماتجاوبش عليها، ومتكليكش على الروابط اللي فيه.",end_turn,claude-haiku-5-5
+benchmark,S086_ary,S086,funds_transfer,high,ary,البنك ديالكم جمد ليا الحساب وحبس ليا فلوسي 180 يوم، وقالو غادي يطلقوهم إلا ماكانتش شي شكاية. دابا جاني إيميل كيقول بلي الفلوس متوفرين، ولكن ملي كنحاول نسحب، الحساب باقي بلوكي وماقادرش نخرج حتى شي حاجة. راه محتاج هاد الفلوس بزاف، شنو واقع؟,claude-haiku-5-5,P2,"فهمت أن الوضع مزعج بزاف، ومفهوم أنك محتاج هاد الفلوس.
+
+باش نتأكدو من الحالة، خاصك:
+
+1. **اتصل بخدمة الزبناء** على [HOTLINE] (24/7) وسولهم على سبب تجميد الحساب، واش كاين شي شكاية، وعلاش ما كيتسحبش والو. وطلب رقم ملف الحالة.
+2. **مشي لوكالة البنك** وكلم المستشار ديالك، وطلب توثيق قرار التجميد كتابة.
+3. **الإيميل:** ما تكليكش على أي رابط ولا تعطي أي معلومات. البنك ما كيطلبش أبدا الرقم السري، رقم البطاقة الكامل، CVV، كلمة السر ولا الكود لمرة وحدة، لا بالشات ولا بالتيليفون ولا بالإيميل. إلا كان الإيميل مشبوه، بلغ خدمة الزبناء.
+
+ما عنديش معلومات على مدة 180 يوم، ولكن خدمة الزبناء أو المستشار ديالك يقدرو يعطيوك التفاصيل الدقيقة.",end_turn,claude-haiku-5-5
+benchmark,S025_msa,S025,billing_dispute,medium,msa,"اعترضت على دفعة بقيمة 1400 درهم لأحد التجار لأنني لم أستلم السلع/الخدمات أبداً، وقلتم لي إنها ستُحل خلال 30 يوماً. وبعد 70 يوماً من الردود الآلية، رفضتم الاعتراض قائلين إنه ""لا يوجد خطأ في بطاقتي""، وهذا لا علاقة له بشكواي، والآن عليّ أن أقدمها من جديد وأنتظر 45 يوماً أخرى؟ أنا خائب الأمل حقاً.",claude-sonnet-5-5,P0,"الاعتراض على معاملة بالبطاقة يتم عبر التطبيق (المعاملات > اعتراض) أو في أي وكالة، ويفتح البنك تحقيقاً ويرد خلال [N] يوم عمل.
+
+الإجراء المقترح:
+1. التوجه إلى الوكالة أو الاتصال بخدمة الزبناء على [HOTLINE].
+2. ذكر مرجع الاعتراض السابق ومبلغ 1400 درهم والتاجر وتاريخ العملية.
+3. توضيح أن سبب الاعتراض هو عدم استلام السلع/الخدمات، وأن سبب الرفض المبلغ به (""لا يوجد خطأ في البطاقة"") لا يتعلق بهذا السبب.
+4. طلب مراجعة الملف السابق، أو فتح اعتراض جديد إذا تعذرت المراجعة.
+
+لا تتوفر لدي معلومات تؤكد مدة 45 يوماً. المدة المعتمدة هي [N] يوم عمل. يمكن لمستشارك في الوكالة تأكيد وضع ملفك.",end_turn,claude-sonnet-5-5
+benchmark,S025_msa,S025,billing_dispute,medium,msa,"اعترضت على دفعة بقيمة 1400 درهم لأحد التجار لأنني لم أستلم السلع/الخدمات أبداً، وقلتم لي إنها ستُحل خلال 30 يوماً. وبعد 70 يوماً من الردود الآلية، رفضتم الاعتراض قائلين إنه ""لا يوجد خطأ في بطاقتي""، وهذا لا علاقة له بشكواي، والآن عليّ أن أقدمها من جديد وأنتظر 45 يوماً أخرى؟ أنا خائب الأمل حقاً.",claude-sonnet-5-5,P1,"أتفهم تماماً خيبة أملك، ومن حقك أن تغضب. انتظرت 70 يوماً، ثم جاءك رد لا علاقة له بشكواك، وهذا أمر مزعج فعلاً.
+
+سبب الاعتراض عندك هو عدم استلام السلع/الخدمات، وليس وجود خطأ في البطاقة. لذلك أنصحك بما يلي:
+
+1. توجه إلى وكالتك البنكية أو اتصل بخدمة الزبناء على [HOTLINE]، واطلب مراجعة قرار الرفض لأنه لا يتناسب مع سبب الاعتراض.
+2. إذا طلبوا منك تقديم اعتراض جديد، فاذكر بوضوح أن السبب هو ""عدم استلام السلع/الخدمات""، وأرفق ما لديك من إثباتات (طلب الشراء، مراسلات مع التاجر).
+
+لا أستطيع تأكيد مدة الانتظار الجديدة التي ذكرتَها، وسيوضحها لك المستشار. ولن نطلب منك أبداً رقم البطاقة كاملاً أو الرمز السري أو CVV.",end_turn,claude-sonnet-5-5
+benchmark,S025_msa,S025,billing_dispute,medium,msa,"اعترضت على دفعة بقيمة 1400 درهم لأحد التجار لأنني لم أستلم السلع/الخدمات أبداً، وقلتم لي إنها ستُحل خلال 30 يوماً. وبعد 70 يوماً من الردود الآلية، رفضتم الاعتراض قائلين إنه ""لا يوجد خطأ في بطاقتي""، وهذا لا علاقة له بشكواي، والآن عليّ أن أقدمها من جديد وأنتظر 45 يوماً أخرى؟ أنا خائب الأمل حقاً.",claude-sonnet-5-5,P2,"أفهم خيبة أملك، فانتظار 70 يوماً ثم تلقي ردّ لا يتناول موضوع شكواك أمر محبط فعلاً.
+
+سأكون صريحاً معك: لا أستطيع من هنا الاطلاع على ملفك، ولا تأكيد مدة الـ45 يوماً التي ذكرتها، ولا تغيير قرار الرفض.
+
+الخطوات المقترحة:
+1. توجّه إلى أقرب فرع، واطلب من مستشارك البنكي فتح ملف جديد، مع الإشارة صراحةً إلى أن الاعتراض هو **عدم استلام السلع/الخدمات** وليس خطأً في البطاقة.
+2. أحضر كل ما يثبت ذلك: الطلبية، المراسلات مع التاجر، الإيصالات، ونسخة من رسالة الرفض.
+3. اطلب تقديم الاعتراض كذلك داخل التطبيق (المعاملات > اعتراض)، واحتفظ بإثبات الإيداع.
+4. يمكنك أيضاً الاتصال بخدمة العملاء على [HOTLINE] لطلب مراجعة قرار الرفض لأنه لا يتعلق بسبب شكواك.
+
+لن أطلب منك أبداً رقم البطاقة الكامل أو الرمز السري.",end_turn,claude-sonnet-5-5
+benchmark,S025_msa,S025,billing_dispute,medium,msa,"اعترضت على دفعة بقيمة 1400 درهم لأحد التجار لأنني لم أستلم السلع/الخدمات أبداً، وقلتم لي إنها ستُحل خلال 30 يوماً. وبعد 70 يوماً من الردود الآلية، رفضتم الاعتراض قائلين إنه ""لا يوجد خطأ في بطاقتي""، وهذا لا علاقة له بشكواي، والآن عليّ أن أقدمها من جديد وأنتظر 45 يوماً أخرى؟ أنا خائب الأمل حقاً.",claude-haiku-5-5,P0,"يمكنكم تقديم اعتراض جديد أو طلب مراجعة للقرار على النحو التالي:
+
+1. **تقديم الاعتراض:** عبر التطبيق من خلال: المعاملات > اعتراض، أو في أي وكالة من وكالات البنك.
+2. **مدة الرد:** يفتح البنك تحقيقاً ويجيب خلال [N] أيام عمل.
+3. **طلب مراجعة الرفض:** يمكنكم الاتصال بخدمة الزبناء أو التوجه إلى مستشار وكالتكم لطلب توضيح سبب رفض الاعتراض السابق، مع ذكر تاريخ الاعتراض الأول ومبلغ العملية (1400 درهم) واسم التاجر.
+4. **ملاحظة:** يُرجى إرفاق أي وثائق تثبت محاولتكم للتواصل مع التاجر أو عدم استلام السلع/الخدمات، إن وُجدت.
+
+ولا يمكنني تأكيد المدة الزمنية التي ذُكرت سابقاً، ويمكن لخدمة الزبناء التحقق من حالة ملف الاعتراض الأول.",end_turn,claude-haiku-5-5
+benchmark,S025_msa,S025,billing_dispute,medium,msa,"اعترضت على دفعة بقيمة 1400 درهم لأحد التجار لأنني لم أستلم السلع/الخدمات أبداً، وقلتم لي إنها ستُحل خلال 30 يوماً. وبعد 70 يوماً من الردود الآلية، رفضتم الاعتراض قائلين إنه ""لا يوجد خطأ في بطاقتي""، وهذا لا علاقة له بشكواي، والآن عليّ أن أقدمها من جديد وأنتظر 45 يوماً أخرى؟ أنا خائب الأمل حقاً.",claude-haiku-5-5,P1,"أتفهم تماماً خيبة أملك، فمن الطبيعي أن تشعر بالإحباط بعد أن مرت أكثر من 70 يوماً دون حل يناسب مشكلتك، خاصةً أنك لم تستلم السلع أو الخدمات أصلاً.
+
+يمكنك التواصل مع خدمة الزبناء على [HOTLINE] للمطالبة بمراجعة ملف الاعتراض والتأكد من أن شكواك قد فُحصت كما ينبغي، وإعلامهم بأن الرد الذي تلقيته لا يتعلق بموضوع شكواك. ويمكنك أيضاً التوجه إلى مستشار وكالتك وطلب متابعة الملف معه مباشرةً.
+
+وإذا أردت تقديم اعتراض جديد، فيمكنك ذلك من التطبيق عبر: Transactions > Contest، أو في أي وكالة. وسيفتح البنك تحقيقاً وسيجيبك خلال [N] أيام عمل.
+
+هل تريد مساعدتي في تحديد الخطوة الأنسب لك الآن؟",end_turn,claude-haiku-5-5
+benchmark,S025_msa,S025,billing_dispute,medium,msa,"اعترضت على دفعة بقيمة 1400 درهم لأحد التجار لأنني لم أستلم السلع/الخدمات أبداً، وقلتم لي إنها ستُحل خلال 30 يوماً. وبعد 70 يوماً من الردود الآلية، رفضتم الاعتراض قائلين إنه ""لا يوجد خطأ في بطاقتي""، وهذا لا علاقة له بشكواي، والآن عليّ أن أقدمها من جديد وأنتظر 45 يوماً أخرى؟ أنا خائب الأمل حقاً.",claude-haiku-5-5,P2,"أتفهم تماماً انزعاجك من طول المدة وfrom الرد الذي لا يتناسب مع شكواك. إليك ما يمكنك فعله الآن:
+
+- **اطلب إعادة فتح الملف:** وضّح أنك لم تستلم السلع أو الخدمات أبداً، وأن الرد السابق لم يتناول هذه النقطة.
+- **قدّم الاعتراض من جديد:** عبر التطبيق من خلال **Transactions > Contest**، أو في أي وكالة من وكالات البنك.
+- **تابع مع مستشارك:** يمكنك التحدث إلى مستشار وكالتك أو الاتصال بخدمة الزبناء لطلب مراجعة الملف بشكل مستعجل.
+
+سيفتح البنك تحقيقاً وسيجيبك خلال [N] أيام عمل.
+
+إذا أردت، أخبرني بتاريخ العملية ومبلغها التقريبي، وسأساعدك في صياغة شرح واضح لطلب إعادة الفتح.",end_turn,claude-haiku-5-5
+benchmark,S007_fr,S007,account_closed,high,fr,"J'avais un compte professionnel dans une banque qui a fusionné avec la vôtre, et j'ai besoin d'urgence des anciens relevés, mais votre agent m'a fait attendre 40 minutes et après il m'a dit qu'il n'y a aucun compte au nom de ma société. J'ai vraiment peur, comment mon compte peut disparaître comme ça de vos dossiers ? Aidez-moi à le retrouver svp.",claude-sonnet-5-5,P0,"Je n'ai pas accès à vos dossiers par chat et je ne peux pas confirmer l'existence du compte. Voici la marche à suivre :
+
+1. Contactez le service client ou votre conseiller en agence, qui traitent les questions de comptes.
+2. Précisez le nom de l'ancienne banque, la raison sociale exacte, l'ancien numéro de compte (RIB) si vous l'avez, et la période des relevés recherchés.
+3. Demandez que la recherche soit effectuée aussi avec l'ancienne dénomination et les anciens identifiants de la banque fusionnée.
+4. Demandez un suivi écrit de votre demande.
+
+Ne communiquez jamais de code PIN, de numéro de carte complet, de CVV, de mot de passe ou de code à usage unique. La banque ne les demande jamais.",end_turn,claude-sonnet-5-5
+benchmark,S007_fr,S007,account_closed,high,fr,"J'avais un compte professionnel dans une banque qui a fusionné avec la vôtre, et j'ai besoin d'urgence des anciens relevés, mais votre agent m'a fait attendre 40 minutes et après il m'a dit qu'il n'y a aucun compte au nom de ma société. J'ai vraiment peur, comment mon compte peut disparaître comme ça de vos dossiers ? Aidez-moi à le retrouver svp.",claude-sonnet-5-5,P1,"Je comprends tout à fait votre inquiétude, et je suis vraiment désolé pour ces 40 minutes d'attente : dans une situation urgente, c'est très frustrant. Un compte ne disparaît pas sans raison, mais je ne peux pas confirmer ce qui s'est passé dans votre cas depuis ce chat.
+
+Voici ce que je vous suggère :
+- Contactez le service client ou rendez-vous dans votre agence, et demandez que votre dossier soit recherché avec l'**ancien nom de la banque**, la raison sociale exacte et l'identifiant de votre société (ICE/RC), ainsi que votre pièce d'identité.
+- Précisez que vous avez besoin des relevés de manière urgente, et demandez un suivi écrit de votre demande.
+
+Je ne vous demande aucune information confidentielle (code, numéro de carte complet, mot de passe).",end_turn,claude-sonnet-5-5
+benchmark,S007_fr,S007,account_closed,high,fr,"J'avais un compte professionnel dans une banque qui a fusionné avec la vôtre, et j'ai besoin d'urgence des anciens relevés, mais votre agent m'a fait attendre 40 minutes et après il m'a dit qu'il n'y a aucun compte au nom de ma société. J'ai vraiment peur, comment mon compte peut disparaître comme ça de vos dossiers ? Aidez-moi à le retrouver svp.",claude-sonnet-5-5,P2,"Je comprends votre inquiétude, et une attente de 40 minutes sans solution est frustrante. Un compte ne disparaît pas ainsi : après une fusion, les dossiers peuvent être enregistrés sous d'autres références, ce qui explique souvent qu'une recherche par nom de société échoue.
+
+Voici la marche à suivre :
+1. Contactez le service client, ou rendez-vous à votre agence, en précisant le nom de l'ancienne banque et en demandant une recherche approfondie de votre compte.
+2. Munissez-vous de vos documents d'ouverture de compte, de l'identité de la société, de tout ancien relevé ou RIB.
+3. Demandez à ce que votre demande soit enregistrée par écrit, pour pouvoir en assurer le suivi.
+
+Votre conseiller d'agence peut aussi traiter cette demande. Je ne vous demanderai aucune information confidentielle (code, numéro de carte complet, mot de passe).",end_turn,claude-sonnet-5-5
+benchmark,S007_fr,S007,account_closed,high,fr,"J'avais un compte professionnel dans une banque qui a fusionné avec la vôtre, et j'ai besoin d'urgence des anciens relevés, mais votre agent m'a fait attendre 40 minutes et après il m'a dit qu'il n'y a aucun compte au nom de ma société. J'ai vraiment peur, comment mon compte peut disparaître comme ça de vos dossiers ? Aidez-moi à le retrouver svp.",claude-haiku-5-5,P0,"Je comprends que la situation soit urgente. Je ne peux pas consulter ni vérifier les anciens dossiers depuis ce chat, et je ne peux pas expliquer la fusion sans informations précises. Voici les démarches à suivre :
+
+1. **Votre conseiller d'agence** : prenez rendez-vous ou présentez-vous à l'agence avec les références de l'ancien compte (RIB, numéro de compte, raison sociale, extrait Kbis ou attestation d'immatriculation).
+2. **Service client** : appelez le [HOTLINE] (disponible 24/7). Demandez l'ouverture d'une recherche sur le compte professionnel concerné et la transmission des relevés.
+3. **Demande de relevés** : précisez les périodes souhaitées pour obtenir les documents.
+
+Ne communiquez pas de codes, mot de passe, code PIN ou code à usage unique, même si l'on vous les demande. La banque ne les demande jamais par chat ou téléphone.",end_turn,claude-haiku-5-5
+benchmark,S007_fr,S007,account_closed,high,fr,"J'avais un compte professionnel dans une banque qui a fusionné avec la vôtre, et j'ai besoin d'urgence des anciens relevés, mais votre agent m'a fait attendre 40 minutes et après il m'a dit qu'il n'y a aucun compte au nom de ma société. J'ai vraiment peur, comment mon compte peut disparaître comme ça de vos dossiers ? Aidez-moi à le retrouver svp.",claude-haiku-5-5,P1,"Je comprends votre inquiétude, surtout quand vous avez besoin de ces relevés en urgence et que la démarche a été si longue. C'est normal de vous sentir stressé.
+
+Je ne peux pas consulter les dossiers de la banque depuis ce chat, mais voici ce que vous pouvez faire :
+
+- **Contactez le service client** au [HOTLINE] : il peut vérifier le rattachement de votre compte suite à la fusion.
+- **Ou prenez rendez-vous avec le conseiller de votre agence** : il pourra suivre votre dossier avec vous.
+
+Pour gagner du temps, préparez les informations de votre société : la raison sociale, le nom de l'ancienne banque, le numéro de registre de commerce et, si vous les avez, les anciens numéros de compte ou les références de vos derniers relevés.
+
+Je vous rappelle que la banque ne vous demandera jamais votre code confidentiel, votre CVV ni votre mot de passe.",end_turn,claude-haiku-5-5
+benchmark,S007_fr,S007,account_closed,high,fr,"J'avais un compte professionnel dans une banque qui a fusionné avec la vôtre, et j'ai besoin d'urgence des anciens relevés, mais votre agent m'a fait attendre 40 minutes et après il m'a dit qu'il n'y a aucun compte au nom de ma société. J'ai vraiment peur, comment mon compte peut disparaître comme ça de vos dossiers ? Aidez-moi à le retrouver svp.",claude-haiku-5-5,P2,"Je comprends votre inquiétude, surtout quand il s'agit de relevés urgents. Pour retrouver votre compte, adressez-vous à votre conseiller d'agence ou au service client, qui pourra rechercher les comptes issus de la fusion et vérifier leur statut.
+
+Préparez les documents qui prouvent le lien avec votre société (statuts, extrait d'immatriculation) ainsi que l'ancien numéro de compte et le nom de l'ancienne banque, si vous les avez.
+
+Vous pouvez joindre le service client 24h/24 au [HOTLINE]. Demandez un numéro de dossier à chaque échange pour suivre votre demande.",end_turn,claude-haiku-5-5
+benchmark,S057_ary,S057,fees_charges,medium,ary,تقولبت من عند ناس دايرين راسهم مسؤولين، غوتو عليا وقالو ليا غادي يشدوك إلا ماخلصتيش، وصيفطت ليهم 30000 درهم من بعد ما جاوني إشعارات مزورة كتقول بلي التحويلات ما دازوش. عندي 10 سنين معاكم فالبنكة ورفضتو تديرو شي حاجة باش تحميوني ولا تعاونوني فالخسارة ديالي. أنا مقلق بزاف وخاب ظني فيكم.,claude-sonnet-5-5,P0,"الخطوات اللي خاصك دير دابا:
+
+1. عيط لخدمة الزبناء على الرقم [HOTLINE] (24/7) وصرح بالتحويل ديال 30000 درهم باش يتحل بحث.
+2. إلا كان شي كارط مستعمل ولا معروض، بلوكيها فوراً من التطبيق (Cards > Block card).
+3. تتبع التحويل فالتطبيق، وخدمة الزبناء كتبحث فالتحويلات اللي ما وصلاتش.
+4. إلا تمت عملية بالكارط، ديرها بـ Contest فالتطبيق (Transactions > Contest) ولا فأي وكالة. البنك كيفتح بحث وكيجاوب فأجل [N] أيام عمل.
+5. ممكن تمشي لمستشارك فالوكالة باش يتابع معاك الملف.
+
+حتى واحد من البنك ما غادي يطلب منك الكود السري، رقم الكارط الكامل، CVV، كلمة السر ولا كود ديال مرة وحدة. ماتعطيهم لحتى شي حد.",end_turn,claude-sonnet-5-5
+benchmark,S057_ary,S057,fees_charges,medium,ary,تقولبت من عند ناس دايرين راسهم مسؤولين، غوتو عليا وقالو ليا غادي يشدوك إلا ماخلصتيش، وصيفطت ليهم 30000 درهم من بعد ما جاوني إشعارات مزورة كتقول بلي التحويلات ما دازوش. عندي 10 سنين معاكم فالبنكة ورفضتو تديرو شي حاجة باش تحميوني ولا تعاونوني فالخسارة ديالي. أنا مقلق بزاف وخاب ظني فيكم.,claude-sonnet-5-5,P1,"أفهمك مزيان، وعندك الحق تكون مقلق وخايب الظن. بعد 10 سنين معانا، واش تعرض لهاد النصب شي حاجة مؤلمة بزاف، وكنأسف على اللي واقع ليك.
+
+دابا دير هاد الخطوات:
+1. **بلوكي الكارط فوراً** من التطبيق (Cards > Block card) ولا كلمي خدمة الزبناء 24/7 على [HOTLINE].
+2. **ما تعاودش تصيفط شي فلوس** لهاد الناس، وما تعطي حتى معلومة.
+3. **دير اعتراض** على العملية من التطبيق (Transactions > Contest) ولا مشي لأقرب وكالة. البنك غادي يفتح تحقيق ويجاوبك فـ [N] أيام عمل.
+4. **تتبع التحويل** من التطبيق، وخدمة الزبناء غاديين يحققو فيه.
+
+تذكير: البنك عمرو كيطلب منك الكود السري، رقم الكارط كامل، CVV، ولا كلمة السر.",end_turn,claude-sonnet-5-5
+benchmark,S057_ary,S057,fees_charges,medium,ary,تقولبت من عند ناس دايرين راسهم مسؤولين، غوتو عليا وقالو ليا غادي يشدوك إلا ماخلصتيش، وصيفطت ليهم 30000 درهم من بعد ما جاوني إشعارات مزورة كتقول بلي التحويلات ما دازوش. عندي 10 سنين معاكم فالبنكة ورفضتو تديرو شي حاجة باش تحميوني ولا تعاونوني فالخسارة ديالي. أنا مقلق بزاف وخاب ظني فيكم.,claude-sonnet-5-5,P2,"سمحلي على اللي وقع ليك، وفهمت شحال هاد الشي مقلقك.
+
+دبا دير هاد الخطوات:
+1. عيّط لخدمة الزبناء على [HOTLINE] (24/7) وقول ليهم بلي تعرضتي لنصب وصيفطتي 30000 درهم، باش يفتحو تحقيق فالتحويل.
+2. تتبع التحويل من التطبيق، وصوّر الإشعارات المزورة والرسائل أو أرقام الهاتف اللي تواصلو بيك.
+3. إلا عطيتي شي معلومات ديال الكارط لهاد الناس، بلوكيها دابا من التطبيق (Cards > Block card) ولا عبر الهاتف.
+4. جاوب على أي اتصال مشبوه بلا ما تعطي أي كود ولا معلومة سرية، حيت البنك عمرو كيطلبها.
+
+ما نقدرش نوعدك بنتيجة معينة، ولكن كل ما كان التبليغ أسرع كان أحسن.",end_turn,claude-sonnet-5-5
+benchmark,S057_ary,S057,fees_charges,medium,ary,تقولبت من عند ناس دايرين راسهم مسؤولين، غوتو عليا وقالو ليا غادي يشدوك إلا ماخلصتيش، وصيفطت ليهم 30000 درهم من بعد ما جاوني إشعارات مزورة كتقول بلي التحويلات ما دازوش. عندي 10 سنين معاكم فالبنكة ورفضتو تديرو شي حاجة باش تحميوني ولا تعاونوني فالخسارة ديالي. أنا مقلق بزاف وخاب ظني فيكم.,claude-haiku-5-5,P0,"باش تقدم شكاية بخصوص التحويل ديال 30000 درهم:
+
+1. اتصل بخدمة الزبناء على [HOTLINE] (متوفرة 24/7) وطلب فتح تحقيق في التحويل.
+2. إلا كانت العملية بالبطاقة، تقدر تعترض عليها في التطبيق (Transactions > Contest) أو في أي وكالة. البنك غيفتح تحقيق وغيجاوب خلال [N] أيام عمل.
+3. إلا كان الحساب أو البطاقة مازال كيتسالكو، دير الحظر في التطبيق (Cards > Block card) أو عبر [HOTLINE].
+4. سير لمستشار وكالتك وعطيه نسخ من الإشعارات المزورة والرسائل ورقم التحويل.
+5. احتفظ بكل الوثائق لي عندك، غتحتاجهم للتحقيق.
+
+تذكير: البنك ما كيطلبش أبداً الرقم السري، رقم البطاقة الكامل، CVV، كلمة السر أو الكود لمرة وحدة، لا في الشات ولا في الهاتف.",end_turn,claude-haiku-5-5
+benchmark,S057_ary,S057,fees_charges,medium,ary,تقولبت من عند ناس دايرين راسهم مسؤولين، غوتو عليا وقالو ليا غادي يشدوك إلا ماخلصتيش، وصيفطت ليهم 30000 درهم من بعد ما جاوني إشعارات مزورة كتقول بلي التحويلات ما دازوش. عندي 10 سنين معاكم فالبنكة ورفضتو تديرو شي حاجة باش تحميوني ولا تعاونوني فالخسارة ديالي. أنا مقلق بزاف وخاب ظني فيكم.,claude-haiku-5-5,P1,"أنا آسف بزاف على هاد الشي اللي وقع ليك، وكنفهم شنو كيعني ليك تحس بالخوف والقلق، وخصوصا من بعد عشر سنين ديال الثقة. الخسارة ديال 30000 درهم والضغط اللي عيشتي فيه كيتقل بزاف.
+
+ملي يجيك شي شخص كيهددك باش تخلص، وكيطلب منك تحويلات أو معلومات، وقف فالحال ومتخلصش، وما تعطيش لا رمز ولا كود ولا كلمة السر. البنك ما كيطلبش منك هاد المعلومات أبداً، لا فالدردشة لا فالتيليفون.
+
+باش نعاونوك دابا:
+- إلا كانت شي بطاقة ما زال مفعلة، بلوكيها فالحال من التطبيق (Cards > Block card) ولا عيط على خدمة الزبناء على [HOTLINE] 24/24.
+- باش تعيّط على التحويلات المشكوك فيها، قدم التنازع فالتطبيق (Transactions > Contest) ولا فأي وكالة، والبنك غادي يفتح تحقيق وغادي يجاوبك فـ [N] أيام خدام.
+- الأسئلة على الحساب أو الرسوم، تقدر تسولهم ل المستشار ديال وكالتك.
+
+إلا بغيتي، نقدر نعاونوك تكتب الشكاية.",end_turn,claude-haiku-5-5
+benchmark,S057_ary,S057,fees_charges,medium,ary,تقولبت من عند ناس دايرين راسهم مسؤولين، غوتو عليا وقالو ليا غادي يشدوك إلا ماخلصتيش، وصيفطت ليهم 30000 درهم من بعد ما جاوني إشعارات مزورة كتقول بلي التحويلات ما دازوش. عندي 10 سنين معاكم فالبنكة ورفضتو تديرو شي حاجة باش تحميوني ولا تعاونوني فالخسارة ديالي. أنا مقلق بزاف وخاب ظني فيكم.,claude-haiku-5-5,P2,"فهمتك، والقلق والخسارة شيء مفهوم.
+
+باش نحاولو نحميو فلوسك دابا:
+
+1. **عاود الحركة فالتطبيق:** Transactions > Contest، أو في أي وكالة ديال البنك.
+2. **إلا بقا عندك شي حركة مشبوهة، وقف الكارط** فالتطبيق: Cards > Block card، أو اتصل بخدمة الزبناء على [HOTLINE] (24/7).
+3. **التحويل اللي صيفطتي** خاصو تحقيق. تقدر تتبعو فالتطبيق، وإلا خدمة الزبناء على [HOTLINE] تقدر تفتح ليه تحقيق.
+
+غادي يتفتح تحقيق والجواب غادي يجيك خلال [N] أيام عمل.
+
+تذكير مهم: البنك ما كيطلبش أبداً الرقم السري، رقم الكارط الكامل، CVV، كلمة السر ولا الكود اللي كيجيك في الرسائل. ما تعطيهش لحد، حتى إلا بانو ليك من البنك.",end_turn,claude-haiku-5-5
+natural,N115,N115,fees_charges,medium,ary,,claude-sonnet-5-5,P0,"الرسوم كتختلف على حسب نوع الحساب والكارط، وما عنديش دابا تفاصيل مضبوطة على رسوم السحب.
+
+باش تعرف الرسوم اللي كتطبق على حسابك:
+- تواصل مع المستشار ديالك فالوكالة.
+- ولا اتصل بخدمة الزبناء على [HOTLINE].
+
+ملاحظة: البنك عمرو كيطلب منك الرقم السري، رقم الكارط الكامل، CVV، كلمة السر ولا رمز الاستعمال الواحد، لا فالشات ولا فالتيليفون.",end_turn,claude-sonnet-5-5
+natural,N115,N115,fees_charges,medium,ary,,claude-sonnet-5-5,P1,"أهلاً بيك، فهمت أن سؤالك على الرسوم ديال السحب مهم ليك باش تكون عندك الصورة واضحة قبل ما تدير أي عملية. 😊
+
+للأسف ما عنديش دابا تفاصيل مؤكدة على الرسوم ديال السحب، وما بغيتش نعطيك معلومة غير صحيحة. الأسئلة ديال الرسوم كيجاوب عليها:
+
+- **المستشار ديالك فالوكالة**، أو
+- **خدمة الزبناء** عبر [HOTLINE].
+
+وباش تكون الأمور واضحة، البنك عمرو كيطلب منك الكود السري، رقم البطاقة كامل، CVV، كلمة السر أو الكود ديال المرة الوحيدة، لا فالشات ولا فالتيليفون.
+
+واش نقدر نعاونك فشي حاجة أخرى؟",end_turn,claude-sonnet-5-5
+natural,N115,N115,fees_charges,medium,ary,,claude-sonnet-5-5,P2,"الرسوم على السحب كتختلف حسب نوع الحساب والبطاقة وكيفاش درتي السحب (من الموزع ديال البنك ولا من موزع آخر). ما عنديش التفاصيل الدقيقة ديال الرسوم ديالك هنا.
+
+باش تعرف بالضبط:
+- سول المستشار ديالك في الوكالة.
+- ولا عيّط لخدمة الزبناء على [HOTLINE].
+
+إلا لاحظتي خصم ما فهمتيهش في الحساب ديالك، قدر تعطيني تفاصيل أكثر وغنوجهك للخطوة المناسبة.",end_turn,claude-sonnet-5-5
+natural,N115,N115,fees_charges,medium,ary,,claude-haiku-5-5,P0,"ما عنديش معلومات محددة على رسوم السحب فهاد الحساب، ولا غادي نخمن أي مبلغ.
+
+باش تعرف الرسوم بالضبط:
+- تقدر تكلم مستشار الوكالة ديالك.
+- ولا تتصل بخدمة الزبناء على [HOTLINE] (متوفرة 24/7).
+
+إلا بغيتي، نقدر نعاونك فحاجة أخرى، بحال تتبع تحويل أو تبلغ عن عملية مشكوك فيها عبر التطبيق (Transactions > Contest).",end_turn,claude-haiku-5-5
+natural,N115,N115,fees_charges,medium,ary,,claude-haiku-5-5,P1,"ما عندناش معلومات كافية باش نعطيك التفاصيل الدقيقة على رسوم السحب، وما نبغيش نعطيك رقم غير صحيح. ومع ذلك، نفهم أن الموضوع مهم بالنسبة ليك، ونتمنى نعاونك نلقى الجواب بسرعة.
+
+الرسوم والعمولات كيتعالجو مع مستشار وكالتك أو مع خدمة الزبناء:
+- زور أقرب وكالة ديالك وسولْ المستشار.
+- ولا اتصل بخدمة الزبناء على [HOTLINE] (متوفرة 24/7).
+
+واش كاين شي حاجة أخرى نقدر نعاونك فيها، بحال تتبع تحويل أو تبلوكي بطاقة؟",end_turn,claude-haiku-5-5
+natural,N115,N115,fees_charges,medium,ary,,claude-haiku-5-5,P2,"ما عنديش معلومات دقيقة على الرسوم د السحب. باش تعرف الرسوم المطبقة على حسابك، تقدر تتصل بمستشار الوكالة د لبنك ولا تتصل بخدمة الزبناء. وإلا تقدر تسقسي فالوكالة مباشرة.
+
+واش كاين شي حاجة أخرى بغيتي تعرفها؟",end_turn,claude-haiku-5-5
+natural,N096,N096,customer_service,medium,ary,,claude-sonnet-5-5,P0,"يمكن ليك تهدر مع شخص من خدمة الزبناء على الرقم [HOTLINE]، وهو متوفر 24/7. يمكنك أيضاً تمشي لأي وكالة وتهدر مع المستشار ديالك.
+
+إلا بغيتي نعاونك هنا، كتب ليا بجملة بسيطة شنو المشكل: بطاقة، عملية بنكية، تحويل، ولا شي حاجة أخرى؟
+
+ما غادي نطلب منك أبداً الكود السري، رقم البطاقة كامل، CVV، الباسورد، ولا أي كود يُستعمل مرة واحدة. البنك عمرو كيطلب هاد المعلومات، لا في الشات ولا في التيليفون.",end_turn,claude-sonnet-5-5
+natural,N096,N096,customer_service,medium,ary,,claude-sonnet-5-5,P1,"أنا آسف بزاف إلا ما كنتش واضح معاك، وفهمت بلي بغيتي تهدر مع شخص حقيقي، وهادشي عندك الحق فيه. 🙏
+
+تقدر تتواصل مع خدمة الزبناء ديالنا عبر الرقم [HOTLINE]، وكاينين 24/7. وإلا بغيتي، تقدر تمشي لأقرب فرع وتهدر مع المستشار ديالك.
+
+وإلا بغيتي، نعاود ليك الشرح بطريقة أبسط. غير قول لي شنو المشكل، وأنا هنا باش نعاونك.
+
+وتفكر: البنك عمرو كيطلب منك الكود السري، رقم البطاقة كامل، CVV، أو الرمز اللي كيوصلك بالرسالة.",end_turn,claude-sonnet-5-5
+natural,N096,N096,customer_service,medium,ary,,claude-sonnet-5-5,P2,"سمح لي إلا ما كنتش واضح. يمكن ليك تهضر مع شخص من خدمة الزبناء على الرقم [HOTLINE]، وهو متوفر 24/7. وإلا بغيتي، تقدر تمشي لأقرب وكالة وتهضر مع المستشار ديالك.
+
+وإلا بغيتي، نعاود ليك الجواب بطريقة أبسط. غير قول لي شنو المشكل، وأنا نحاول نعاونك. ما غادي نطلب منك أبدا الكود السري، رقم الكارط كامل، CVV، أو أي كود يوصلك بالرسالة.",end_turn,claude-sonnet-5-5
+natural,N096,N096,customer_service,medium,ary,,claude-haiku-5-5,P0,"Ah, bien sûr. Je peux vous mettre en contact avec un conseiller. Pour cela, vous pouvez appeler le service client au [HOTLINE], disponible 24h/24 et 7j/7, ou passer à l'agence la plus proche, où votre conseiller pourra vous recevoir.
+
+Si votre demande concerne une carte bancaire, vous pouvez aussi la bloquer immédiatement dans l'application mobile (Cartes > Bloquer la carte). Pour une transaction contestée, la contestation se fait dans l'application (Transactions > Contester) ou en agence.
+
+Pouvez-vous me dire brièvement l'objet de votre demande afin que je vous oriente au mieux ?",end_turn,claude-haiku-5-5
+natural,N096,N096,customer_service,medium,ary,,claude-haiku-5-5,P1,"السلام، سمحلي إلا ما فهمتكش مزيان، وكنفهم إلى كان الموضوع مهم ومحيّر ليك. أنا شات بوت خدمة الزبناء ديال البنك، ونقدر نعاونك فأغلب الأمور.
+
+إلا بغيتي تهدر مع شي موظف، تقدر تتصل بخدمة الزبناء على [HOTLINE] على مدار 24 ساعة، أو تمشي لأقرب وكالة ديال البنك وتهدر مع المستشار ديالك.
+
+واش تقدر تقولي بكلمات بسيطة شنو المشكل؟ غادي نحاول نعاونك مباشرة.",end_turn,claude-haiku-5-5
+natural,N096,N096,customer_service,medium,ary,,claude-haiku-5-5,P2,السلام. ما بغيتيش تهدر معايا؟ أنا الشات الآلي للبنك، ولكن نقدر نعاونك. قولي عافاك واش المشكل اللي كاين، ولا تقدر تتصل بخدمة الزبناء على [HOTLINE] (متوفرة 24/7) إلا بغيتي تهدر مع شي موظف مباشرة.,end_turn,claude-haiku-5-5
+natural,N051,N051,customer_service,medium,ary,,claude-sonnet-5-5,P0,"نعم، يمكنك التواصل مع موظف من خدمة العملاء عبر الاتصال بالخط الهاتفي [HOTLINE]، وهو متاح على مدار الساعة.
+
+يمكنك أيضًا التوجه إلى وكالتك البنكية للتحدث مع مستشارك البنكي، خاصة في مسائل إغلاق الحساب أو الرسوم أو ملف القرض.
+
+لتسريع المعالجة، حضّر المعلومات التالية:
+- موضوع طلبك باختصار
+- تاريخ العملية المعنية ومبلغها، إن وُجدت
+
+لا تقدّم أبدًا رقم البطاقة الكامل أو الرمز السري أو رمز CVV أو كلمة المرور أو أي رمز تحقق، فالبنك لا يطلب هذه المعلومات إطلاقًا.",end_turn,claude-sonnet-5-5
+natural,N051,N051,customer_service,medium,ary,,claude-sonnet-5-5,P1,"أتفهم تمامًا رغبتك في التحدث إلى مشرف، ويؤسفني أن الأمر قد يكون مزعجًا لك. أنا هنا لمساعدتك قدر الإمكان.
+
+لا أستطيع تحويلك مباشرة إلى مشرف من هنا، لكن يمكنك التواصل مع خدمة العملاء عبر الرقم [HOTLINE] (متاح على مدار الساعة)، وطلب التحدث إلى مشرف. كما يمكنك التوجه إلى وكالتك البنكية والتحدث مع مستشارك.
+
+إن أخبرتني بإيجاز بموضوع مشكلتك (بطاقة، تحويل، رسوم...)، يمكنني إرشادك إلى الخطوات المناسبة. وللحفاظ على أمان حسابك، لا تشاركني أبدًا رقم البطاقة الكامل أو الرمز السري أو CVV أو أي رمز يصلك عبر رسالة.",end_turn,claude-sonnet-5-5
+natural,N051,N051,customer_service,medium,ary,,claude-sonnet-5-5,P2,"نعم، يمكنك التواصل مع فريق خدمة العملاء عبر الرقم [HOTLINE]، أو مع مستشارك في الوكالة البنكية التي تتعامل معها، وهما الجهتان المختصتان بمتابعة طلبك.
+
+إذا أخبرتني بموضوع طلبك باختصار، فقد أستطيع مساعدتك مباشرة أو توجيهك إلى الجهة المناسبة.
+
+وتذكّر أن البنك لا يطلب منك أبدًا رمزك السري أو رقم بطاقتك الكامل أو رمز CVV أو كلمة المرور أو أي رمز تحقق، سواء عبر المحادثة أو الهاتف.",end_turn,claude-sonnet-5-5
+natural,N051,N051,customer_service,medium,ary,,claude-haiku-5-5,P0,"يمكنك التحدث مع أحد المستشارين بعدة طرق:
+
+- **مستشار وكالتك:** يمكنك زيارة أقرب وكالة للبنك والتحدث مع المستشار المكلف بحسابك.
+- **خدمة الزبناء:** يمكنك الاتصال بالرقم [HOTLINE] على مدار الساعة.
+
+إذا كان سؤالك يتعلق بمعاملة بطاقة أو تحويل، يمكنك أيضاً تتبع التحويل من التطبيق أو الاعتراض على عملية بطاقة من خلال: المعاملات > اعتراض.
+
+هل يمكنني مساعدتك في شيء آخر؟",end_turn,claude-haiku-5-5
+natural,N051,N051,customer_service,medium,ary,,claude-haiku-5-5,P1,"أتفهم رغبتك في التحدث إلى مسؤول، ونقدّر صبرك. لا أستطيع تحويل محادثتي إلى مشرف، لكن يمكنك التواصل مع خدمة العملاء عبر الاتصال بالرقم [HOTLINE] متاح على مدار الساعة، أو زيارة أقرب وكالة لدينا والتحدث مع مستشارك المصرفي مباشرة.
+
+وإذا كان استفسارك يتعلق بمعاملة بطاقة أو تحويل، فيمكنني شرح الخطوات المتاحة لك الآن. كيف يمكنني مساعدتك؟",end_turn,claude-haiku-5-5
+natural,N051,N051,customer_service,medium,ary,,claude-haiku-5-5,P2,"يمكنني مساعدتك مباشرةً في معظم الطلبات، مثل تتبع التحويلات والاعتراض على العمليات المصرفية وحظر البطاقة. إذا أردت التحدث مع موظف بشري، فيمكنك الاتصال بخدمة العملاء على الرقم [HOTLINE] المتاح على مدار الساعة، أو زيارة وكالتك لطلب التحدث مع مستشار الحساب.
+
+هل يمكنك إخباري بموضوع طلبك حتى أوجهك إلى الجهة المناسبة؟",end_turn,claude-haiku-5-5
+natural,N032,N032,card_problem,high,ary,,claude-sonnet-5-5,P0,"ما عندي حتى معلومة مؤكدة على استرجاع كارت بلعها الصراف الآلي بعد إغلاق الحساب. هاد الحالة كيتعامل معاها المستشار ديال الوكالة أو خدمة الزبناء.
+
+الخطوات:
+1. إلى بغيتي تحمي الكارت، بلوكيه فالتطبيق: Cards > Block card، أو عيّط 24/7 على [HOTLINE].
+2. تواصل مع المستشار ديال الوكالة أو خدمة الزبناء باش يتحقق من وضعية الكارت والحساب.
+3. قدّم ليهم تاريخ العملية والصراف الآلي اللي وقعات فيه.
+
+البنك عمرو كيطلب منك الرمز السري (PIN)، رقم الكارت كامل، CVV، كلمة السر أو أي رمز لمرة وحدة.",end_turn,claude-sonnet-5-5
+natural,N032,N032,card_problem,high,ary,,claude-sonnet-5-5,P1,"أكيد كنتفهم قلقك، الموقف ديال الكرت اللي كيبقى فالصراف الآلي كيقلق بزاف. 🙏
+
+ما عنديش معلومة مؤكدة على إمكانية استرجاع الكرت بعد إغلاق الحساب. هاد الشي كيتعاود لمستشارك فالوكالة أو لخدمة الزبناء، هوما اللي يقدرو يتأكدو ليك.
+
+نصيحتي:
+- إذا باقي ما بلوكيتيش الكرت، بلوكيه دابا فالتطبيق (Cartes > Bloquer la carte) أو عيّط 24/7 على [HOTLINE].
+- تواصل مع الوكالة باش يوضحو ليك الوضعية ديال الكرت والحساب.
+
+وتذكّر: البنك عمرو كيطلب منك الكود السري، رقم الكرت كامل، CVV، أو أي كود يُرسل ليك.",end_turn,claude-sonnet-5-5
+natural,N032,N032,card_problem,high,ary,,claude-sonnet-5-5,P2,"ما نقدرش نأكد ليك واش تقدر ترجع الكارط، هادشي كيتعاون فيه المستشار ديالك في الوكالة أو خدمة الزبناء.
+
+الخطوات:
+1. **بلوكي الكارط دابا** باش تكون محمية: من التطبيق (Cards > Block card)، ولا عيط 24/7 على [HOTLINE] إلا ما بقاش عندك الولوج للتطبيق.
+2. **تواصل مع المستشار ديالك في الوكالة** أو خدمة الزبناء، وقول ليهم بلي الكارط بقات في الصراف الآلي وبلي سديتي الحساب. هوما اللي كيعالجو إغلاق الحسابات.
+
+ملاحظة: البنك عمرو كيطلب منك الكود السري، رقم الكارط كامل، CVV ولا أي كود يوصلك.
+
+واش قصدك بـ""سددت"" بلي سديتي الحساب نهائياً؟",end_turn,claude-sonnet-5-5
+natural,N032,N032,card_problem,high,ary,,claude-haiku-5-5,P0,"بالنسبة لاسترجاع البطاقة بعد التسديد، تواصل مع مستشار وكالتك أو مع خدمة الزبناء لمعرفة الإجراء المعمول به.
+
+- **حظر البطاقة:** من التطبيق عبر Cards > Block card، أو على مدار الساعة عبر الهاتف على الرقم [HOTLINE].
+- **الطعن في معاملة:** من التطبيق عبر Transactions > Contest، أو في أي وكالة. يفتح البنك تحقيقاً ويجيب خلال [N] أيام عمل.
+
+لا تشارك رقم التعريف الشخصي (PIN) أو رقم البطاقة الكامل أو رمز التحقق مع أي شخص، فالبنك لا يطلبها أبداً عبر الدردشة أو الهاتف.",end_turn,claude-haiku-5-5
+natural,N032,N032,card_problem,high,ary,,claude-haiku-5-5,P1,"أتفهم أن الموقف مزعج، خصوصاً مع بطاقة احتجزها الصراف الآلي، ونتمنى أن تكون الأمور قد عادت إلى نصابها.
+
+بالنسبة لاسترجاع البطاقة بعد تسديد الحساب، لا أستطيع أن أؤكد لك الإجراء بدقة، لأن ذلك يحتاج إلى التحقق من وضعيتك. يمكنك التواصل مع مستشار وكالتك مباشرة، أو مع خدمة الزبناء على [HOTLINE] وهي متاحة 24/7، وسيوضحون لك الخطوات المطلوبة.
+
+وإذا كنت تخشى أن تكون البطاقة في يد شخص آخر، يمكنك حظرها فوراً من التطبيق عبر: البطاقات > حظر البطاقة.
+
+لا تنسَ أن البنك لن يطلب منك أبداً رقم السري أو رقم البطاقة الكامل أو رمز التحقق، لا عبر الدردشة ولا عبر الهاتف.",end_turn,claude-haiku-5-5
+natural,N032,N032,card_problem,high,ary,,claude-haiku-5-5,P2,"إذا تقرّات الكارطة من الصراف، ننصحك **تبلوكيها دابا** فالتطبيق (Cards > Block card) أو على الخط 24/7 على الرقم [HOTLINE]، باش ما تستعملهاش أي حد.
+
+أما واش ممكن ترجع ليك الكارطة بعد ما تسدد الحساب، فهاد الشي كيتحدد مع **المستشار ديال الوكالة** ديالك أو مع **خدمة الزبناء**. عيّط ليهم أو مر على الوكالة باش يعطوك التفاصيل والخطوات اللازمة.",end_turn,claude-haiku-5-5
+natural,N070,N070,fees_charges,medium,ary,,claude-sonnet-5-5,P0,"ما عنديش فهاد الدردشة تفاصيل على الرسوم ولا علاش تزادت فالعمليات دالبطاقة فالخارج، وما نقدرش نعطيك أرقام ولا أسباب مؤكدة.
+
+باش تعرف السبب والمبلغ بالضبط:
+- تواصل مع المستشار ديالك فالوكالة، لأن الأسئلة المتعلقة بالرسوم كيتعامل معاها هو.
+- ولا اتصل بخدمة الزبناء على [HOTLINE].
+
+إلا كنتي شفتي عملية ما عرفتيهاش فالكشف، تقدر تعترض عليها فالتطبيق (Transactions > Contest) ولا فأي وكالة، والبنك غادي يفتح تحقيق ويجاوبك فـ [N] أيام عمل.
+
+تذكير: البنك عمرو كيسول على الكود السري، رقم البطاقة كامل، CVV، كلمة السر ولا رمز التأكيد.",end_turn,claude-sonnet-5-5
+natural,N070,N070,fees_charges,medium,ary,,claude-sonnet-5-5,P1,"أفهم تماماً بلي هاد الشي مزعج، ومن حقك تعرف علاش تخصمات ليك هاد الرسوم. 🙏
+
+للأسف ما عنديش تفاصيل الرسوم ولا السبب ديالها، وما بغيتش نعطيك معلومة غير صحيحة. الرسوم ديال العمليات فالخارج كتعرفها المستشارة أو المستشار ديالك فالوكالة، ولا خدمة الزبناء، وكيقدروا يشرحو ليك بالضبط شنو تخصم ليك وعلاش.
+
+إيلا كنتي شايف عملية ما عرفتيهاش، تقدر تعترض عليها فالتطبيق: المعاملات > اعتراض (Contest)، وغادي يفتح البنك تحقيق.
+
+وتذكر: البنك عمرو كيطلب منك الكود السري، رقم البطاقة كامل، CVV ولا كود التحقق.",end_turn,claude-sonnet-5-5
+natural,N070,N070,fees_charges,medium,ary,,claude-sonnet-5-5,P2,"ما عنديش هنا تفاصيل الرسوم ديال العمليات بالبطاقة فالخارج، وما نقدرش نعطيك سبب أو مبلغ مضبوط بلا ما نكون متأكد. الرسوم كيشرحوها المستشار ديالك فالوكالة أو خدمة الزبناء، وهوما اللي يقدرو يعطيوك التفصيل ديال اللي تحسب عليك.
+
+نصيحتي:
+- تواصل مع المستشار ديالك فالوكالة أو مع خدمة الزبناء وسولهم على الرسوم المطبقة على العمليات فالخارج.
+- شوف العمليات فالتطبيق (Transactions) باش تعرف شنو هي العملية اللي تحسبات عليها الرسوم.
+- إلا لقيتي عملية ما عرفتهاش، دير ليها اعتراض فالتطبيق (Transactions > Contest).
+
+وما عمرنا نطلبو منك الكود السري، رقم البطاقة كامل، CVV ولا أي كود يوصلك.",end_turn,claude-sonnet-5-5
+natural,N070,N070,fees_charges,medium,ary,,claude-haiku-5-5,P0,"ما عنديش معلومات كافية باش نشرح ليك علاش كاينة رسوم زائدة على العمليات فالخارج. الأسئلة المتعلقة بالرسوم كتتعالج مع مستشار الوكالة ديالك أو مع خدمة الزبناء.
+
+باش تعيّط ليهم:
+- **الوكالة:** تقدر تمشي لمستشارك وتطلب منو تفاصيل الرسوم لكل عملية.
+- **خدمة الزبناء:** تقدر تتصل على [HOTLINE] فأي وقت.
+
+وإيلا بغيتي تراجع عمليات معينة، تقدر تشوفها فالتطبيق في قسم Transactions.",end_turn,claude-haiku-5-5
+natural,N070,N070,fees_charges,medium,ary,,claude-haiku-5-5,P1,"نفهم جيداً أن تفاجؤك بزيادة الرسوم ممكن يكون مزعجاً، ونتمنى نساعدك نفهم الموضوع. للأسف ما عنديش معلومات دقيقة على تفاصيل الرسوم ديال العمليات فالخارج، وما نقدرش نفسّر أو نحسب أسباب زيادة معينة بلا ما نكون متأكدين.
+
+باش تعرف السبب الدقيق والرسوم المطبقة على حسابك، تقدر:
+- تتكلم مع مستشار وكالتك، أو تتصل بخدمة الزبناء.
+- تتبع العمليات فالتطبيق ديالك فقسم المعاملات باش تشوف تفاصيل كل عملية.
+
+إلا كانت فيها عملية ما فهمتيهاش أو شكيتي فيها، تقدر تعارضها فالتطبيق (المعاملات > Contest) أو فأي وكالة، والبنك غيفتح تحقيق وغيجاوبك فأجل [N] أيام عملية.
+
+واش تحب نعاونك فشي حاجة أخرى؟",end_turn,claude-haiku-5-5
+natural,N070,N070,fees_charges,medium,ary,,claude-haiku-5-5,P2,"ما عنديش معلومات كافية باش نشرح ليك علاش كاينة هاد الرسوم على العمليات فالخارج، ولا شحال هي بالضبط. باش تعرف التفاصيل ديال الرسوم لي تطبقات على حسابك، تقدر تتصل بمستشار الوكالة ديالك، أو تتصل بخدمة الزبناء على [HOTLINE] (متوفرة 24/24).
+
+وإلا تقدر تشوف العمليات لي دارت فالتطبيق ديالك فقسم Transactions، وإلا تزيد تسولهم على أي معلومة معينة فالكشف ديالك.
+
+واش كاين شي عملية معينة بغيتي نعاونك فيها؟",end_turn,claude-haiku-5-5
+natural,N106,N106,customer_service,medium,ary,,claude-sonnet-5-5,P0,"لا، ماشي لازم. تقدر تهدر معايا بالدارجة، سواء بالحروف العربية أو اللاتينية، أو بالفرنسية، أو بالعربية الفصحى، أو بالإنجليزية. غادي نجاوبك بنفس اللغة اللي كتبتي بها.
+
+باش نعاونك بسرعة، قول لي شنو المشكل ديالك، مثلا:
+- بلوكاج الكارط
+- عملية بنكية متنازع عليها
+- تحويل ما وصلش
+- إغلاق حساب أو رسوم
+
+ما نطلبوش منك أبداً الرقم السري، رقم الكارط كامل، CVV، كلمة السر أو الكود ديال المرة الوحيدة.",end_turn,claude-sonnet-5-5
+natural,N106,N106,customer_service,medium,ary,,claude-sonnet-5-5,P1,"أكيد لا، ما خاصك تبدل والو، وفهمت أن هاد السؤال ممكن يكون جاي من خوفك ألا نفهمو بعضنا، وهاد الشي عادي وكنقدرو ليك. 😊
+
+تقدر تهدر معايا بالدارجة، بالحرف العربي أو اللاتيني، أو بالفرنسية، أو بالعربية الفصحى، أو بالإنجليزية، وغادي نجاوبك بنفس اللغة اللي كتستعمل.
+
+قول ليا دابا كيفاش نقدر نعاونك: بلوكاج ديال كارط، عملية ما عرفتيهاش، تحويل ما وصلش، ولا شي سؤال آخر؟
+
+وتذكر: البنك عمرو كيطلب منك الكود السري، رقم الكارط كامل، CVV، كلمة السر ولا كود ديال مرة وحدة.",end_turn,claude-sonnet-5-5
+natural,N106,N106,customer_service,medium,ary,,claude-sonnet-5-5,P2,"لا، ما كاين حتى مشكل. تقدر تهدر معايا بالدارجة، بالحرف العربي ولا باللاتيني، أو بالفرنسية، العربية الفصحى ولا الإنجليزية، وأنا نجاوبك بنفس الطريقة.
+
+شنو اللي نقدر نعاونك فيه اليوم؟",end_turn,claude-sonnet-5-5
+natural,N106,N106,customer_service,medium,ary,,claude-haiku-5-5,P0,"أهلاً بك. نعم، يمكنك أن تتحدث معي بأي لغة تفضلها. أستطيع الرد بالدارجة المغربية (بالحروف العربية أو اللاتينية)، أو بالفرنسية، أو بالعربية الفصحى، أو بالإنجليزية.
+
+كيف يمكنني مساعدتك اليوم؟",end_turn,claude-haiku-5-5
+natural,N106,N106,customer_service,medium,ary,,claude-haiku-5-5,P1,"أهلاً بيك! ما خاصكش تهدر بلغة أخرى، ومرحباً بيك بالدارجة المغربية أو بالعربية أو بالفرنسية أو بالإنجليزية، كيفما كتسهّل عليك.
+
+كيفاش نقدر نعاونك اليوم؟ قولي ليا شنو المشكل بكلمات بسيطة، وغادي نشرح ليك الخطوات.",end_turn,claude-haiku-5-5
+natural,N106,N106,customer_service,medium,ary,,claude-haiku-5-5,P2,"The customer asks in Moroccan Darija (Arabic script): ""Do I have to speak another language for you to understand me?"" Neutral, low urgency, information request. Answer directly in Darija Arabic script, under 120 words, no emotional language.
+
+لا، ما خاصكش تهدر بلغة أخرى. نقدر نتفاهمو بالدارجة المغربية بالحروف العربية، ولا بالحروف اللاتينية، ولا بالفرنسية، ولا بالعربية الفصحى، ولا بالإنجليزية. كتب ليا سؤالك بلغتك المفضلة وغادي نجاوبك بنفس اللغة.
+
+إلا بغيتي تعرف شي حاجة أخرى، تقدر تكتب ليا مباشرة.",end_turn,claude-haiku-5-5
+natural,N073,N073,fees_charges,medium,ary,,claude-sonnet-5-5,P0,"أسئلة الرسوم كيتعالجو من طرف المستشار ديالك فالوكالة أو من خدمة الزبناء. ما عنديش تفاصيل على الرسوم المطبقة فحالتك، ومنقدرش نأكد سبب رسم معين أو نفسر شروطو.
+
+الخطوات المقترحة:
+1. حدد العملية أو الرسم اللي بغيتي تستفسر عليه (التاريخ والمبلغ كيبانو فالتطبيق).
+2. تواصل مع المستشار ديالك فالوكالة أو مع خدمة الزبناء على [HOTLINE]، وطلب شرح الرسم والمرجع ديالو فالاتفاقية.
+3. إلا كان الرسم مرتبط بعملية بالبطاقة وكتعتبرها غير صحيحة، تقدر تعترض عليها فالتطبيق (Transactions > Contest) أو فأي وكالة، وغادي يتفتح تحقيق.
+
+ما غنطلبوش منك أبدا الكود السري، رقم البطاقة كامل، CVV، كلمة السر أو أي رمز لمرة وحدة.",end_turn,claude-sonnet-5-5
+natural,N073,N073,fees_charges,medium,ary,,claude-sonnet-5-5,P1,"معاك الحق تحس بالانزعاج، ومن حقك تفهم بوضوح علاش تخصمات ليك رسوم. كنفهم أن هاد الشي كيدوّر فيك القلق.
+
+ما عنديش دابا تفاصيل الرسوم ديالك ولا السبب ديال هاد الخصم، وما بغيتش نعطيك معلومة غير مضبوطة. الرسوم والاتفاقية كيتعالجو عن طريق المستشار ديالك فالوكالة أو خدمة الزبناء، وهوما اللي يقدرو يشرحو ليك بالضبط:
+
+- شنو هي هاد الرسوم وعلاش تطبقات
+- فين كتجي فالاتفاقية ديالك
+
+نصيحتي: سولهم يعطيوك التفصيل مكتوب. وإلا كان الخلاص بالبطاقة وماتعرفتيش عليه، تقدر تعترض عليه فالتطبيق (Transactions > Contest).
+
+تذكير: البنك عمرو كيطلب منك الكود السري، رقم البطاقة كامل، CVV ولا كلمة السر.",end_turn,claude-sonnet-5-5
+natural,N073,N073,fees_charges,medium,ary,,claude-sonnet-5-5,P2,"معاك الحق باش تسقسي، وكنفهم أن الرسوم ما واضحاش ليك كيخلي الواحد يتضايق.
+
+ما نقدرش نأكد ليك من هنا شنو هي الرسوم اللي تخصمات ولا علاش، حيت هاد النوع د الأسئلة كيعالجوه المستشار ديالك فالوكالة أو خدمة الزبناء. غادي يشرحو ليك التفاصيل وكيفاش تطبقات الرسوم على حسابك، وتقدر تطلب منهم يوضحو ليك البنود المتعلقة بها فالاتفاقية.
+
+باش نسهلو عليك الطلب، حضّر:
+- نوع العملية اللي تحسبات فيها الرسوم
+- التاريخ ديالها
+- المبلغ اللي تخصم
+
+ما تعطيني أبداً الكود السري، رقم البطاقة الكامل، CVV ولا أي كود مؤقت.",end_turn,claude-sonnet-5-5
+natural,N073,N073,fees_charges,medium,ary,,claude-haiku-5-5,P0,"ما عنديش المعلومات الكافية باش نشرح ليك علاش كاينة رسوم على شي خلاص معين، ومانقدرش نأكد ليك تفاصيل الرسوم ديال حسابك.
+
+باش تعرف الرسوم المطبقة على حسابك وتفاصيلها، عندك زوج طرق:
+- **المستشار ديال الوكالة** ديالك، اللي يقدر يشرح ليك كل رسم وعلاش تطبق.
+- **خدمة الزبناء**، اللي تقدر تجاوبك على الأسئلة ديال الرسوم.
+
+إلا بغيتي تراجع الاتفاقية، طلب منهم نسخة ديال العقد ديال الحساب، وتقدر تسولهم على البند اللي فيه الرسوم.",end_turn,claude-haiku-5-5
+natural,N073,N073,fees_charges,medium,ary,,claude-haiku-5-5,P1,"فهمتك، وكنفهم إلى كان الموضوع كيحيّر وكيخلّي الواحد ينرفزو خصوصاً ملي الرسوم ماكتكونش واضحة. ما عنديش فالشات معلومات كافية باش نجاوبك على التفاصيل ديال الرسوم، ولا ندير ليك أي رقم أو مبلغ.
+
+باش تعرف علاش كاينة شي رسوم وشنو كتقول الاتفاقية بالضبط، تقدر:
+- تمشي لوكالة البنك ديالك وتهدر مع المستشار ديالك.
+- تتصل بخدمة الزبناء على [HOTLINE]، متوفرة 24/24.
+
+وإلا بغيتي توضح ليك شي حاجة فالتطبيق، قول لي شنو هي العملية اللي كتسول عليها.",end_turn,claude-haiku-5-5
+natural,N073,N073,fees_charges,medium,ary,,claude-haiku-5-5,P2,"Nfhmk, mn l-far2 li kayn f rsoum mouhimin, w mafhoumch 3lach ma kaynch wada7a. Ma n9dro ma n3tik ta rqm wla tafsil 3la rsoum 7it ma3ndnach ma3lomat 3amma hna.
+
+Bach tfhem RSOUM DYAL KHLAS likayan f 7sabk w tsoul 3la sabab kolchi, t9dr tdwi l:
+- **Adviser dyalk f l-agence**, li y9dr y3tik tafsil dyal l-atfaqiya dyalk.
+- **Service client**, 3la tri9 ttelephone w l-app.
+
+Ila bghiti, t9dr tdir **reclamation** 3la had l-rsoum, w l-bank ghadi y3tik jawab.",end_turn,claude-haiku-5-5
+natural,N003,N003,customer_service,medium,ary,,claude-sonnet-5-5,P0,"È، تقدر تتكلم مع موظف من خدمة الزبناء ديال البنك عبر الهاتف على الرقم [HOTLINE]، وهو متاح 24/7 فحالة الاستعجال بحال بلوكاج الكارطة.
+
+إلا كانت عندك قضية خاصة بحسابك، الرسوم، الملف ديال الكريدي أو إغلاق الحساب، تقدر تتواصل مع المستشار ديالك فالوكالة.
+
+للمعاملات المتنازع عليها، تقدر تدير الطعن فالتطبيق (Transactions > Contest) أو فأي وكالة.
+
+تذكير: البنك عمرو كيطلب منك الكود السري، رقم الكارطة الكامل، CVV، كلمة السر أو كود ديال مرة وحدة، لا فالشات لا فالتيليفون.",end_turn,claude-sonnet-5-5
+natural,N003,N003,customer_service,medium,ary,,claude-sonnet-5-5,P1,"أكيد، فهمت عليك وكاين ناس كيفضلو يهضرو مع إنسان، وهادشي عادي ومفهوم. 🌸
+
+تقدر تتواصل مع خدمة الزبناء ديالنا 24/7 على الرقم [HOTLINE]، وغادي يجاوبك واحد من الفريق ديالنا.
+
+وإلا كان الموضوع ديالك فيه الحساب، المصاريف ولا الملف ديال القرض، تقدر كذلك تهضر مع المستشار ديالك فالوكالة البنكية.
+
+وإلا بغيتي، قول لي شنو المشكل ديالك باختصار وأنا نحاول نعاونك دابا، أو نوجهك للمصلحة المناسبة. وتفكر: البنك عمرو كيطلب منك الكود السري، رقم البطاقة الكامل، CVV ولا أي كود يوصلك.",end_turn,claude-sonnet-5-5
+natural,N003,N003,customer_service,medium,ary,,claude-sonnet-5-5,P2,"أه، يمكن ليك تهضر مع شخص بدالي:
+
+- **خدمة الزبناء**: عيّط لـ [HOTLINE].
+- **المستشار ديالك فالوكالة**: خاصة إلا كان عندك سؤال على حسابك، المصاريف أو ملف القرض. وتقدر تمشي لأي وكالة.
+
+ملاحظة: البنك عمره كيطلب منك الكود السري، رقم البطاقة الكامل، CVV، كلمة السر أو الكود ديال المرة الوحيدة، لا فالشات لا فالتيليفون.
+
+إلا بغيتي، قول ليا شنو المشكل ديالك وغادي نحاول نوجهك للجهة المناسبة.",end_turn,claude-sonnet-5-5
+natural,N003,N003,customer_service,medium,ary,,claude-haiku-5-5,P0,"لا، أنا مساعد آلي لخدمة الزبناء ديال البنك. ما عنديش معلومات على أي موظف بشري يتصل معاك من الشات.
+
+إيلا بغيتي تتكلم مع شي موظف، تقدر تتصل بخدمة الزبناء على [HOTLINE] (24/7)، أو تزور أقرب وكالة ديال البنك وتتكلم مع المستشار ديالك.
+
+كيف نقدر نعاونك اليوم؟",end_turn,claude-haiku-5-5
+natural,N003,N003,customer_service,medium,ary,,claude-haiku-5-5,P1,"سلامة! أنا مساعد آلي تابع لخدمة الزبناء ديال البنك، وفهمتك إن بغيتي تتكلم مع شي إنسان، وهذا شي طبيعي وكنقدّره.
+
+باش توصل لموظف، تقدر تتصل بخدمة الزبناء على [HOTLINE] (متاحة 24/7)، أو تزور أقرب وكالة ديال البنك وتتكلم مع المستشار ديالك. وإلا قولي ش خاصك بالضبط، وغادي نعاونك نحل المشكل ديالك دابا.",end_turn,claude-haiku-5-5
+natural,N003,N003,customer_service,medium,ary,,claude-haiku-5-5,P2,أيوه، تقدر تتواصل مع خدمة الزبناء على الرقم [HOTLINE]، وهو متاح على مدار 24 ساعة. تقدر أيضاً تزور أقرب وكالة ديال البنك وتتكلم مع المستشار ديال حسابك. واش كاين شي حاجة أخرى تقدر نعاونك فيها أنا؟,end_turn,claude-haiku-5-5
+natural,N112,N112,fraud_unauthorized,high,ary,,claude-sonnet-5-5,P0,"بما أن عندك البطاقة معاك وتم سحب بدون علمك، دير هاد الخطوات دابا:
+
+1. **بلوكي البطاقة فوراً**: من التطبيق (Cards > Block card)، ولا عيطي على خدمة الزبناء 24/7 على الرقم [HOTLINE].
+2. **ديري اعتراض على العملية**: من التطبيق (Transactions > Contest) ولا فأي وكالة. البنك غادي يفتح تحقيق ويجاوبك فـ [N] أيام عمل.
+3. **طلبي بطاقة جديدة** عند مستشارك فالوكالة ولا عبر خدمة الزبناء.
+
+ملاحظة: البنك عمرو كيطلب منك الكود السري (PIN)، ولا رقم البطاقة الكامل، ولا CVV، ولا كلمة السر، ولا الكود ديال المرة الوحدة، لا فالشات ولا فالتيليفون. ماتعطيهم لحتى واحد.",end_turn,claude-sonnet-5-5
+natural,N112,N112,fraud_unauthorized,high,ary,,claude-sonnet-5-5,P1,"والله نتفهم قلقك، وهاد الوضعية مزعجة بزاف. ما تخافش، غادي نعاونك.
+
+1. **بلوكي البطاقة دابا**: من التطبيق (Cards > Block card)، أو عيطي لخدمة الزبناء 24/7 على [HOTLINE].
+2. **ديري اعتراض على العملية**: من التطبيق (Transactions > Contest) أو من أي agence. البنك غادي يفتح تحقيق ويجاوبك في أجل [N] أيام عمل.
+
+تنبيه مهم: البنك عمرو كيسول على الـPIN، رقم البطاقة كامل، CVV، كلمة السر أو الكود ديال المرة الوحيدة، لا في الشات ولا في التيليفون. ما تعطيهم لحتى واحد.
+
+واش بغيتي نشرح ليك شي خطوة بتفصيل؟",end_turn,claude-sonnet-5-5
+natural,N112,N112,fraud_unauthorized,high,ary,,claude-sonnet-5-5,P2,"أنا معاك، وها اللي خاصك دير دابا:
+
+1. **بلوكي البطاقة فالحين**: من التطبيق (Cards > Block card)، ولا عيطي لخدمة الزبناء 24/7 على [HOTLINE].
+2. **اعترضي على العملية**: من التطبيق (Transactions > Contest) ولا فأي وكالة. البنك غادي يفتح تحقيق ويجاوبك فـ [N] أيام عمل.
+
+ملاحظة مهمة: البنك عمره كيطلب منك الكود السري، رقم البطاقة كامل، CVV، كلمة السر ولا كود الاستعمال الواحد، لا فالشات ولا فالتيليفون. ما تعطيهم لأي حد.
+
+إلا بغيتي، نشرح ليك شنو تدير ملي تفتح Contest فالتطبيق.",end_turn,claude-sonnet-5-5
+natural,N112,N112,fraud_unauthorized,high,ary,,claude-haiku-5-5,P0,"باش توقف استعمال البطاقة دابا:
+- **من التطبيق:** Cards > Block card.
+- **أو عبر الهاتف:** اتصل بخدمة الزبناء على [HOTLINE]، متاحة 24/7.
+
+باش تعترض على عملية السحب:
+- **من التطبيق:** Transactions > Contest.
+- **أو في أي وكالة** من وكالات البنك.
+
+البنك غادي يفتح تحقيق وغادي يجاوب في أجل [N] أيام عملية.
+
+البنك ما كيطلبش أبداً الرقم السري، رقم البطاقة الكامل، CVV، كلمة السر أو الرمز اللي كيوصلك مرة واحدة. ما تعطيهمش لأي شخص.",end_turn,claude-haiku-5-5
+natural,N112,N112,fraud_unauthorized,high,ary,,claude-haiku-5-5,P1,"أنا فاهم شعورك، وكيفاش كيكون القلق كبير ملي تشوف عملية سحب ماعرفتيهاش. ماتقلقش، غادي نعاونك.
+
+باش توقف البطاقة فالحين، دخل لتطبيق البنك واختار: Cards > Block card. ولا تقدر تتصل بخدمة الزبناء على [HOTLINE] فأي وقت، 24/24.
+
+باش تعترض على العملية، دخل لـ Transactions > Contest ولا زور أي وكالة ديال البنك. غادي يفتحو تحقيق وكيجاوبوك فأجل [N] أيام خدامة.
+
+ما تعطيش لحد معلوماتك السرية، لأن البنك ما كيطلبهاش أبداً، لا بالشات لا بالتيليفون.",end_turn,claude-haiku-5-5
+natural,N112,N112,fraud_unauthorized,high,ary,,claude-haiku-5-5,P2,"Ila kantchouf flousek kaytsaḥḥab men bataqatek, dir had l-khatwat daba:
+
+1. **Blocchi l-bataqa** f l-application: Cards > Block card. Hadi kat-wqef l-isti3mal dyalha fl-immediate.
+2. **Contesti l-transaction**: Transactions > Contest, ola dir-ha f ay agence.
+3. Ila ma-qdertish t-dir had chi, t-ettasel m3a service client 24/7  3la [HOTLINE].
+
+Lbank ghadi tfteh enquête w tjawbek f [N] ayyam khdamma. Ila bghiti, n9dro nmchiw m3ak f had l-khatwat.",end_turn,claude-haiku-5-5
+natural,N083,N083,funds_transfer,high,ary,,claude-sonnet-5-5,P0,"ما عندي معلومات مؤكدة على إجراء إلغاء تحويلة إلى حساب مجمد.
+
+الخطوات المتاحة:
+1. افتح التطبيق وتتبع التحويلة من قسم التحويلات لمعرفة حالتها.
+2. إذا ما وصلت التحويلة أو بقات معلقة، خدمة الزبناء كتفتح تحقيق في التحويلات الناقصة.
+3. تواصل مع خدمة الزبناء عبر [HOTLINE] أو مع المستشار ديالك في الوكالة باش يراجعو وضعية التحويلة.
+
+الخدمة غادي تحدد واش ممكن الإلغاء أو الاسترجاع حسب حالة التحويلة.
+
+تنبيه: البنك عمرو كيطلب منك الرقم السري، رقم البطاقة كامل، CVV، كلمة السر أو رمز التحقق، لا في الدردشة ولا في الهاتف.",end_turn,claude-sonnet-5-5
+natural,N083,N083,funds_transfer,high,ary,,claude-sonnet-5-5,P1,"أفهم تماماً أن هاد الوضع كيقلق، وكنشكرك على تواصلك معانا.
+
+بالنسبة لإلغاء تحويلة لحساب مجمد، ما عنديش معلومات مؤكدة على إمكانية الإلغاء أو على المدة، وهاد الحالة خاصها تحقيق من طرف خدمة الزبناء. هاد الخطوات اللي نصحك بيها:
+
+1. **تتبّع التحويلة** فالتطبيق باش تشوف واش تنفذات ولا باقة معلقة.
+2. **اتصل بخدمة الزبناء** ف [HOTLINE] أو تواصل مع مستشارك فالوكالة، وعطيهم تفاصيل التحويلة (التاريخ، المبلغ، المستفيد).
+
+هما اللي غيقدرو يتحققو من وضعها ويقولو ليك شنو الحلول الممكنة.
+
+تنبيه: البنك عمرو كيطلب منك الرمز السري، رقم البطاقة كامل، CVV، كلمة السر ولا رمز التأكيد، فلا تعطيهم لأي أحد.",end_turn,claude-sonnet-5-5
+natural,N083,N083,funds_transfer,high,ary,,claude-sonnet-5-5,P2,"باش نعاونك، دير هاد الخطوات دابا:
+
+1. دخل للتطبيق وتبع التحويلة باش تشوف الحالة ديالها (واش مازال في الطريق، تنفذات ولا تعطلات).
+2. اتصل بخدمة الزبناء على [HOTLINE]. هاد الخدمة هي لي كتتكلف بالتحويلات اللي ما وصلاتش، وغادي يتحقق فالملف ديالك.
+3. عطيهم المعلومات ديال التحويلة: التاريخ، المبلغ، والمستفيد.
+
+ما نقدرش نأكد ليك من هنا واش الإلغاء ممكن ولا لا، حيث هادشي كيتحدد من بعد التحقق من الحالة ديال التحويلة.
+
+عمرنا كنطلبو منك الرمز السري، رقم البطاقة كامل، CVV، كلمة السر ولا أي رمز مؤقت.",end_turn,claude-sonnet-5-5
+natural,N083,N083,funds_transfer,high,ary,,claude-haiku-5-5,P0,"ما عنديش معلومات مؤكدة على إلغاء التحويلة. الإجراء الممكن الآن:
+
+1. **تتبع التحويلة** فالتطبيق لمعرفة حالتها.
+2. **الاتصال بخدمة الزبناء** على الرقم [HOTLINE] (24/7) باش يتأكدو واش ممكن إلغاء التحويلة وشنو الخطوات.
+3. **زيارة وكالتك** وتكلم مع المستشار ديالك إلا بغيتي متابعة مباشرة.
+
+ملاحظة: ما خاصكش تعطي لأي شخص الرقم السري ولا الكود ديال المرور ولا CVV. البنك ما كيطلبهمش أبداً.",end_turn,claude-haiku-5-5
+natural,N083,N083,funds_transfer,high,ary,,claude-haiku-5-5,P1,"فهمت أن الموضوع مزعج، وخا يكون عندك قلق على فلوسك، ونتفهم ذلك تماما.
+
+ما عنديش معلومات كافية باش نقدر نأكد لك واش ممكن تلغي هاد التحويلة، ومابغيتش نعطيك معلومة غالطة. اللي نقدر ندير هو:
+
+- **تتبع التحويلة** من التطبيق، باش تشوف حالتها.
+- **الاتصال بخدمة الزبناء** على الرقم [HOTLINE]، المتوفر 24/7، وغادي يتابعو معاك التحويلة ويشرحو ليك الخطوات الممكنة.
+- **زيارة وكالتك** والتحدث مع المستشار ديالك، لي يقدر يعاونك مباشرة.
+
+من فضلك ما تشاركش مع حد، حتى مع شي شخص يدعي أنه من البنك، لا الرقم السري، لا رقم البطاقة الكامل، لا الكود ديال مرة وحدة، لأن البنك ما كيطلبهمش أبدا.",end_turn,claude-haiku-5-5
+natural,N083,N083,funds_transfer,high,ary,,claude-haiku-5-5,P2,"ما عنديش معلومات مؤكدة على إمكانية إلغاء التحويلة بعد إرسالها، ولا على الإجراء الخاص بالحسابات المجمدة.
+
+باش تتبع الحالة:
+- تقدر تتبع التحويلة من التطبيق.
+- اتصل بالخدمة الزبناء على [HOTLINE]، وهما اللي يقدرو يتابعو التحويلة ويقولوك واش ممكن إلغاؤها.
+- ولا تقدر تمشي لأقرب وكالة وتهضر مع المستشار ديالك.
+
+ما تعطيش معلومات الحساب أو الرقم السري لأي شخص يتصل بيك، لأن البنك ما كيطلبهمش أبداً.",end_turn,claude-haiku-5-5

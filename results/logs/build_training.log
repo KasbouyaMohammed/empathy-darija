@@ -1,0 +1,66 @@
+CFPB pool: 3942 candidates, 1 removed for TF-IDF cosine > 0.6
+source         category             
+cfpb           account_closed           91
+               billing_dispute          96
+               card_problem             88
+               fees_charges             92
+               fraud_unauthorized       96
+               funds_transfer           87
+               payment_problem          90
+darijabanking  billing_dispute          10
+               card_problem             10
+               customer_service         20
+               fees_charges             10
+               fraud_unauthorized       20
+               funds_transfer           10
+               info_activate_my_card    10
+               info_age_limit           10
+               info_create_account      10
+               info_edit_account        10
+               info_exchange            10
+               info_get_invoice         10
+               info_insurance           10
+               info_loan                10
+batch msgbatch_012C22B57acczTuXRphdjE23: 640 requests submitted
+  in_progress: 640 processing
+  in_progress: 640 processing
+  ended: 0 processing
+batch msgbatch_014PqcApobdRU6kQC2qTzmh7: 800 requests submitted
+  in_progress: 800 processing
+  in_progress: 800 processing
+  in_progress: 800 processing
+  in_progress: 800 processing
+  ended: 0 processing
+batch msgbatch_01H6SoqR2iDddgajieJp5nuE: 3916 requests submitted
+  in_progress: 3916 processing
+  in_progress: 3916 processing
+  in_progress: 3916 processing
+  in_progress: 3916 processing
+  in_progress: 3916 processing
+  in_progress: 3916 processing
+  in_progress: 3916 processing
+  in_progress: 3916 processing
+  ended: 0 processing
+batch msgbatch_01Ebnp5AbAo3cA2ggqbNN6FH: 3259 requests submitted
+  in_progress: 3259 processing
+  in_progress: 3259 processing
+  in_progress: 3259 processing
+  in_progress: 3259 processing
+  in_progress: 3259 processing
+  in_progress: 3259 processing
+  in_progress: 3259 processing
+  in_progress: 3259 processing
+  in_progress: 3259 processing
+  ended: 0 processing
+scenarios                  800
+messages_drafted          3992
+messages_wrong_variety      76
+replies                   3916
+dropped_truncated            0
+dropped_wrong_variety      118
+safety_regex_hits         3259
+dropped_safety               2
+train_examples            3413
+train_scenarios            720
+val_examples               383
+val_scenarios               80

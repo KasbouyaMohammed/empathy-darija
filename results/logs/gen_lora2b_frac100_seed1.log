@@ -1,0 +1,24 @@
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files: 100%|██████████| 2/2 [00:00<00:00, 772.79it/s]
+Loading weights:   0%|          | 0/288 [00:00<?, ?it/s]Loading weights:   0%|          | 1/288 [00:00<04:29,  1.06it/s]Loading weights:   9%|▊         | 25/288 [00:01<00:08, 31.64it/s]Loading weights:  13%|█▎        | 37/288 [00:01<00:06, 41.41it/s]Loading weights:  17%|█▋        | 48/288 [00:01<00:04, 52.14it/s]Loading weights:  21%|██        | 60/288 [00:01<00:03, 63.22it/s]Loading weights:  27%|██▋       | 77/288 [00:01<00:02, 84.37it/s]Loading weights:  31%|███▏      | 90/288 [00:01<00:02, 89.96it/s]Loading weights:  35%|███▌      | 102/288 [00:01<00:02, 87.94it/s]Loading weights:  39%|███▉      | 113/288 [00:01<00:01, 90.63it/s]Loading weights:  43%|████▎     | 124/288 [00:02<00:01, 89.32it/s]Loading weights:  47%|████▋     | 135/288 [00:02<00:01, 88.10it/s]Loading weights:  51%|█████     | 146/288 [00:02<00:01, 87.12it/s]Loading weights:  55%|█████▍    | 157/288 [00:02<00:01, 88.19it/s]Loading weights:  58%|█████▊    | 168/288 [00:02<00:01, 88.31it/s]Loading weights:  62%|██████▏   | 179/288 [00:02<00:01, 88.00it/s]Loading weights:  66%|██████▌   | 190/288 [00:02<00:01, 88.80it/s]Loading weights:  70%|██████▉   | 201/288 [00:02<00:00, 92.18it/s]Loading weights:  74%|███████▍  | 213/288 [00:03<00:00, 92.12it/s]Loading weights:  78%|███████▊  | 224/288 [00:03<00:00, 93.16it/s]Loading weights:  82%|████████▏ | 235/288 [00:03<00:00, 93.62it/s]Loading weights:  85%|████████▌ | 246/288 [00:03<00:00, 93.02it/s]Loading weights:  89%|████████▉ | 257/288 [00:03<00:00, 93.35it/s]Loading weights:  93%|█████████▎| 268/288 [00:03<00:00, 91.55it/s]Loading weights:  97%|█████████▋| 280/288 [00:03<00:00, 94.31it/s]Loading weights: 100%|██████████| 288/288 [00:03<00:00, 76.20it/s]
+MBZUAI-Paris/Atlas-Chat-2B+results/lora/frac100_seed1 [fp32]: 880 replies to generate (0 already done), sampling: do_sample=None T=None top_p=None
+  64/880
+  128/880
+  192/880
+  256/880
+  320/880
+  384/880
+[W1026 02:33:28.850107515 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 291504128 bytes (free: 256573440, total: 25381175296).
+  448/880
+  512/880
+  576/880
+  640/880
+  704/880
+[W1026 02:36:46.428773802 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 358612992 bytes (free: 101384192, total: 25381175296).
+[W1026 02:37:44.269956261 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 301989888 bytes (free: 225116160, total: 25381175296).
+  768/880
+  832/880
+  880/880
+stop_reason  end_turn  max_tokens
+policy                           
+none              879           1
+saved 880 replies -> ./data/processed/responses_open_lora2b_frac100_seed1.csv

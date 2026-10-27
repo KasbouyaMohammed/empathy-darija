@@ -1,0 +1,31 @@
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files: 100%|██████████| 2/2 [00:00<00:00, 854.24it/s]
+Loading weights:   0%|          | 0/288 [00:00<?, ?it/s]Loading weights:   0%|          | 1/288 [00:00<03:41,  1.29it/s]Loading weights:   7%|▋         | 21/288 [00:00<00:08, 31.17it/s]Loading weights:  12%|█▏        | 34/288 [00:00<00:05, 48.34it/s]Loading weights:  16%|█▌        | 46/288 [00:01<00:03, 62.69it/s]Loading weights:  20%|██        | 58/288 [00:01<00:03, 68.84it/s]Loading weights:  24%|██▍       | 69/288 [00:01<00:02, 74.71it/s]Loading weights:  28%|██▊       | 80/288 [00:01<00:02, 79.35it/s]Loading weights:  32%|███▏      | 91/288 [00:01<00:02, 82.32it/s]Loading weights:  35%|███▌      | 102/288 [00:01<00:02, 83.89it/s]Loading weights:  39%|███▉      | 113/288 [00:01<00:02, 86.34it/s]Loading weights:  43%|████▎     | 125/288 [00:01<00:01, 86.37it/s]Loading weights:  47%|████▋     | 136/288 [00:02<00:01, 87.51it/s]Loading weights:  51%|█████▏    | 148/288 [00:02<00:01, 89.14it/s]Loading weights:  55%|█████▌    | 159/288 [00:02<00:01, 91.20it/s]Loading weights:  59%|█████▉    | 170/288 [00:02<00:01, 91.03it/s]Loading weights:  62%|██████▎   | 180/288 [00:02<00:01, 88.83it/s]Loading weights:  68%|██████▊   | 197/288 [00:02<00:00, 104.15it/s]Loading weights:  73%|███████▎  | 209/288 [00:02<00:00, 103.92it/s]Loading weights:  76%|███████▋  | 220/288 [00:02<00:00, 102.73it/s]Loading weights:  80%|████████  | 231/288 [00:03<00:00, 100.81it/s]Loading weights:  84%|████████▍ | 242/288 [00:03<00:00, 101.43it/s]Loading weights:  88%|████████▊ | 253/288 [00:03<00:00, 103.18it/s]Loading weights:  92%|█████████▏| 264/288 [00:03<00:00, 102.42it/s]Loading weights:  96%|█████████▌| 277/288 [00:03<00:00, 106.93it/s]Loading weights: 100%|██████████| 288/288 [00:03<00:00, 81.05it/s] 
+MBZUAI-Paris/Atlas-Chat-2B+results/lora/frac50_seed0 [fp32]: 880 replies to generate (0 already done), sampling: do_sample=None T=None top_p=None
+  64/880
+[W1026 02:31:54.111395784 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 167772160 bytes (free: 13303808, total: 25381175296).
+[W1026 02:32:05.101873723 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 211812352 bytes (free: 105578496, total: 25381175296).
+[W1026 02:32:13.137146377 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 241172480 bytes (free: 27983872, total: 25381175296).
+[W1026 02:32:19.557734623 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 260046848 bytes (free: 189464576, total: 25381175296).
+[W1026 02:32:23.933388183 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 274726912 bytes (free: 195756032, total: 25381175296).
+  128/880
+  192/880
+[W1026 02:33:48.965737812 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 285212672 bytes (free: 281739264, total: 25381175296).
+  256/880
+  320/880
+  384/880
+  448/880
+[W1026 02:35:40.649075233 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 299892736 bytes (free: 48955392, total: 25381175296).
+  512/880
+  576/880
+  640/880
+  704/880
+[W1026 02:38:18.033989595 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 358612992 bytes (free: 334168064, total: 25381175296).
+[W1026 02:39:15.331134425 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 297795584 bytes (free: 176881664, total: 25381175296).
+  768/880
+[W1026 02:39:33.773445737 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 396361728 bytes (free: 139132928, total: 25381175296).
+  832/880
+  880/880
+stop_reason  end_turn  max_tokens
+policy                           
+none              874           6
+saved 880 replies -> ./data/processed/responses_open_lora2b_frac50_seed0.csv

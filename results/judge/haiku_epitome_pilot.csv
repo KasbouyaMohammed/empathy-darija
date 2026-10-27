@@ -1,0 +1,21 @@
+item_key,judge,raw,er,ip,ex,parse_ok
+E048|en,haiku,"{""er"": 0, ""ip"": 1, ""ex"": 0}",0,1,0,True
+E013|en,haiku,"{""er"": 0, ""ip"": 0, ""ex"": 0}",0,0,0,True
+E227|en,haiku,"{""er"": 2, ""ip"": 1, ""ex"": 0}",2,1,0,True
+E079|en,haiku,"{""er"": 1, ""ip"": 1, ""ex"": 0}",1,1,0,True
+E064|ary,haiku,"{""er"": 1, ""ip"": 0, ""ex"": 0}",1,0,0,True
+E178|ary,haiku,"{""er"": 0, ""ip"": 0, ""ex"": 2}",0,0,2,True
+E021|ary_latn,haiku,"{""er"": 1, ""ip"": 0, ""ex"": 0}",1,0,0,True
+E121|msa,haiku,"{""er"": 0, ""ip"": 1, ""ex"": 0}",0,1,0,True
+E238|ary,haiku,"{""er"": 1, ""ip"": 2, ""ex"": 1}",1,2,1,True
+E113|msa,haiku,"{""er"": 1, ""ip"": 1, ""ex"": 0}",1,1,0,True
+E074|en,haiku,"{""er"": 0, ""ip"": 1, ""ex"": 0}",0,1,0,True
+E200|en,haiku,"{""er"": 0, ""ip"": 1, ""ex"": 0}",0,1,0,True
+E009|msa,haiku,"{""er"": 0, ""ip"": 0, ""ex"": 0}",0,0,0,True
+E145|ary_latn,haiku,"{""er"": 1, ""ip"": 1, ""ex"": 1}",1,1,1,True
+E092|en,haiku,"{""er"": 1, ""ip"": 0, ""ex"": 0}",1,0,0,True
+E108|fr,haiku,"{""er"": 0, ""ip"": 1, ""ex"": 0}",0,1,0,True
+E236|en,haiku,"{""er"": 1, ""ip"": 1, ""ex"": 0}",1,1,0,True
+E212|msa,haiku,"{""er"": 0, ""ip"": 1, ""ex"": 0}",0,1,0,True
+E007|fr,haiku,"{""er"": 0, ""ip"": 0, ""ex"": 0}",0,0,0,True
+E091|ary_latn,haiku,"{""er"": 1, ""ip"": 1, ""ex"": 0}",1,1,0,True

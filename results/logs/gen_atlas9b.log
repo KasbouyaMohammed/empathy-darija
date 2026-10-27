@@ -1,0 +1,123 @@
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 1054.44it/s]
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights:   0%|          | 1/464 [00:01<07:53,  1.02s/it]Loading weights:   3%|▎         | 15/464 [00:01<00:25, 17.68it/s]Loading weights:   5%|▌         | 25/464 [00:01<00:15, 28.66it/s]Loading weights:   7%|▋         | 33/464 [00:01<00:12, 34.64it/s]Loading weights:   9%|▊         | 40/464 [00:01<00:10, 38.68it/s]Loading weights:  10%|█         | 48/464 [00:01<00:09, 44.55it/s]Loading weights:  12%|█▏        | 55/464 [00:01<00:08, 49.51it/s]Loading weights:  13%|█▎        | 62/464 [00:01<00:08, 49.03it/s]Loading weights:  15%|█▌        | 70/464 [00:02<00:07, 50.30it/s]Loading weights:  16%|█▋        | 76/464 [00:02<00:07, 50.12it/s]Loading weights:  18%|█▊        | 82/464 [00:02<00:08, 47.63it/s]Loading weights:  20%|█▉        | 91/464 [00:02<00:07, 53.09it/s]Loading weights:  21%|██        | 97/464 [00:02<00:07, 51.11it/s]Loading weights:  22%|██▏       | 103/464 [00:02<00:07, 45.95it/s]Loading weights:  23%|██▎       | 109/464 [00:02<00:07, 48.26it/s]Loading weights:  25%|██▍       | 115/464 [00:03<00:08, 41.21it/s]Loading weights:  27%|██▋       | 124/464 [00:03<00:06, 49.33it/s]Loading weights:  28%|██▊       | 130/464 [00:03<00:06, 48.17it/s]Loading weights:  29%|██▉       | 136/464 [00:03<00:07, 44.51it/s]Loading weights:  31%|███       | 142/464 [00:03<00:06, 47.11it/s]Loading weights:  32%|███▏      | 147/464 [00:03<00:06, 45.48it/s]Loading weights:  33%|███▎      | 153/464 [00:03<00:06, 47.43it/s]Loading weights:  34%|███▍      | 159/464 [00:03<00:06, 44.05it/s]Loading weights:  36%|███▌      | 168/464 [00:04<00:05, 54.19it/s]Loading weights:  38%|███▊      | 174/464 [00:04<00:05, 51.54it/s]Loading weights:  39%|███▉      | 180/464 [00:04<00:05, 47.66it/s]Loading weights:  40%|████      | 187/464 [00:04<00:05, 50.37it/s]Loading weights:  42%|████▏     | 193/464 [00:04<00:06, 43.80it/s]Loading weights:  43%|████▎     | 201/464 [00:04<00:05, 49.49it/s]Loading weights:  45%|████▍     | 207/464 [00:04<00:05, 49.33it/s]Loading weights:  46%|████▌     | 213/464 [00:05<00:05, 44.19it/s]Loading weights:  47%|████▋     | 220/464 [00:05<00:05, 46.34it/s]Loading weights:  48%|████▊     | 225/464 [00:05<00:05, 42.90it/s]Loading weights:  50%|█████     | 234/464 [00:05<00:04, 50.57it/s]Loading weights:  52%|█████▏    | 240/464 [00:05<00:04, 49.54it/s]Loading weights:  53%|█████▎    | 246/464 [00:05<00:04, 45.87it/s]Loading weights:  55%|█████▍    | 253/464 [00:05<00:04, 48.69it/s]Loading weights:  56%|█████▌    | 258/464 [00:06<00:05, 36.79it/s]Loading weights:  58%|█████▊    | 268/464 [00:06<00:03, 49.06it/s]Loading weights:  59%|█████▉    | 274/464 [00:06<00:03, 48.82it/s]Loading weights:  60%|██████    | 280/464 [00:06<00:04, 44.34it/s]Loading weights:  62%|██████▏   | 289/464 [00:06<00:03, 53.19it/s]Loading weights:  64%|██████▎   | 295/464 [00:06<00:03, 50.62it/s]Loading weights:  65%|██████▍   | 301/464 [00:06<00:03, 46.19it/s]Loading weights:  66%|██████▌   | 307/464 [00:07<00:03, 48.97it/s]Loading weights:  67%|██████▋   | 313/464 [00:07<00:03, 42.12it/s]Loading weights:  69%|██████▉   | 322/464 [00:07<00:02, 50.94it/s]Loading weights:  71%|███████   | 328/464 [00:07<00:02, 49.45it/s]Loading weights:  72%|███████▏  | 334/464 [00:07<00:02, 43.67it/s]Loading weights:  73%|███████▎  | 340/464 [00:07<00:02, 44.84it/s]Loading weights:  74%|███████▍  | 345/464 [00:07<00:02, 45.10it/s]Loading weights:  76%|███████▌  | 351/464 [00:08<00:02, 47.19it/s]Loading weights:  77%|███████▋  | 356/464 [00:08<00:02, 46.15it/s]Loading weights:  78%|███████▊  | 363/464 [00:08<00:02, 49.33it/s]Loading weights:  79%|███████▉  | 368/464 [00:08<00:02, 45.18it/s]Loading weights:  81%|████████▏ | 377/464 [00:08<00:01, 51.94it/s]Loading weights:  83%|████████▎ | 383/464 [00:08<00:01, 49.99it/s]Loading weights:  84%|████████▍ | 389/464 [00:08<00:01, 44.97it/s]Loading weights:  85%|████████▌ | 396/464 [00:08<00:01, 48.07it/s]Loading weights:  86%|████████▋ | 401/464 [00:09<00:01, 42.56it/s]Loading weights:  88%|████████▊ | 410/464 [00:09<00:01, 52.88it/s]Loading weights:  90%|████████▉ | 416/464 [00:09<00:00, 51.43it/s]Loading weights:  91%|█████████ | 422/464 [00:09<00:00, 49.05it/s]Loading weights:  92%|█████████▏| 428/464 [00:09<00:00, 51.37it/s]Loading weights:  94%|█████████▎| 434/464 [00:09<00:00, 44.15it/s]Loading weights:  95%|█████████▌| 443/464 [00:09<00:00, 53.41it/s]Loading weights:  97%|█████████▋| 449/464 [00:10<00:00, 53.70it/s]Loading weights:  98%|█████████▊| 455/464 [00:10<00:00, 47.49it/s]Loading weights:  99%|█████████▉| 461/464 [00:10<00:00, 48.89it/s]Loading weights: 100%|██████████| 464/464 [00:10<00:00, 45.13it/s]
+MBZUAI-Paris/Atlas-Chat-9B: 2584 replies to generate (56 already done), sampling: do_sample=None T=None top_p=None
+  48/2584
+  96/2584
+  144/2584
+[W1025 18:00:40.131794334 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 1 while trying to allocate 538968064 bytes (free: 76218368, total: 25381175296).
+[W1025 18:00:41.687956878 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 2 while trying to allocate 541065216 bytes (free: 74121216, total: 25381175296).
+  192/2584
+  240/2584
+[W1025 18:06:03.005805747 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 1 while trying to allocate 813694976 bytes (free: 531300352, total: 25381175296).
+[W1025 18:06:09.344101240 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 2 while trying to allocate 813694976 bytes (free: 522911744, total: 25381175296).
+  288/2584
+  336/2584
+[W1025 18:11:44.099293908 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 1 while trying to allocate 815792128 bytes (free: 212533248, total: 25381175296).
+[W1025 18:11:51.441801857 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 2 while trying to allocate 815792128 bytes (free: 204144640, total: 25381175296).
+  384/2584
+[W1025 18:13:16.227012771 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 826277888 bytes (free: 183107584, total: 25381175296).
+[W1025 18:13:31.002779515 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 3 while trying to allocate 826277888 bytes (free: 369819648, total: 25381175296).
+  432/2584
+  480/2584
+  528/2584
+[W1025 18:17:28.696982286 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 1 while trying to allocate 889192448 bytes (free: 53149696, total: 25381175296).
+[W1025 18:17:35.652161428 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 2 while trying to allocate 889192448 bytes (free: 48955392, total: 25381175296).
+[W1025 18:21:04.712829804 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 1 while trying to allocate 597688320 bytes (free: 585826304, total: 25381175296).
+[W1025 18:21:04.904508250 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 2 while trying to allocate 597688320 bytes (free: 596312064, total: 25381175296).
+[W1025 18:21:06.376385305 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 1 while trying to allocate 599785472 bytes (free: 434831360, total: 25381175296).
+[W1025 18:21:06.522704349 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 2 while trying to allocate 599785472 bytes (free: 451608576, total: 25381175296).
+[W1025 18:21:07.507699331 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 1 while trying to allocate 601882624 bytes (free: 9109504, total: 25381175296).
+[W1025 18:21:07.680515088 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 1 while trying to allocate 601882624 bytes (free: 571146240, total: 25381175296).
+  OOM: batch size -> 24
+  552/2584
+  576/2584
+  600/2584
+  624/2584
+  648/2584
+  672/2584
+  696/2584
+  720/2584
+  744/2584
+  768/2584
+  792/2584
+  816/2584
+  840/2584
+  864/2584
+  888/2584
+  912/2584
+  936/2584
+  960/2584
+  984/2584
+  1008/2584
+  1032/2584
+  1056/2584
+  1080/2584
+  1104/2584
+  1128/2584
+  1152/2584
+  1176/2584
+  1200/2584
+  1224/2584
+  1248/2584
+  1272/2584
+  1296/2584
+  1320/2584
+  1344/2584
+  1368/2584
+  1392/2584
+  1416/2584
+  1440/2584
+  1464/2584
+  1488/2584
+  1512/2584
+  1536/2584
+  1560/2584
+  1584/2584
+  1608/2584
+  1632/2584
+  1656/2584
+  1680/2584
+  1704/2584
+  1728/2584
+  1752/2584
+  1776/2584
+  1800/2584
+  1824/2584
+  1848/2584
+  1872/2584
+  1896/2584
+  1920/2584
+  1944/2584
+  1968/2584
+  1992/2584
+  2016/2584
+  2040/2584
+  2064/2584
+  2088/2584
+  2112/2584
+  2136/2584
+  2160/2584
+  2184/2584
+  2208/2584
+  2232/2584
+  2256/2584
+  2280/2584
+  2304/2584
+  2328/2584
+  2352/2584
+  2376/2584
+  2400/2584
+  2424/2584
+  2448/2584
+  2472/2584
+  2496/2584
+  2520/2584
+  2544/2584
+  2568/2584
+  2584/2584
+stop_reason  end_turn  max_tokens
+policy                           
+P0                862          18
+P1                864          16
+P2                875           5
+saved 2640 replies -> ./data/processed/responses_open_atlas9b.csv

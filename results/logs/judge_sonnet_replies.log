@@ -1,0 +1,5 @@
+batch msgbatch_01GcskNEzsHwGfCpfghgB6Cq: 1500 requests submitted
+  in_progress: 1500 processing
+  in_progress: 1500 processing
+  ended: 0 processing
+sonnet replies: 1500 items, 1 unparsable -> ./results/judge/sonnet_replies.csv

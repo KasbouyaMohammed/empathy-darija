@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite the manuscript below."
+title: "empathy-darija: code and results for calibrated empathy of LLM banking agents in Moroccan Darija"
+authors:
+  - family-names: Kasbouya
+    given-names: Mohammed
+  - family-names: Lamhour
+    given-names: Mohamed Akram
+  - family-names: Lghaouch
+    given-names: El Mehdi
+  - family-names: Sael
+    given-names: Nawal
+repository-code: "https://github.com/KasbouyaMohammed/empathy-darija"
+license: MIT
+preferred-citation:
+  type: unpublished
+  title: "Can LLMs Be Empathetic in Moroccan Darija? A Benchmark, a Validated Judge Jury, and a Distilled Model for Calibrated Empathy in Banking Customer Service"
+  authors:
+    - family-names: Kasbouya
+      given-names: Mohammed
+    - family-names: Lamhour
+      given-names: Mohamed Akram
+    - family-names: Lghaouch
+      given-names: El Mehdi
+    - family-names: Sael
+      given-names: Nawal
+  year: 2026
+  notes: "Manuscript submitted to IEEE Access"

@@ -1,0 +1,25 @@
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 1042.32it/s]
+Loading weights:   0%|          | 0/464 [00:00<?, ?it/s]Loading weights:   0%|          | 1/464 [00:00<05:00,  1.54it/s]Loading weights:   3%|▎         | 16/464 [00:00<00:15, 28.06it/s]Loading weights:   6%|▌         | 27/464 [00:00<00:09, 44.00it/s]Loading weights:   8%|▊         | 37/464 [00:00<00:07, 54.60it/s]Loading weights:  11%|█         | 49/464 [00:01<00:06, 66.60it/s]Loading weights:  13%|█▎        | 60/464 [00:01<00:05, 71.48it/s]Loading weights:  15%|█▌        | 70/464 [00:01<00:05, 77.00it/s]Loading weights:  17%|█▋        | 80/464 [00:01<00:04, 82.40it/s]Loading weights:  19%|█▉        | 90/464 [00:01<00:04, 86.17it/s]Loading weights:  22%|██▏       | 100/464 [00:01<00:04, 81.28it/s]Loading weights:  23%|██▎       | 109/464 [00:01<00:04, 78.99it/s]Loading weights:  25%|██▌       | 118/464 [00:01<00:04, 74.97it/s]Loading weights:  27%|██▋       | 126/464 [00:02<00:04, 71.17it/s]Loading weights:  29%|██▉       | 136/464 [00:02<00:04, 68.34it/s]Loading weights:  32%|███▏      | 147/464 [00:02<00:04, 78.24it/s]Loading weights:  34%|███▍      | 157/464 [00:02<00:03, 83.45it/s]Loading weights:  36%|███▌      | 168/464 [00:02<00:03, 81.13it/s]Loading weights:  39%|███▊      | 179/464 [00:02<00:03, 83.86it/s]Loading weights:  41%|████      | 190/464 [00:02<00:03, 81.63it/s]Loading weights:  43%|████▎     | 201/464 [00:02<00:03, 77.79it/s]Loading weights:  46%|████▌     | 212/464 [00:03<00:03, 73.67it/s]Loading weights:  48%|████▊     | 222/464 [00:03<00:03, 79.53it/s]Loading weights:  50%|████▉     | 231/464 [00:03<00:03, 75.40it/s]Loading weights:  52%|█████▏    | 239/464 [00:03<00:03, 68.78it/s]Loading weights:  53%|█████▎    | 247/464 [00:03<00:03, 64.61it/s]Loading weights:  55%|█████▌    | 257/464 [00:03<00:02, 71.28it/s]Loading weights:  58%|█████▊    | 267/464 [00:03<00:02, 74.67it/s]Loading weights:  59%|█████▉    | 275/464 [00:04<00:02, 73.13it/s]Loading weights:  61%|██████    | 283/464 [00:04<00:02, 73.52it/s]Loading weights:  63%|██████▎   | 291/464 [00:04<00:02, 69.25it/s]Loading weights:  65%|██████▍   | 301/464 [00:04<00:02, 74.84it/s]Loading weights:  67%|██████▋   | 311/464 [00:04<00:01, 79.41it/s]Loading weights:  69%|██████▉   | 322/464 [00:04<00:01, 80.88it/s]Loading weights:  72%|███████▏  | 333/464 [00:04<00:01, 85.28it/s]Loading weights:  74%|███████▎  | 342/464 [00:04<00:01, 86.38it/s]Loading weights:  76%|███████▌  | 351/464 [00:04<00:01, 78.95it/s]Loading weights:  78%|███████▊  | 360/464 [00:05<00:01, 80.04it/s]Loading weights:  80%|███████▉  | 369/464 [00:05<00:01, 71.03it/s]Loading weights:  81%|████████▏ | 378/464 [00:05<00:01, 75.57it/s]Loading weights:  84%|████████▎ | 388/464 [00:05<00:01, 75.65it/s]Loading weights:  86%|████████▌ | 399/464 [00:05<00:00, 82.27it/s]Loading weights:  88%|████████▊ | 408/464 [00:05<00:00, 81.35it/s]Loading weights:  90%|████████▉ | 417/464 [00:05<00:00, 73.26it/s]Loading weights:  92%|█████████▏| 425/464 [00:05<00:00, 73.20it/s]Loading weights:  93%|█████████▎| 433/464 [00:06<00:00, 74.38it/s]Loading weights:  95%|█████████▌| 443/464 [00:06<00:00, 77.93it/s]Loading weights:  98%|█████████▊| 454/464 [00:06<00:00, 75.85it/s]Loading weights: 100%|██████████| 464/464 [00:06<00:00, 72.06it/s]
+google/gemma-2-9b-it: 300 items to judge (0 done)
+[W1026 07:48:30.749030399 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 375390208 bytes (free: 145424384, total: 25381175296).
+[W1026 07:48:30.794820738 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 375390208 bytes (free: 147521536, total: 25381175296).
+  OOM: batch size -> 16
+  16/300
+  32/300
+  48/300
+  64/300
+  80/300
+  96/300
+  112/300
+  128/300
+  144/300
+  160/300
+  176/300
+  192/300
+  208/300
+  224/300
+  240/300
+  256/300
+  272/300
+  288/300
+  300/300

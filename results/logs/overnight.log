@@ -1,0 +1,24 @@
+2026-10-25 18:40:42 waiting for open-model replies and training data
+2026-10-25 18:45:44 waiting for open-model replies and training data
+2026-10-25 18:45:58 waiting for open-model replies and training data
+2026-10-25 22:06:39 waiting for open-model replies and training data
+2026-10-25 22:07:32 waiting for open-model replies and training data
+2026-10-26 00:59:32 LoRA training
+2026-10-26 02:30:42 LoRA replies
+2026-10-26 02:54:37 truncated replies
+data/processed/responses_open_atlas2b.part2of4.csv excluded 31
+data/processed/responses_open_lora2b_frac50_seed0.csv excluded 6
+data/processed/responses_open_lora2b_frac100_seed0.csv excluded 2
+data/processed/responses_open_gemma2_9b.csv excluded 152
+data/processed/responses_open_atlas2b.part0of4.csv excluded 48
+data/processed/responses_open_lora2b_frac100_seed1.csv excluded 1
+data/processed/responses_open_atlas2b.part3of4.csv excluded 23
+data/processed/responses_open_lora2b_frac100_seed2.csv excluded 0
+data/processed/responses_open_atlas9b.csv excluded 39
+data/processed/responses_open_lora2b_frac25_seed0.csv excluded 14
+data/processed/responses_open_atlas2b.part1of4.csv excluded 18
+2026-10-26 03:01:59 Claude judges on replies
+2026-10-26 03:01:59 local judge qwen3_8b
+2026-10-26 04:20:16 local judge llama31_8b
+2026-10-26 07:48:09 local judge gemma2_9b
+2026-10-26 10:30:26 all done

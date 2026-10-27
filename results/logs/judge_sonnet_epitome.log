@@ -1,0 +1,14 @@
+batch msgbatch_014QdThU4btVADgVTdaSRE3N: 1200 requests submitted
+  in_progress: 1200 processing
+  in_progress: 1200 processing
+  in_progress: 1200 processing
+  in_progress: 1200 processing
+  in_progress: 1200 processing
+  in_progress: 1200 processing
+  in_progress: 1200 processing
+  in_progress: 1200 processing
+  in_progress: 1200 processing
+  in_progress: 1200 processing
+  in_progress: 1200 processing
+  ended: 0 processing
+sonnet epitome: 1200 items, 0 unparsable -> ./results/judge/sonnet_epitome.csv

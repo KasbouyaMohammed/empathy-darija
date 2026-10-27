@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+.env
+
+# input datasets are not redistributed (see data/README.md)
+data/*
+!data/README.md
+results/training_data/

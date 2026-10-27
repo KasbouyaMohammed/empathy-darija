@@ -1,0 +1,14 @@
+test: n=1400 accuracy=0.942
+pred      ary  ary_latn   en   fr  msa  other
+gold                                         
+ary       324         0    0    0   26      0
+ary_latn    0       276    0    0    0     24
+en          0         0  192    0    0      8
+fr          0         0    0  197    0      3
+msa        20         0    0    0  330      0
+variety            ary  ary_latn    en    fr   msa
+source                                            
+doda             0.900       NaN  0.92  0.97  0.91
+flores_plus      0.890       NaN  1.00  1.00  0.95
+madar            0.967       NaN   NaN   NaN  0.96
+transliteration    NaN      0.92   NaN   NaN   NaN

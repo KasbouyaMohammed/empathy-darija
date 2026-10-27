@@ -1,0 +1,10 @@
+ok tab_rq3
+ok tab_fidelity
+ok tab_contrasts
+ok tab_rq2_urgency
+ok tab_rq4
+ok tab_alpha
+ok tab_systems
+ok numbers
+tables -> ./paper/tables
+TikZ figures -> ./paper/figures

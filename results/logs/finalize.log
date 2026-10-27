@@ -1,0 +1,62 @@
+batch msgbatch_01JkFVcr6gYcG8uoazpKsVEb: 13 requests submitted
+  in_progress: 13 processing
+  in_progress: 13 processing
+  in_progress: 13 processing
+  in_progress: 13 processing
+  in_progress: 13 processing
+  in_progress: 13 processing
+  in_progress: 13 processing
+  in_progress: 13 processing
+  in_progress: 13 processing
+  in_progress: 13 processing
+  in_progress: 13 processing
+  in_progress: 13 processing
+  in_progress: 13 processing
+  in_progress: 13 processing
+  in_progress: 13 processing
+  in_progress: 13 processing
+  in_progress: 13 processing
+  ended: 0 processing
+batch msgbatch_012xdxKJzPpyGbuiohdVvuW8: 13 requests submitted
+  in_progress: 13 processing
+  in_progress: 13 processing
+  ended: 0 processing
+benchmark: 13 failing, 13 regenerated, 11 replaced, 2 still failing
+batch msgbatch_01CbJk8uegE18Youbu27Ga37: 272 requests submitted
+  in_progress: 272 processing
+  in_progress: 272 processing
+  in_progress: 272 processing
+  ended: 0 processing
+batch msgbatch_012zBaQpNMY9dFvtGGGWziYj: 541 requests submitted
+  in_progress: 541 processing
+  in_progress: 541 processing
+  in_progress: 541 processing
+  in_progress: 541 processing
+  in_progress: 541 processing
+  in_progress: 541 processing
+  in_progress: 541 processing
+  in_progress: 541 processing
+  in_progress: 541 processing
+  ended: 0 processing
+epitome: 272 failing, 272 regenerated, 189 replaced, 167 still failing
+             stage  variety   n  pass@0.75  pass@0.80  pass@0.85       set
+           initial      all 608      0.988      0.979      0.959 benchmark
+           initial      ary 152      1.000      1.000      0.980 benchmark
+           initial ary_latn 152      0.967      0.941      0.901 benchmark
+           initial       fr 152      0.993      0.980      0.967 benchmark
+           initial      msa 152      0.993      0.993      0.987 benchmark
+after_regeneration      all 608      0.997      0.997      0.977 benchmark
+after_regeneration      ary 152      1.000      1.000      0.980 benchmark
+after_regeneration ary_latn 152      0.993      0.993      0.954 benchmark
+after_regeneration       fr 152      1.000      1.000      0.987 benchmark
+after_regeneration      msa 152      0.993      0.993      0.987 benchmark
+           initial      all 960      0.827      0.717      0.546   epitome
+           initial      ary 240      0.800      0.679      0.492   epitome
+           initial ary_latn 240      0.712      0.558      0.342   epitome
+           initial       fr 240      0.946      0.850      0.671   epitome
+           initial      msa 240      0.850      0.779      0.679   epitome
+after_regeneration      all 960      0.902      0.826      0.614   epitome
+after_regeneration      ary 240      0.888      0.779      0.546   epitome
+after_regeneration ary_latn 240      0.846      0.721      0.442   epitome
+after_regeneration       fr 240      0.979      0.954      0.733   epitome
+after_regeneration      msa 240      0.896      0.850      0.733   epitome

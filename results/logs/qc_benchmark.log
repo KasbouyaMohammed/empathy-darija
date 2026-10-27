@@ -1,0 +1,16 @@
+batch msgbatch_01XfX9HQhDYUxR2mYeGwUzdo: 23 requests submitted
+  in_progress: 23 processing
+  in_progress: 23 processing
+  ended: 0 processing
+back-translations re-asked: 23, still contaminated: 5
+            n  pass_rate  lid_ok  sim_bt
+variety                                 
+ary       152      1.000   1.000   0.956
+ary_latn  152      0.941   0.993   0.946
+fr        152      0.980   1.000   0.977
+msa       152      0.993   0.993   0.967
+pass rate at threshold 0.75: 0.988
+pass rate at threshold 0.8: 0.979
+pass rate at threshold 0.85: 0.959
+most frequent wrong LID labels: {'ary': 1, 'fr': 1}
+saved -> ./data/processed/qc_benchmark.csv

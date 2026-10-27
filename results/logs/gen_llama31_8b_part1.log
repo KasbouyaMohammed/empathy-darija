@@ -1,0 +1,38 @@
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 1177.93it/s]
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   0%|          | 1/291 [00:00<03:36,  1.34it/s]Loading weights:   4%|▍         | 13/291 [00:00<00:13, 19.94it/s]Loading weights:   7%|▋         | 20/291 [00:01<00:10, 26.53it/s]Loading weights:   9%|▉         | 26/291 [00:01<00:08, 31.46it/s]Loading weights:  11%|█         | 32/291 [00:01<00:07, 36.04it/s]Loading weights:  14%|█▎        | 40/291 [00:01<00:05, 45.12it/s]Loading weights:  16%|█▌        | 46/291 [00:01<00:05, 44.49it/s]Loading weights:  18%|█▊        | 52/291 [00:01<00:05, 46.68it/s]Loading weights:  20%|██        | 59/291 [00:01<00:04, 49.07it/s]Loading weights:  23%|██▎       | 67/291 [00:01<00:04, 55.47it/s]Loading weights:  25%|██▌       | 73/291 [00:01<00:03, 55.50it/s]Loading weights:  27%|██▋       | 79/291 [00:02<00:04, 52.49it/s]Loading weights:  30%|██▉       | 86/291 [00:02<00:03, 51.43it/s]Loading weights:  33%|███▎      | 95/291 [00:02<00:03, 60.68it/s]Loading weights:  35%|███▌      | 103/291 [00:02<00:02, 62.94it/s]Loading weights:  38%|███▊      | 110/291 [00:02<00:02, 64.78it/s]Loading weights:  40%|████      | 117/291 [00:02<00:02, 62.53it/s]Loading weights:  43%|████▎     | 124/291 [00:02<00:02, 59.57it/s]Loading weights:  45%|████▌     | 131/291 [00:02<00:02, 61.38it/s]Loading weights:  48%|████▊     | 139/291 [00:03<00:02, 65.16it/s]Loading weights:  50%|█████     | 146/291 [00:03<00:02, 64.68it/s]Loading weights:  53%|█████▎    | 153/291 [00:03<00:02, 58.83it/s]Loading weights:  55%|█████▍    | 160/291 [00:03<00:02, 52.07it/s]Loading weights:  57%|█████▋    | 167/291 [00:03<00:02, 53.89it/s]Loading weights:  60%|██████    | 175/291 [00:03<00:01, 59.82it/s]Loading weights:  63%|██████▎   | 182/291 [00:03<00:01, 60.77it/s]Loading weights:  65%|██████▍   | 189/291 [00:03<00:01, 57.84it/s]Loading weights:  67%|██████▋   | 195/291 [00:04<00:01, 52.56it/s]Loading weights:  70%|██████▉   | 203/291 [00:04<00:01, 57.73it/s]Loading weights:  73%|███████▎  | 211/291 [00:04<00:01, 60.96it/s]Loading weights:  75%|███████▍  | 218/291 [00:04<00:01, 58.64it/s]Loading weights:  77%|███████▋  | 224/291 [00:04<00:01, 56.13it/s]Loading weights:  79%|███████▉  | 230/291 [00:04<00:01, 55.83it/s]Loading weights:  82%|████████▏ | 238/291 [00:04<00:00, 59.82it/s]Loading weights:  85%|████████▍ | 247/291 [00:04<00:00, 60.77it/s]Loading weights:  87%|████████▋ | 254/291 [00:05<00:00, 61.39it/s]Loading weights:  90%|████████▉ | 261/291 [00:05<00:00, 57.51it/s]Loading weights:  92%|█████████▏| 267/291 [00:05<00:00, 50.37it/s]Loading weights:  95%|█████████▍| 275/291 [00:05<00:00, 54.90it/s]Loading weights:  97%|█████████▋| 283/291 [00:05<00:00, 58.02it/s]Loading weights: 100%|██████████| 291/291 [00:05<00:00, 51.46it/s]
+meta-llama/Llama-3.1-8B-Instruct [fp16]: 660 replies to generate (0 already done), sampling: do_sample=True T=0.6 top_p=0.9
+[transformers] Ignoring clean_up_tokenization_spaces=True for BPE tokenizer TokenizersBackend. The clean_up_tokenization post-processing step is designed for WordPiece tokenizers and is destructive for BPE (it strips spaces before punctuation). Set clean_up_tokenization_spaces=False to suppress this warning, or set clean_up_tokenization_spaces_for_bpe_even_though_it_will_corrupt_output=True to force cleanup anyway.
+  48/660
+  96/660
+  144/660
+  192/660
+[W1025 21:04:11.754417971 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 553648128 bytes (free: 48955392, total: 25381175296).
+[W1025 21:05:19.717131362 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 346030080 bytes (free: 317390848, total: 25381175296).
+[W1025 21:05:19.820988644 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 346030080 bytes (free: 340459520, total: 25381175296).
+  OOM: batch size -> 24
+  216/660
+  240/660
+  264/660
+  288/660
+  312/660
+  336/660
+  360/660
+  384/660
+  408/660
+  432/660
+  456/660
+  480/660
+  504/660
+  528/660
+  552/660
+  576/660
+  600/660
+  624/660
+  648/660
+  660/660
+stop_reason  end_turn  max_tokens
+policy                           
+P0                219           1
+P1                217           3
+P2                218           2
+saved 660 replies -> ./data/processed/responses_open_llama31_8b.part1of4.csv

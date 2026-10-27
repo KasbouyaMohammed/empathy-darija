@@ -1,0 +1,35 @@
+boundary (singular) fit: see help('isSingular')
+     outcome         contrast     estimate   asymp.LCL    asymp.UCL
+     empathy   lora - base_p2  1.009020309  0.96743260  1.050608014
+     empathy lora - sonnet_p2 -0.033842451 -0.07501560  0.007330702
+ helpfulness   lora - base_p2  1.542789663  1.50094420  1.584635131
+ helpfulness lora - sonnet_p2 -0.080493186 -0.12192571 -0.039060659
+ appropriate   lora - base_p2  0.358906980  0.34182106  0.375992899
+ appropriate lora - sonnet_p2 -0.002718576 -0.01964166  0.014204504
+  action_cov   lora - base_p2  0.583666845  0.56978557  0.597548122
+  action_cov lora - sonnet_p2 -0.007944331 -0.02169015  0.005801485
+    fidelity   lora - base_p2  0.507980335  0.48375535  0.532205326
+    fidelity lora - sonnet_p2  0.039171971  0.01518960  0.063154339
+ p_superiority noninferior
+  0.000000e+00          NA
+            NA        TRUE
+  0.000000e+00          NA
+            NA        TRUE
+ 6.693952e-262          NA
+            NA          NA
+  0.000000e+00          NA
+            NA          NA
+ 5.401301e-261          NA
+            NA          NA
+               system  empathy helpfulness action_cov appropriate  fidelity   n
+ lora2b_frac100_seed0 3.763245    4.038079  0.9510486   0.9561258 1.0000000 302
+ lora2b_frac100_seed1 3.740924    4.052805  0.9409791   0.9504950 1.0000000 303
+ lora2b_frac100_seed2 3.789474    4.098684  0.9463268   0.9569627 1.0000000 304
+  lora2b_frac25_seed0 3.770134    3.988255  0.9144855   0.9074385 0.9966443 298
+  lora2b_frac50_seed0 3.750000    4.005034  0.9399049   0.9398770 0.9966443 298
+     outcome                                term      Estimate Std. Error
+     empathy judge_familyother:reply_familyother -0.0004902312 0.01445656
+ helpfulness judge_familyother:reply_familyother  0.1958051483 0.01365302
+       df     t value     Pr(>|t|)
+ 30862.33 -0.03391065 9.729486e-01
+ 30794.20 14.34152598 1.700149e-46

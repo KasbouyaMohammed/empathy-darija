@@ -1,0 +1,38 @@
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files: 100%|██████████| 2/2 [00:00<00:00, 860.72it/s]
+Loading weights:   0%|          | 0/288 [00:00<?, ?it/s]Loading weights:   0%|          | 1/288 [00:00<03:11,  1.50it/s]Loading weights:  12%|█▎        | 36/288 [00:00<00:04, 61.71it/s]Loading weights:  19%|█▉        | 55/288 [00:00<00:02, 79.28it/s]Loading weights:  25%|██▍       | 71/288 [00:01<00:02, 84.97it/s]Loading weights:  30%|██▉       | 85/288 [00:01<00:02, 95.98it/s]Loading weights:  34%|███▍      | 99/288 [00:01<00:01, 105.45it/s]Loading weights:  39%|███▉      | 113/288 [00:01<00:01, 108.32it/s]Loading weights:  44%|████▍     | 126/288 [00:01<00:01, 104.75it/s]Loading weights:  49%|████▉     | 142/288 [00:01<00:01, 114.20it/s]Loading weights:  54%|█████▍    | 155/288 [00:01<00:01, 117.87it/s]Loading weights:  58%|█████▊    | 168/288 [00:01<00:01, 114.75it/s]Loading weights:  63%|██████▎   | 181/288 [00:02<00:00, 108.67it/s]Loading weights:  68%|██████▊   | 197/288 [00:02<00:00, 117.55it/s]Loading weights:  74%|███████▎  | 212/288 [00:02<00:00, 118.71it/s]Loading weights:  78%|███████▊  | 225/288 [00:02<00:00, 110.84it/s]Loading weights:  84%|████████▍ | 242/288 [00:02<00:00, 124.91it/s]Loading weights:  89%|████████▉ | 256/288 [00:02<00:00, 127.27it/s]Loading weights:  94%|█████████▍| 270/288 [00:02<00:00, 121.03it/s]Loading weights:  99%|█████████▊| 284/288 [00:02<00:00, 125.80it/s]Loading weights: 100%|██████████| 288/288 [00:02<00:00, 101.33it/s]
+MBZUAI-Paris/Atlas-Chat-2B+results/lora/frac25_seed0 [fp32]: 880 replies to generate (0 already done), sampling: do_sample=None T=None top_p=None
+[W1026 02:41:34.628701088 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 167772160 bytes (free: 13238272, total: 25381175296).
+[W1026 02:41:45.684303717 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 211812352 bytes (free: 109707264, total: 25381175296).
+[W1026 02:41:53.764781703 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 241172480 bytes (free: 19529728, total: 25381175296).
+[W1026 02:41:58.216720431 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 260046848 bytes (free: 178913280, total: 25381175296).
+[W1026 02:42:03.616750008 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 274726912 bytes (free: 275382272, total: 25381175296).
+  64/880
+  128/880
+[W1026 02:44:06.012619602 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 285212672 bytes (free: 225050624, total: 25381175296).
+  192/880
+  256/880
+[W1026 02:46:09.927426028 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 293601280 bytes (free: 23724032, total: 25381175296).
+[W1026 02:46:12.628210989 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 301989888 bytes (free: 126484480, total: 25381175296).
+  320/880
+[W1026 02:47:15.246030481 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 308281344 bytes (free: 287965184, total: 25381175296).
+[W1026 02:47:17.328937093 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 314572800 bytes (free: 315228160, total: 25381175296).
+[W1026 02:47:20.444513551 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 320864256 bytes (free: 181010432, total: 25381175296).
+[W1026 02:47:21.891811101 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 325058560 bytes (free: 225050624, total: 25381175296).
+  384/880
+[W1026 02:48:32.625965904 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 329252864 bytes (free: 82444288, total: 25381175296).
+[W1026 02:48:33.071641971 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 333447168 bytes (free: 336199680, total: 25381175296).
+  448/880
+  512/880
+  576/880
+  640/880
+[W1026 02:50:50.328232984 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 352321536 bytes (free: 134873088, total: 25381175296).
+[W1026 02:52:03.478484655 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 341835776 bytes (free: 17432576, total: 25381175296).
+  704/880
+  768/880
+[W1026 02:53:19.279488325 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 396361728 bytes (free: 32112640, total: 25381175296).
+  832/880
+  880/880
+stop_reason  end_turn  max_tokens
+policy                           
+none              866          14
+saved 880 replies -> ./data/processed/responses_open_lora2b_frac25_seed0.csv

@@ -1,0 +1,41 @@
+NOTE: Results may be misleading due to involvement in interactions
+NOTE: Results may be misleading due to involvement in interactions
+NOTE: Results may be misleading due to involvement in interactions
+ contrast estimate    SE  df asymp.LCL asymp.UCL z.ratio p.value       outcome
+  P2 - P0    0.297 0.018 Inf     0.261     0.332  16.357   0.000       empathy
+  P2 - P1   -0.688 0.018 Inf    -0.723    -0.652 -37.921   0.000       empathy
+  P2 - P0    0.261 0.026 Inf     0.210     0.311  10.146   0.000       empathy
+  P2 - P1   -0.696 0.026 Inf    -0.747    -0.646 -27.113   0.000       empathy
+  P2 - P0    0.333 0.026 Inf     0.282     0.383  12.989   0.000       empathy
+  P2 - P1   -0.679 0.026 Inf    -0.729    -0.629 -26.509   0.000       empathy
+  P2 - P0   -0.168 0.020 Inf    -0.208    -0.128  -8.205   0.000   helpfulness
+  P2 - P1   -0.253 0.020 Inf    -0.293    -0.213 -12.348   0.000   helpfulness
+  P2 - P0   -0.238 0.029 Inf    -0.295    -0.181  -8.199   0.000   helpfulness
+  P2 - P1   -0.341 0.029 Inf    -0.398    -0.284 -11.764   0.000   helpfulness
+  P2 - P0   -0.098 0.029 Inf    -0.155    -0.042  -3.397   0.001   helpfulness
+  P2 - P1   -0.165 0.029 Inf    -0.221    -0.108  -5.689   0.000   helpfulness
+  P2 - P0    0.615 0.080 Inf     0.458     0.771   7.691   0.000 p_appropriate
+  P2 - P1   -0.891 0.097 Inf    -1.082    -0.700  -9.148   0.000 p_appropriate
+  P2 - P0    0.527 0.106 Inf     0.319     0.735   4.962   0.000 p_appropriate
+  P2 - P1   -0.922 0.125 Inf    -1.166    -0.678  -7.404   0.000 p_appropriate
+  P2 - P0    0.703 0.119 Inf     0.469     0.936   5.900   0.000 p_appropriate
+  P2 - P1   -0.859 0.149 Inf    -1.152    -0.567  -5.756   0.000 p_appropriate
+      by urgency p_holm
+     all    <NA>  0.000
+     all    <NA>  0.000
+ urgency  medium  0.000
+ urgency  medium  0.000
+ urgency    high  0.000
+ urgency    high  0.000
+     all    <NA>  0.000
+     all    <NA>  0.000
+ urgency  medium  0.000
+ urgency  medium  0.000
+ urgency    high  0.001
+ urgency    high  0.000
+     all    <NA>  0.000
+     all    <NA>  0.000
+ urgency  medium  0.000
+ urgency  medium  0.000
+ urgency    high  0.000
+ urgency    high  0.000

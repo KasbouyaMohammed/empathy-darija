@@ -1,0 +1,89 @@
+./scripts/18_human_eval.py:241: Pandas4Warning: The 'lsuffix' and 'rsuffix' keywords in DataFrame.join are deprecated and will be removed in a future version. Use the 'suffixes' keyword instead.
+  m = h.set_index("item_key").join(s, rsuffix="_j")
+./scripts/18_human_eval.py:241: Pandas4Warning: The 'lsuffix' and 'rsuffix' keywords in DataFrame.join are deprecated and will be removed in a future version. Use the 'suffixes' keyword instead.
+  m = h.set_index("item_key").join(s, rsuffix="_j")
+./scripts/18_human_eval.py:241: Pandas4Warning: The 'lsuffix' and 'rsuffix' keywords in DataFrame.join are deprecated and will be removed in a future version. Use the 'suffixes' keyword instead.
+  m = h.set_index("item_key").join(s, rsuffix="_j")
+./scripts/18_human_eval.py:241: Pandas4Warning: The 'lsuffix' and 'rsuffix' keywords in DataFrame.join are deprecated and will be removed in a future version. Use the 'suffixes' keyword instead.
+  m = h.set_index("item_key").join(s, rsuffix="_j")
+./scripts/18_human_eval.py:241: Pandas4Warning: The 'lsuffix' and 'rsuffix' keywords in DataFrame.join are deprecated and will be removed in a future version. Use the 'suffixes' keyword instead.
+  m = h.set_index("item_key").join(s, rsuffix="_j")
+./scripts/18_human_eval.py:241: Pandas4Warning: The 'lsuffix' and 'rsuffix' keywords in DataFrame.join are deprecated and will be removed in a future version. Use the 'suffixes' keyword instead.
+  m = h.set_index("item_key").join(s, rsuffix="_j")
+human_eval_filled.xlsx rated: {'empathy': 199, 'helpfulness': 199, 'naturalness': 199, 'approp': 199, 'same_language': 199} invalid: {'empathy': 0, 'helpfulness': 0, 'naturalness': 0, 'appropriateness': 0, 'same_language': 0}
+human_eval_filled_second_rater.xlsx rated: {'empathy': 50, 'helpfulness': 50, 'naturalness': 50, 'approp': 50, 'same_language': 50} invalid: {'empathy': 0, 'helpfulness': 0, 'naturalness': 0, 'appropriateness': 0, 'same_language': 0}
+      measure  n  exact_agreement  kappa kappa_type  krippendorff_alpha
+      empathy 50             0.94  0.839  quadratic               0.887
+  helpfulness 50             0.96  0.879  quadratic               0.952
+  naturalness 50             0.94  0.920  quadratic               0.915
+       approp 50             0.96  0.924      cohen               0.925
+same_language 50             1.00  1.000      cohen               1.000
+     judge       measure   n        stat  value  ci_lo  ci_hi
+      jury       empathy 199    spearman  0.724  0.645  0.793
+      jury   helpfulness 199    spearman  0.580  0.463  0.688
+      jury   naturalness 199    spearman  0.377  0.240  0.511
+      jury   appropriate 199   agreement  0.698    NaN    NaN
+      jury   appropriate 199 cohen_kappa  0.360    NaN    NaN
+ gemma2_9b       empathy 199    spearman  0.702  0.629  0.767
+ gemma2_9b   helpfulness 199    spearman  0.582  0.474  0.684
+ gemma2_9b   naturalness 165    spearman  0.100  0.087  0.195
+ gemma2_9b   appropriate 199   agreement  0.598    NaN    NaN
+ gemma2_9b   appropriate 199 cohen_kappa  0.130    NaN    NaN
+     haiku       empathy 199    spearman  0.779  0.706  0.834
+     haiku   helpfulness 199    spearman  0.669  0.565  0.756
+     haiku   naturalness 198    spearman  0.614  0.506  0.714
+     haiku   appropriate 199   agreement  0.844    NaN    NaN
+     haiku   appropriate 199 cohen_kappa  0.681    NaN    NaN
+llama31_8b       empathy 199    spearman  0.566  0.460  0.666
+llama31_8b   helpfulness 199    spearman  0.461  0.349  0.567
+llama31_8b   naturalness  95    spearman    NaN    NaN    NaN
+llama31_8b   appropriate 199   agreement  0.683    NaN    NaN
+llama31_8b   appropriate 199 cohen_kappa  0.330    NaN    NaN
+  qwen3_8b       empathy 199    spearman  0.596  0.485  0.687
+  qwen3_8b   helpfulness 199    spearman  0.476  0.354  0.591
+  qwen3_8b   naturalness 143    spearman  0.111 -0.050  0.269
+  qwen3_8b   appropriate 199   agreement  0.648    NaN    NaN
+  qwen3_8b   appropriate 199 cohen_kappa  0.246    NaN    NaN
+identifier same_language 199   agreement  0.910    NaN    NaN
+identifier same_language 199 cohen_kappa  0.649    NaN    NaN
+         block       group         a          b       measure  n  mean_a  mean_b   diff  ci_lo  ci_hi     p  p_holm  noninferior_0.3
+    A_policies   complaint sonnet_P2  sonnet_P1       empathy 20   3.700   4.000 -0.300 -0.500 -0.100 0.014   0.057              NaN
+    A_policies   complaint sonnet_P2  sonnet_P1   helpfulness 20   2.900   2.750  0.150 -0.050  0.350 0.180   0.899              NaN
+    A_policies   complaint sonnet_P2  sonnet_P1   naturalness 20   4.000   3.950  0.050  0.000  0.150 0.317   0.635              NaN
+    A_policies   complaint sonnet_P2  sonnet_P1   appropriate 20   1.000   1.000  0.000  0.000  0.000 1.000   1.000              NaN
+    A_policies   complaint sonnet_P2  sonnet_P1 same_language 20   1.000   1.000  0.000  0.000  0.000 1.000   1.000              NaN
+    A_policies   complaint sonnet_P2  sonnet_P0       empathy 20   3.700   1.950  1.750  1.400  2.100 0.000   0.000              NaN
+    A_policies   complaint sonnet_P2  sonnet_P0   helpfulness 20   2.900   2.700  0.200 -0.001  0.450 0.102   0.615              NaN
+    A_policies   complaint sonnet_P2  sonnet_P0   naturalness 20   4.000   3.650  0.350  0.150  0.550 0.008   0.049              NaN
+    A_policies   complaint sonnet_P2  sonnet_P0   appropriate 20   1.000   0.050  0.950  0.850  1.000 0.000   0.000              NaN
+    A_policies   complaint sonnet_P2  sonnet_P0 same_language 20   1.000   1.000  0.000  0.000  0.000 1.000   1.000              NaN
+    A_policies   complaint sonnet_P1  sonnet_P0       empathy 20   4.000   1.950  2.050  1.850  2.250 0.000   0.000              NaN
+    A_policies   complaint sonnet_P1  sonnet_P0   helpfulness 20   2.750   2.700  0.050 -0.150  0.250 0.655   1.000              NaN
+    A_policies   complaint sonnet_P1  sonnet_P0   naturalness 20   3.950   3.650  0.300  0.100  0.500 0.014   0.072              NaN
+    A_policies   complaint sonnet_P1  sonnet_P0   appropriate 20   1.000   0.050  0.950  0.850  1.000 0.000   0.000              NaN
+    A_policies   complaint sonnet_P1  sonnet_P0 same_language 20   1.000   1.000  0.000  0.000  0.000 1.000   1.000              NaN
+    A_policies information sonnet_P2  sonnet_P1       empathy  8   3.000   3.000  0.000  0.000  0.000 1.000   1.000              NaN
+    A_policies information sonnet_P2  sonnet_P1   helpfulness  8   2.500   2.250  0.250  0.000  0.625 0.500   1.000              NaN
+    A_policies information sonnet_P2  sonnet_P1   naturalness  8   3.875   3.000  0.875  0.625  1.000 0.016   0.072              NaN
+    A_policies information sonnet_P2  sonnet_P1   appropriate  8   1.000   0.125  0.875  0.625  1.000 0.016   0.062              NaN
+    A_policies information sonnet_P2  sonnet_P1 same_language  8   1.000   1.000  0.000  0.000  0.000 1.000   1.000              NaN
+    A_policies information sonnet_P2  sonnet_P0       empathy  8   3.000   3.000  0.000  0.000  0.000 1.000   1.000              NaN
+    A_policies information sonnet_P2  sonnet_P0   helpfulness  8   2.500   2.500  0.000  0.000  0.000 1.000   1.000              NaN
+    A_policies information sonnet_P2  sonnet_P0   naturalness  8   3.875   3.750  0.125 -0.375  0.750 1.000   1.000              NaN
+    A_policies information sonnet_P2  sonnet_P0   appropriate  8   1.000   1.000  0.000  0.000  0.000 1.000   1.000              NaN
+    A_policies information sonnet_P2  sonnet_P0 same_language  8   1.000   1.000  0.000  0.000  0.000 1.000   1.000              NaN
+    A_policies information sonnet_P1  sonnet_P0       empathy  8   3.000   3.000  0.000  0.000  0.000 1.000   1.000              NaN
+    A_policies information sonnet_P1  sonnet_P0   helpfulness  8   2.250   2.500 -0.250 -0.625  0.000 0.500   1.000              NaN
+    A_policies information sonnet_P1  sonnet_P0   naturalness  8   3.000   3.750 -0.750 -1.000 -0.250 0.070   0.211              NaN
+    A_policies information sonnet_P1  sonnet_P0   appropriate  8   0.125   1.000 -0.875 -1.000 -0.625 0.016   0.062              NaN
+    A_policies information sonnet_P1  sonnet_P0 same_language  8   1.000   1.000  0.000  0.000  0.000 1.000   1.000              NaN
+B_distillation         all      lora  sonnet_P2       empathy 25   3.120   3.400 -0.280 -0.520  0.000 0.052   0.052              0.0
+B_distillation         all      lora  sonnet_P2   helpfulness 25   2.360   3.280 -0.920 -1.320 -0.560 0.000   0.000              0.0
+B_distillation         all      lora  sonnet_P2   naturalness 25   3.440   3.520 -0.080 -0.440  0.320 0.560   0.560              0.0
+B_distillation         all      lora  sonnet_P2   appropriate 25   0.800   0.920 -0.120 -0.280  0.040 0.375   0.375              NaN
+B_distillation         all      lora  sonnet_P2 same_language 25   1.000   0.920  0.080  0.000  0.200 0.500   0.500              NaN
+B_distillation         all      lora atlas2b_P2       empathy 25   3.120   1.920  1.200  0.919  1.480 0.000   0.000              NaN
+B_distillation         all      lora atlas2b_P2   helpfulness 25   2.360   1.120  1.240  1.000  1.480 0.000   0.000              NaN
+B_distillation         all      lora atlas2b_P2   naturalness 25   3.440   2.480  0.960  0.600  1.280 0.000   0.001              NaN
+B_distillation         all      lora atlas2b_P2   appropriate 25   0.800   0.040  0.760  0.600  0.920 0.000   0.000              NaN
+B_distillation         all      lora atlas2b_P2 same_language 25   1.000   0.520  0.480  0.280  0.680 0.000   0.001              NaN

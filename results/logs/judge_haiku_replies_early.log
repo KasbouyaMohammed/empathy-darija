@@ -1,0 +1,9 @@
+batch msgbatch_01AvTqi36SnDuU88rApP1RBb: 6462 requests submitted
+  in_progress: 6462 processing
+  in_progress: 6462 processing
+  in_progress: 6462 processing
+  in_progress: 6462 processing
+  in_progress: 6462 processing
+  in_progress: 6462 processing
+  ended: 0 processing
+haiku replies: 6462 items, 0 unparsable -> ./results/judge/haiku_replies.csv

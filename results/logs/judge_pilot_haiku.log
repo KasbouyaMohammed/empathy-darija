@@ -1,0 +1,5 @@
+batch msgbatch_01NNd8F1sn8wcKNPvhF22z4Z: 20 requests submitted
+  in_progress: 20 processing
+  in_progress: 20 processing
+  ended: 0 processing
+haiku epitome: 20 items, 0 unparsable -> ./results/judge/haiku_epitome_pilot.csv

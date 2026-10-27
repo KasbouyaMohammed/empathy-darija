@@ -1,0 +1,11 @@
+block,arm,n,human_same_language,identifier_fidelity,naturalness
+A_policies,sonnet_P0,28,1.0,0.9285714285714286,3.6785714285714284
+A_policies,sonnet_P1,28,1.0,1.0,3.6785714285714284
+A_policies,sonnet_P2,28,1.0,1.0,3.9642857142857144
+B_distillation,atlas2b_P2,25,0.52,0.52,2.48
+B_distillation,lora,25,1.0,1.0,3.44
+B_distillation,sonnet_P2,25,0.92,0.92,3.52
+C_open_models,atlas9b_P2,10,0.5,0.5,3.1
+C_open_models,gemma2_9b_P2,10,0.6,0.3,1.8
+C_open_models,llama31_8b_P2,10,0.9,0.9,1.2
+C_open_models,qwen3_8b_P2,10,1.0,0.3,1.7

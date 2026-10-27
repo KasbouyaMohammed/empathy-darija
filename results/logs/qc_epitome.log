@@ -1,0 +1,16 @@
+batch msgbatch_01CCDjtqog53Z79sBbJYMaYq: 292 requests submitted
+  in_progress: 292 processing
+  in_progress: 292 processing
+  ended: 0 processing
+back-translations re-asked: 292, still contaminated: 23
+            n  pass_rate  lid_ok  sim_bt
+variety                                 
+ary       480      0.819   0.971   0.898
+ary_latn  480      0.746   0.996   0.870
+fr        480      0.925   1.000   0.930
+msa       480      0.888   0.958   0.934
+pass rate at threshold 0.75: 0.908
+pass rate at threshold 0.8: 0.844
+pass rate at threshold 0.85: 0.734
+most frequent wrong LID labels: {'ary': 20, 'msa': 14, 'fr': 2}
+saved -> ./data/processed/qc_epitome.csv

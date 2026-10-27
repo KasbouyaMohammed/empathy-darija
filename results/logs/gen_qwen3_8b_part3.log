@@ -1,0 +1,41 @@
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Fetching 5 files: 100%|██████████| 5/5 [00:00<00:00, 1217.86it/s]
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:   0%|          | 1/399 [00:00<05:31,  1.20it/s]Loading weights:   4%|▍         | 17/399 [00:00<00:15, 24.22it/s]Loading weights:   7%|▋         | 28/399 [00:01<00:09, 38.49it/s]Loading weights:  10%|▉         | 39/399 [00:01<00:07, 49.26it/s]Loading weights:  13%|█▎        | 50/399 [00:01<00:05, 58.50it/s]Loading weights:  15%|█▍        | 59/399 [00:01<00:05, 59.39it/s]Loading weights:  18%|█▊        | 71/399 [00:01<00:04, 71.12it/s]Loading weights:  20%|██        | 81/399 [00:01<00:04, 72.80it/s]Loading weights:  23%|██▎       | 90/399 [00:01<00:04, 73.04it/s]Loading weights:  25%|██▍       | 99/399 [00:01<00:03, 75.10it/s]Loading weights:  27%|██▋       | 108/399 [00:02<00:04, 72.19it/s]Loading weights:  29%|██▉       | 116/399 [00:02<00:04, 68.14it/s]Loading weights:  32%|███▏      | 127/399 [00:02<00:03, 71.75it/s]Loading weights:  35%|███▍      | 138/399 [00:02<00:03, 73.39it/s]Loading weights:  37%|███▋      | 149/399 [00:02<00:03, 75.01it/s]Loading weights:  40%|████      | 160/399 [00:02<00:03, 75.93it/s]Loading weights:  43%|████▎     | 170/399 [00:02<00:02, 80.37it/s]Loading weights:  45%|████▌     | 180/399 [00:02<00:02, 83.83it/s]Loading weights:  48%|████▊     | 191/399 [00:03<00:02, 85.25it/s]Loading weights:  50%|█████     | 200/399 [00:03<00:02, 84.90it/s]Loading weights:  52%|█████▏    | 209/399 [00:03<00:02, 83.61it/s]Loading weights:  55%|█████▍    | 218/399 [00:03<00:02, 77.70it/s]Loading weights:  57%|█████▋    | 226/399 [00:03<00:02, 72.92it/s]Loading weights:  59%|█████▉    | 237/399 [00:03<00:02, 78.05it/s]Loading weights:  62%|██████▏   | 247/399 [00:03<00:01, 81.30it/s]Loading weights:  65%|██████▍   | 258/399 [00:03<00:01, 82.32it/s]Loading weights:  67%|██████▋   | 268/399 [00:04<00:01, 82.44it/s]Loading weights:  70%|██████▉   | 278/399 [00:04<00:01, 86.89it/s]Loading weights:  72%|███████▏  | 287/399 [00:04<00:01, 78.90it/s]Loading weights:  74%|███████▍  | 296/399 [00:04<00:01, 77.42it/s]Loading weights:  76%|███████▌  | 304/399 [00:04<00:01, 70.63it/s]Loading weights:  79%|███████▊  | 314/399 [00:04<00:01, 72.98it/s]Loading weights:  81%|████████▏ | 325/399 [00:04<00:00, 75.69it/s]Loading weights:  84%|████████▍ | 336/399 [00:04<00:00, 79.98it/s]Loading weights:  87%|████████▋ | 346/399 [00:05<00:00, 73.55it/s]Loading weights:  90%|████████▉ | 358/399 [00:05<00:00, 79.87it/s]Loading weights:  92%|█████████▏| 368/399 [00:05<00:00, 83.89it/s]Loading weights:  95%|█████████▍| 379/399 [00:05<00:00, 85.02it/s]Loading weights:  98%|█████████▊| 390/399 [00:05<00:00, 86.08it/s]Loading weights: 100%|██████████| 399/399 [00:05<00:00, 70.64it/s]
+Qwen/Qwen3-8B [fp16]: 660 replies to generate (0 already done), sampling: do_sample=True T=0.7 top_p=0.8
+[W1025 20:40:20.555683159 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 306184192 bytes (free: 126550016, total: 25381175296).
+[W1025 20:40:20.084945655 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 306184192 bytes (free: 166395904, total: 25381175296).
+[W1025 20:40:20.111619360 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 306184192 bytes (free: 168493056, total: 25381175296).
+  OOM: batch size -> 24
+  24/660
+  48/660
+  72/660
+  96/660
+  120/660
+  144/660
+  168/660
+  192/660
+  216/660
+  240/660
+  264/660
+  288/660
+  312/660
+  336/660
+  360/660
+  384/660
+  408/660
+  432/660
+  456/660
+  480/660
+  504/660
+  528/660
+  552/660
+  576/660
+  600/660
+  624/660
+  648/660
+  660/660
+stop_reason  end_turn  max_tokens
+policy                           
+P0                216           4
+P1                195          25
+P2                199          21
+saved 660 replies -> ./data/processed/responses_open_qwen3_8b.part3of4.csv

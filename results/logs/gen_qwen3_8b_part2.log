@@ -1,0 +1,41 @@
+Fetching 5 files:   0%|          | 0/5 [00:00<?, ?it/s]Fetching 5 files: 100%|██████████| 5/5 [00:00<00:00, 648.89it/s]
+Loading weights:   0%|          | 0/399 [00:00<?, ?it/s]Loading weights:   0%|          | 1/399 [00:00<05:15,  1.26it/s]Loading weights:   4%|▍         | 17/399 [00:00<00:15, 25.19it/s]Loading weights:   7%|▋         | 28/399 [00:01<00:09, 38.89it/s]Loading weights:  10%|▉         | 39/399 [00:01<00:07, 50.48it/s]Loading weights:  12%|█▏        | 49/399 [00:01<00:05, 58.50it/s]Loading weights:  15%|█▌        | 61/399 [00:01<00:04, 67.87it/s]Loading weights:  18%|█▊        | 72/399 [00:01<00:04, 73.28it/s]Loading weights:  21%|██        | 82/399 [00:01<00:04, 77.11it/s]Loading weights:  23%|██▎       | 92/399 [00:01<00:03, 80.71it/s]Loading weights:  25%|██▌       | 101/399 [00:01<00:03, 83.08it/s]Loading weights:  28%|██▊       | 110/399 [00:01<00:03, 79.89it/s]Loading weights:  30%|██▉       | 119/399 [00:02<00:03, 74.79it/s]Loading weights:  32%|███▏      | 127/399 [00:02<00:03, 69.17it/s]Loading weights:  34%|███▍      | 137/399 [00:02<00:03, 76.02it/s]Loading weights:  37%|███▋      | 148/399 [00:02<00:03, 78.99it/s]Loading weights:  40%|███▉      | 158/399 [00:02<00:02, 82.41it/s]Loading weights:  42%|████▏     | 169/399 [00:02<00:02, 83.20it/s]Loading weights:  45%|████▌     | 180/399 [00:02<00:02, 83.48it/s]Loading weights:  47%|████▋     | 189/399 [00:02<00:02, 83.30it/s]Loading weights:  50%|████▉     | 198/399 [00:03<00:02, 80.09it/s]Loading weights:  52%|█████▏    | 207/399 [00:03<00:02, 76.88it/s]Loading weights:  54%|█████▍    | 215/399 [00:03<00:02, 71.70it/s]Loading weights:  56%|█████▋    | 225/399 [00:03<00:02, 77.74it/s]Loading weights:  59%|█████▉    | 236/399 [00:03<00:02, 77.46it/s]Loading weights:  62%|██████▏   | 247/399 [00:03<00:01, 79.46it/s]Loading weights:  64%|██████▍   | 257/399 [00:03<00:01, 82.48it/s]Loading weights:  67%|██████▋   | 268/399 [00:03<00:01, 81.91it/s]Loading weights:  69%|██████▉   | 277/399 [00:04<00:01, 82.11it/s]Loading weights:  72%|███████▏  | 287/399 [00:04<00:01, 82.36it/s]Loading weights:  74%|███████▍  | 296/399 [00:04<00:01, 79.50it/s]Loading weights:  76%|███████▌  | 304/399 [00:04<00:01, 76.69it/s]Loading weights:  78%|███████▊  | 313/399 [00:04<00:01, 72.00it/s]Loading weights:  81%|████████  | 324/399 [00:04<00:00, 79.33it/s]Loading weights:  84%|████████▎ | 334/399 [00:04<00:00, 82.40it/s]Loading weights:  86%|████████▋ | 345/399 [00:04<00:00, 82.49it/s]Loading weights:  89%|████████▊ | 354/399 [00:05<00:00, 82.86it/s]Loading weights:  91%|█████████ | 363/399 [00:05<00:00, 80.33it/s]Loading weights:  93%|█████████▎| 372/399 [00:05<00:00, 78.34it/s]Loading weights:  95%|█████████▌| 380/399 [00:05<00:00, 72.67it/s]Loading weights:  98%|█████████▊| 390/399 [00:05<00:00, 77.04it/s]Loading weights: 100%|██████████| 399/399 [00:05<00:00, 71.51it/s]
+Qwen/Qwen3-8B [fp16]: 660 replies to generate (0 already done), sampling: do_sample=True T=0.7 top_p=0.8
+[W1025 20:40:20.986737012 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 306184192 bytes (free: 153812992, total: 25381175296).
+[W1025 20:40:21.919359982 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 308281344 bytes (free: 113967104, total: 25381175296).
+[W1025 20:40:21.989268140 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 308281344 bytes (free: 116064256, total: 25381175296).
+  OOM: batch size -> 24
+  24/660
+  48/660
+  72/660
+  96/660
+  120/660
+  144/660
+  168/660
+  192/660
+  216/660
+  240/660
+  264/660
+  288/660
+  312/660
+  336/660
+  360/660
+  384/660
+  408/660
+  432/660
+  456/660
+  480/660
+  504/660
+  528/660
+  552/660
+  576/660
+  600/660
+  624/660
+  648/660
+  660/660
+stop_reason  end_turn  max_tokens
+policy                           
+P0                216           4
+P1                193          27
+P2                203          17
+saved 660 replies -> ./data/processed/responses_open_qwen3_8b.part2of4.csv

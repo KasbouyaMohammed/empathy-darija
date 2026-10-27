@@ -1,0 +1,17 @@
+{
+ "seed": 0,
+ "fraction": 0.5,
+ "smoke": false,
+ "model": "MBZUAI-Paris/Atlas-Chat-2B",
+ "n_train": 1703,
+ "n_val": 383,
+ "lora": {
+  "r": 16,
+  "alpha": 32,
+  "dropout": 0.05
+ },
+ "lr": 0.0002,
+ "epochs": 2,
+ "effective_batch": 16,
+ "precision": "fp32"
+}

@@ -1,0 +1,7 @@
+# R packages used by scripts/13_models.R and scripts/15_rq4_selfpref.R
+lme4 2.0.6
+lmerTest 3.2.1
+ordinal 2026.7.26
+emmeans 2.0.4
+dplyr 1.2.1
+readr 2.2.0

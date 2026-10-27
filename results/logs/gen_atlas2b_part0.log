@@ -1,0 +1,31 @@
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files: 100%|██████████| 2/2 [00:00<00:00, 931.45it/s]
+Loading weights:   0%|          | 0/288 [00:00<?, ?it/s]Loading weights:   0%|          | 1/288 [00:00<03:43,  1.28it/s]Loading weights:   9%|▊         | 25/288 [00:00<00:06, 37.77it/s]Loading weights:  14%|█▎        | 39/288 [00:01<00:04, 52.39it/s]Loading weights:  18%|█▊        | 51/288 [00:01<00:03, 65.40it/s]Loading weights:  22%|██▏       | 63/288 [00:01<00:02, 75.91it/s]Loading weights:  26%|██▌       | 75/288 [00:01<00:02, 80.71it/s]Loading weights:  30%|██▉       | 86/288 [00:01<00:02, 84.31it/s]Loading weights:  34%|███▍      | 99/288 [00:01<00:02, 94.33it/s]Loading weights:  39%|███▊      | 111/288 [00:01<00:01, 99.29it/s]Loading weights:  43%|████▎     | 123/288 [00:01<00:01, 96.76it/s]Loading weights:  47%|████▋     | 134/288 [00:01<00:01, 98.83it/s]Loading weights:  50%|█████     | 145/288 [00:02<00:01, 97.97it/s]Loading weights:  54%|█████▍    | 156/288 [00:02<00:01, 96.69it/s]Loading weights:  58%|█████▊    | 166/288 [00:02<00:01, 94.63it/s]Loading weights:  61%|██████    | 176/288 [00:02<00:01, 94.85it/s]Loading weights:  65%|██████▍   | 186/288 [00:02<00:01, 95.29it/s]Loading weights:  69%|██████▉   | 199/288 [00:02<00:00, 104.54it/s]Loading weights:  73%|███████▎  | 210/288 [00:02<00:00, 100.95it/s]Loading weights:  77%|███████▋  | 221/288 [00:02<00:00, 100.26it/s]Loading weights:  81%|████████  | 232/288 [00:02<00:00, 99.57it/s] Loading weights:  84%|████████▍ | 243/288 [00:03<00:00, 98.81it/s]Loading weights:  88%|████████▊ | 253/288 [00:03<00:00, 96.07it/s]Loading weights:  91%|█████████▏| 263/288 [00:03<00:00, 91.95it/s]Loading weights:  95%|█████████▍| 273/288 [00:03<00:00, 93.69it/s]Loading weights:  98%|█████████▊| 283/288 [00:03<00:00, 92.88it/s]Loading weights: 100%|██████████| 288/288 [00:03<00:00, 81.97it/s]
+MBZUAI-Paris/Atlas-Chat-2B [fp32]: 440 replies to generate (0 already done), sampling: do_sample=None T=None top_p=None
+  48/440
+[W1026 00:45:46.939081475 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 522190848 bytes (free: 225050624, total: 25381175296).
+  96/440
+  144/440
+[W1026 00:48:18.066458164 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 666894336 bytes (free: 403308544, total: 25381175296).
+[W1026 00:49:35.991100535 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 337641472 bytes (free: 248119296, total: 25381175296).
+[W1026 00:49:36.570872732 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 339738624 bytes (free: 204079104, total: 25381175296).
+[W1026 00:49:36.910838315 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 339738624 bytes (free: 170524672, total: 25381175296).
+[W1026 00:49:37.644481879 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 341835776 bytes (free: 57278464, total: 25381175296).
+[W1026 00:49:37.684209491 CUDACachingAllocator.cpp:3934] memory allocation failed with OOM on device 0 while trying to allocate 341835776 bytes (free: 229244928, total: 25381175296).
+  OOM: batch size -> 24
+  168/440
+  192/440
+  216/440
+  240/440
+  264/440
+  288/440
+  312/440
+  336/440
+  360/440
+  384/440
+  408/440
+  432/440
+  440/440
+stop_reason  end_turn  max_tokens
+policy                           
+P0                392          48
+saved 440 replies -> ./data/processed/responses_open_atlas2b.part0of4.csv

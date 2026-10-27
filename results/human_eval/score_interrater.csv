@@ -1,0 +1,6 @@
+measure,n,exact_agreement,kappa,kappa_type,krippendorff_alpha
+empathy,50,0.94,0.8392282958199357,quadratic,0.8871635612146261
+helpfulness,50,0.96,0.8785046728971962,quadratic,0.9516629147307113
+naturalness,50,0.94,0.9203539823008849,quadratic,0.9154709764363146
+approp,50,0.96,0.924357034795764,cohen,0.9250851305334846
+same_language,50,1.0,1.0,cohen,1.0
