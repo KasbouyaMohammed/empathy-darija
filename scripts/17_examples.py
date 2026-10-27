@@ -20,12 +20,14 @@ SYS = {"claude-sonnet-5-5": "Claude Sonnet 5.5", "claude-haiku-5-5": "Claude Hai
 
 def tex(s, n=330):
     s = " ".join(str(s).split())
-    s = s if len(s) <= n else s[:n].rsplit(" ", 1)[0] + " [\\ldots]"
+    cut = len(s) > n
+    s = s if not cut else s[:n].rsplit(" ", 1)[0]
     for a, b in (("\\", r"\textbackslash{}"), ("&", r"\&"), ("%", r"\%"), ("$", r"\$"), ("#", r"\#"), ("_", r"\_"),
                  ("{", r"\{"), ("}", r"\}"), ("~", r"\textasciitilde{}"), ("^", r"\textasciicircum{}"),
                  ("\\textbackslash\\{\\}", r"\textbackslash{}")):
         s = s.replace(a, b)
-    return s.replace("**", "")
+    # the ellipsis is LaTeX, so it is appended after escaping
+    return s.replace("**", "") + (r" [\ldots]" if cut else "")
 
 
 def load():
