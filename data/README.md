@@ -16,4 +16,10 @@ The derived results that contain no raw dataset text are shipped under `results/
 - analysis tables;
 - LoRA adapters.
 
-The generated replies under `results/replies/` include the customer message each reply answers.
+The generated replies under `results/replies/` include the customer message each reply answers, except where that message is verbatim third-party text. The following cells are left empty. Running the data scripts on the downloaded datasets recreates these texts in `data/processed/`, where they can be joined back by their identifiers:
+- the `message` of the 120 human-written DarijaBanking messages (`set` = `natural`) and of the Darija version of the 40 DarijaBanking scenarios;
+- the EPITOME posts and their translations (`text`, `back_translation`) in `results/qc/qc_epitome.csv`;
+- the DarijaBench sentences in `results/qc/langid_test_predictions.csv`;
+- the few replies, judge outputs, quality-control rows and human-evaluation sheet cells that quote one of these texts verbatim.
+
+Identifiers, labels, replies, scores and every number reported in the paper are kept.
